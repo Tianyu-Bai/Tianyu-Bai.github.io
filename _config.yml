@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Tianyu Bai (白天宇)"
-description              : "Focusing on Neural Probe."
-repository               : "Tianyu-Bai/tianyu-bai.github.io"
+title                        : "Tianyu Bai (白天宇)"
+description                  : "PhD Innovation Fellow @ Dartmouth | Engineering High-Density Neural Interfaces & Scalable Hardwares"
+repository                   : "Tianyu-Bai/tianyu-bai.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
