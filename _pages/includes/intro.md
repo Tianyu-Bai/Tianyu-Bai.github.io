@@ -50,8 +50,8 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 #### 🧪 Characterization & Testing
 - **Imaging**: 3D Microscopy, SEM (Scanning Electron Microscopy).
 - **Metrology**: Profilometer and Surface Analysis.
-- **Electrochemistry**: **Electrochemical Impedance Spectroscopy (EIS)** for neural interface validation.
-- **Reliability**: Mechanical stress testing and **Accelerated Aging Tests**.
+- **Electrochemistry**: Electrochemical Impedance Spectroscopy (EIS) for neural interface validation.
+- **Reliability**: Mechanical stress testing and Accelerated Aging Tests.
 
 #### 💻 Software & Simulation
 
@@ -76,14 +76,37 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 ---
 
 ### 📊 GitHub & Research Stats
-<p align="left">
+
+<div align="center">
+  <table style="border: 2px solid #58a6ff; border-collapse: collapse; background-color: #0d1117; width: 480px; border-radius: 8px;">
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid rgba(88, 166, 255, 0.3); font-family: monospace; font-size: 12px; color: #58a6ff;">
+        <span style="color: #3fb950;">➜</span> system_monitor --user=tianyu-bai
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 15px 5px 15px;">
+        <img src="https://github-readme-stats.vercel.app/api?username=tianyu-bai&show_icons=true&theme=algolia&count_private=true&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 5px 15px 15px 15px;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tianyu-bai&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
+      </td>
+    </tr>
+    <tr style="background-color: rgba(88, 166, 255, 0.05);">
+      <td style="padding: 5px 10px; font-family: monospace; font-size: 10px; color: #8b949e; text-align: right;">
+        CORE_STATUS: <span style="color: #3fb950;">ACTIVE</span>
+      </td>
+    </tr>
+  </table>
+</div>
+<p align="center">
   <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftianyubai%2Ftianyubai.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=00693E&color=9CF&style=for-the-badge&label=Scholar%20Citations" />
+    <img src="https://img.shields.io/badge/Scholar_Citations-46-9CF?style=for-the-badge&logo=google-scholar&labelColor=00693E" alt="Google Scholar Citations" />
   </a>
 </p>
 
-![Tianyu's GitHub stats](https://github-readme-stats.vercel.app/api?username=tianyu-bai&show_icons=true&theme=algolia&count_private=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tianyu-bai&layout=compact&theme=algolia&hide_border=true)
 ---
 <p align="right">
   <i>"Translating technical innovation into human impact."</i>
