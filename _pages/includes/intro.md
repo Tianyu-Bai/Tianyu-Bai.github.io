@@ -60,11 +60,10 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
   <img src="https://img.shields.io/badge/KiCAD-314CB0?style=for-the-badge&logo=kicad&logoColor=white" />
   <img src="https://img.shields.io/badge/SolidWorks-DA1F26?style=for-the-badge&logo=solidworks&logoColor=white" />
   <img src="https://img.shields.io/badge/AutoCAD-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
   <img src="https://img.shields.io/badge/KLayout-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/L--Edit-444444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
 </p>
 
 ---
