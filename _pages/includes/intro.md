@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /> <a href="mailto:Tianyu.Bai.TH@Dartmouth.edu"><img src="https://img.shields.io/badge/Email-Tianyu.Bai.TH%40Dartmouth.edu-FFA500?style=for-the-badge&logo=minutemailer&logoColor=white" /></a> <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" /></p>
+<p align="center"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /> <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" /></p>
 
 
 ### 🧠 Research Vision
