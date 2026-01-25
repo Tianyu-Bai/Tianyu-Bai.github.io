@@ -108,6 +108,3 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 </p>
 
 ---
-<p align="center">
-  <i>"Translating technical innovation into human impact."</i>
-</p>
