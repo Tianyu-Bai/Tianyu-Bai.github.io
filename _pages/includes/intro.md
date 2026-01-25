@@ -78,7 +78,7 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 ### 📊 GitHub & Research Stats
 
 <div align="center">
-  <table style="border: 2px solid #58a6ff; border-collapse: collapse; background-color: #0d1117; width: 480px; border-radius: 8px;">
+  <table style="border: 2px solid #58a6ff; border-collapse: collapse; background-color: #0d1117; width: 300px; border-radius: 8px;">
     <tr>
       <td style="padding: 10px; border-bottom: 1px solid rgba(88, 166, 255, 0.3); font-family: monospace; font-size: 12px; color: #58a6ff;">
         <span style="color: #3fb950;">➜</span> system_monitor --user=tianyu-bai
