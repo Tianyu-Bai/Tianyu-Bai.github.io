@@ -1,9 +1,34 @@
-I am now working on audio-driven video generation and text-to-speech research. If you are seeking any form of **academic cooperation**, please feel free to email me at [rayeren613@gmail.com](mailto:rayeren613@gmail.com). We are hiring interns!
+# 👋 Hello, I'm Tianyu Bai 
 
-I graduated from [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/main.htm), Zhejiang University (浙江大学竺可桢学院) with a bachelor's degree and from the Department of Computer Science and Technology, Zhejiang University (浙江大学计算机科学与技术学院) with a master's degree, advised by [Zhou Zhao (赵洲)](https://person.zju.edu.cn/zhaozhou). I also collaborate with [Xu Tan (谭旭)](https://www.microsoft.com/en-us/research/people/xuta/), [Tao Qin (秦涛)](https://www.microsoft.com/en-us/research/people/taoqin/) and [Tie-yan Liu (刘铁岩)](https://www.microsoft.com/en-us/research/people/tyliu/) from [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) <img src='./images/microsoft_logo.svg' style="width: 4em;"> closely. 
+<p align="left">
+  <img src="https://img.shields.io/badge/PhD%20Innovation%20Fellow-Dartmouth%20College-green?style=for-the-badge&logo=dartmouth&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seeking-Hardware%20Internship-blue?style=for-the-badge" />
+</p>
 
-I won the [Baidu Scholarship](https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91/9929412) (10 candidates worldwide each year) and [ByteDance Scholars Program](https://ur.bytedance.com/scholarship) (10 candidates worldwide each year) in 2020 and was selected as one of [the top 100 AI Chinese new stars](https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd) and AI Chinese New Star Outstanding Scholar (10 candidates worldwide each year). 
+### 🧠 Bridging Microelectronics & Neuroscience
+I am a **PhD Innovation Fellow** at **Dartmouth College (Thayer School of Engineering)**. My work sits at the intersection of microelectronics and neuroscience, with a mission to build the next generation of high-bandwidth neural interfaces.
 
-My research interest includes speech synthesis, neural machine translation and automatic music generation. I have published 50+ papers <a href='https://scholar.google.com/citations?user=4FA6C0AAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as NeurIPS, ICML, ICLR, KDD. 
+I specialize in the **end-to-end development** of miniaturized hardware—from the cleanroom (microfabrication) to the bench (PCB & assembly) and finally to *in vivo* validation.
 
-To promote the communication among the Chinese ML & NLP community, we (along with other 11 young scholars worldwide) founded the [MLNLP community](https://space.bilibili.com/168887299) in 2021. I am honored to be one of the chairs of the MLNLP committee.
+---
+
+### 🛠️ Engineering Core
+* **System Integration**: Designing high-density, solderless interconnects and integrated neural platforms for space-constrained environments.
+* **Hardware Design**: Expert in **Rigid-Flex & HDI PCB** design, featuring MultiLayer stacks with Buried/Blind Vias.
+* **Project Spotlight**: Lead developer of **[PEDAL-256](https://github.com/tianyubai/PEDAL-256)**, an open-source, 256-channel high-density neural connector.
+
+---
+
+### 📊 Research at a Glance
+> **Tianyu Bai** received his B.S. in **Electrical Engineering and Mathematics** from the **University of Missouri** (2019). He is now a PhD candidate at Dartmouth, focused on miniaturized hardware implementation and system integration.
+
+
+---
+
+### 🛠 Tech Stack
+| Category | Tools & Skills |
+| :--- | :--- |
+| **EDA** | Altium Designer, KiCAD, KLayout, L-Edit |
+| **Mechanical** | AutoCAD, SolidWorks |
+| **Fabrication** | Microfabrication, Assembly, Reliability Testing |
+| **Computational** | Python, MATLAB |
