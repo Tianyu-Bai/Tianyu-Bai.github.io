@@ -19,7 +19,7 @@
 
 - `2024` *npj Flexible Electronics* | [**Flexible electronic-photonic 3D integration from ultrathin polymer chiplets**](https://www.nature.com/articles/s41528-024-00344-w)
   - Y. Huang, G. Li, **T. Bai**, Y. Shin, X. Wang, A. More, P. Boucher, et al.
-  - **Summary**: Details the **CHIP** process for robust 3D integration of polymer-based circuits, combining high-density microelectrodes with micro-LEDs for optogenetic stimulation.
+  - **Summary**: Details the CHIP process for robust 3D integration of polymer-based circuits, combining high-density microelectrodes with micro-LEDs for optogenetic stimulation.
 
 - `2024` *Advanced Materials* | [**Multifunctional Nanomesh Enables Cellular-Resolution, Elastic Neuroelectronics**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202403141)
   - J. Ryu, Y. Qiang, L. Chen, G. Li, X. Han, E. Woon, **T. Bai**, Y. Qi, S. Zhang, J. Liou, et al.
@@ -31,7 +31,7 @@
 
 - `2017` *The 29th Chinese Control And Decision Conference (CCDC)* | [**A control method to prevent falling from a treadmill based on STM32 microcontroller and ultrasonic transducer**](https://ieeexplore.ieee.org/abstract/document/7979386)
   - **T. Bai**.
-  - **Summary**: Implemented an intelligent electronic control method using an $STM32$ microcontroller and ultrasonic sensors to real-time adjust motor speed based on gait detection.
+  - **Summary**: Implemented an intelligent electronic control method using an STM32 microcontroller and ultrasonic sensors to real-time adjust motor speed based on gait detection.
 
 ---
 
