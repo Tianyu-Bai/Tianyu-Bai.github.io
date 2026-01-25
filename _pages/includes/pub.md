@@ -32,6 +32,23 @@
 - `2017` *The 29th Chinese Control And Decision Conference (CCDC)* | [**A control method to prevent falling from a treadmill based on $STM32$ microcontroller and ultrasonic transducer**](https://ieeexplore.ieee.org/abstract/document/7979386)
   - **T. Bai**.
   - **Summary**: Implemented an intelligent electronic control method using an $STM32$ microcontroller and ultrasonic sensors to real-time adjust motor speed based on gait detection.
+
+---
+
+## 📜 Patents
+
+- `2017` [**A Device of Preventing Falling from Treadmill**](https://patents.google.com/)
+  - **Tianyu Bai**. | *CN Patent: 106334286A*.
+
+- `2016` [**Detection of anti-fall electronic control device for running equipment**](https://patents.google.com/)
+  - **Tianyu Bai**. | *CN Issued Patent: ZL 201621157629.8*.
+  - **Summary**: An intelligent control system featuring a multi-sensor array (ultrasonic and vibration probes) to accurately judge user motion and adjust treadmill motor speed in real-time.
+
+- `2014` [**Ultra low resistance joint for connecting wires**](https://patents.google.com/)
+  - **Tianyu Bai**. | *CN Issued Patent: ZL 201420557893.5*.
+  - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm ($\mu\Omega$) or even nano-ohm ($n\Omega$) level through optimized overlapping area.
+
+---
   
 ## Others
 - `MRS 2026` [XXXXX](https://XXXXXX), **Tianyu Bai**, Gen Li, Hui Fang.
