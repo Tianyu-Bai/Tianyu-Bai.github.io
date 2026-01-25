@@ -1,6 +1,10 @@
 # 🔥 News
-- *2024.03*: 🎉 Two papers are accepted by ICLR 2024
-- *2023.05*: 🎉 Five papers are accepted by ACL 2023
-- *2023.01*: DiffSinger was introduced in [a very popular video](https://www.bilibili.com/video/BV1uM411t7ZJ) (2000k+ views) in Bilibili!
-- *2023.01*: I join TikTok <img src='./images/tiktok.png' style='width: 6em;'> as a speech research scientist in Singapore!
-- *2022.02*: I release a modern and responsive academic personal [homepage template](https://github.com/RayeRen/acad-homepage.github.io). Welcome to STAR and FORK!
+
+- *2026.01*: 🚀 Released the **[PEDAL-256](https://github.com/tianyu-bai/PEDAL-256)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
+- *2026.01*: 📝 Preparing a manuscript for **IEEE JFLEX** regarding our latest 256-channel headstage project.
+- *2025.12*: 🏛️ Honored to attend a dinner at the **[Dartmouth President's House](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** and engage in discussions with President Sian Leah Beilock.
+- *2025.10*: 💡 Participated in the **[Startup Weekend](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** at the Magnuson Center for Entrepreneurship.
+  - Received mentorship on IP protection and customer discovery, pitching a neurotech-focused venture idea.
+
+- *2024.11*: 🥈 Awarded **2nd place** in the **[Visionaries in Technology (VIT)](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** research image contest hosted by Thayer School of Engineering.
+  - Featured Work: "Optogenetic Neuroprobe"** — A state-of-the-art device showcasing high-density integration. The probe features a sophisticated 4-layer stack integrating six $InGaN$-based $\mu LED$ chips to enable simultaneous multi-site stimulation and high-precision neural recording.
