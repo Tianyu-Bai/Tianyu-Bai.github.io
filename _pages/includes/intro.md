@@ -16,16 +16,19 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 
 ---
 ### 🛠️ Engineering Core & Projects
-<table style="border: none; border-collapse: collapse; width: 100%;">
-  <tr style="border: none;">
-    <td style="border: none; vertical-align: middle; padding: 0;">
-     <h4 style="margin: 0;"><b><a href="https://github.com/tianyu-bai/PEDAL-256">PEDAL-256 <small><small>(click to know more)</small></small></a></b>: Leading the development of a 256-channel high-density connector.</h4>
-    <td style="border: none; vertical-align: middle; text-align: right; width: 210px; padding: 0;">
-      <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee;">
+<table style="width: 100%; border: none !important; border-collapse: collapse !important; background: transparent !important; margin-bottom: 20px !important;">
+  <tr style="border: none !important; background: transparent !important;">
+    <td style="border: none !important; padding: 0 !important; vertical-align: middle; background: transparent !important;">
+      <h4 style="margin: 0; line-height: 1.5;">
+        <b><a href="https://github.com/tianyu-bai/PEDAL-256" style="text-decoration: none;">PEDAL-256 <sub style="font-size: 0.6em; bottom: 0; font-weight: normal; opacity: 0.7;">(click to know more)</sub></a></b>: 
+        Leading the development of a 256-channel high-density connector.
+      </h4>
+    </td>
+    <td style="border: none !important; padding: 0 !important; text-align: right; width: 210px; vertical-align: middle; background: transparent !important;">
+      <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee; display: inline-block; margin: 0;">
     </td>
   </tr>
 </table>
-
 
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
