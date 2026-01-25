@@ -71,7 +71,7 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 
 ### 📫 Let's Connect
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
-* 💼 **LinkedIn:** [linkedin.com/in/tianyu-bai](https://www.linkedin.com/in/tianyu-bai)
+* 💼 **LinkedIn:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
 
 ---
