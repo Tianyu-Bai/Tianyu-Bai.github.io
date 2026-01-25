@@ -19,10 +19,9 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 <table style="width: 100%; border: none !important; border-collapse: collapse !important; background: transparent !important; margin-bottom: 20px !important;">
   <tr style="border: none !important; background: transparent !important;">
     <td style="border: none !important; padding: 0 !important; vertical-align: middle; background: transparent !important;">
-      <h4 style="margin: 0; line-height: 1; font-size: 1em;">
+      <h4 style="margin: 0;">
         <b><a href="https://github.com/tianyu-bai/PEDAL-256" style="text-decoration: none;">🚀 PEDAL-256 (Click to know more)</a></b>: 
-        Leading the development of a 256-ch high-density connector.
-      </h4>
+        Leading the development of a 256-ch high-density connector. </h4>
     </td>
     <td style="border: none !important; padding: 0 !important; text-align: right; width: 210px; vertical-align: middle; background: transparent !important;">
       <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee; display: inline-block; margin: 0;">
