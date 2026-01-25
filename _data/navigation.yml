@@ -9,8 +9,8 @@ main:
   - title: '<span style="color: #004b8d;">Publications</span>'
     url: "/#-publications"
 
-  - title: '<span style="color: #00693e;">Honors and Awards</span>'
+- title: '<span style="color: #f1c40f;"> Honors & Awards</span>'
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
+  - title: '<span style="color: #58a6ff;"> Educations</span>'
     url: "/#-others/#educations"
