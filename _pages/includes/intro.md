@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Tianyu Bai 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Intersection+of+Bio+and+Chips" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
 
 <p align="center">
@@ -27,12 +27,27 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 ---
 
 ### 🧰 Tech Stack & Tools
-| Category | Tools & Skills |
-| :--- | :--- |
-| **EDA** | Altium Designer, KiCAD, KLayout, L-Edit |
-| **Mechanical** | AutoCAD, SolidWorks |
-| **Fabrication** | Microfabrication, Assembly, Reliability Testing |
-| **Computational** | Python, MATLAB |
+
+**🛠️ Electronic Design Automation (EDA)**
+<p align="left">
+  <img src="https://img.shields.io/badge/Altium%20Designer-FF6600?style=flat-square&logo=altiumdesigner&logoColor=white" />
+  <img src="https://img.shields.io/badge/KiCAD-314CB0?style=flat-square&logo=kicad&logoColor=white" />
+  <img src="https://img.shields.io/badge/KLayout-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/L--Edit-444444?style=flat-square" />
+</p>
+
+**📐 Mechanical & Microfabrication**
+<p align="left">
+  <img src="https://img.shields.io/badge/AutoCAD-0696D7?style=flat-square&logo=autodesk&logoColor=white" />
+  <img src="https://img.shields.io/badge/SolidWorks-DA1F26?style=flat-square&logo=solidworks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cleanroom-Microfab-00693E?style=flat-square" />
+</p>
+
+**💻 Computational & Analysis**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=flat-square&logo=mathworks&logoColor=white" />
+</p>
 
 ---
 
