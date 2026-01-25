@@ -1,5 +1,6 @@
 # 📎 Homepages
-- Personal Pages: https://rayeren.github.io (updated recently🔥)
-- Linkedin: https://www.linkedin.com/in/rayeren
-- Google Scholar: https://scholar.google.com/citations?user=4FA6C0AAAAAJ
-- DBLP: https://dblp.org/pid/75/6568-6.html
+- **Personal Page**: [tianyu-bai.github.io](https://tianyu-bai.github.io/) (PhD @ Dartmouth Thayer 🔥)
+- **LinkedIn**: [Tianyu Bai](https://www.linkedin.com/in/tianyu-bai)
+- **Google Scholar**: [Tianyu Bai](https://scholar.google.com/citations?user=pX1H0FgAAAAJ)
+- **Research Stats**: **{{citations}}** Citations | **{{h_index}}** H-index 📊
+- **Open Source**: [PEDAL-256 Project](https://github.com/tianyu-bai/PEDAL-256) 🧠
