@@ -72,39 +72,4 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **LinkedIn:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
-
----
-
-### 📊 GitHub & Research Stats
-
-<div align="center">
-  <table style="border: 2px solid #58a6ff; border-collapse: collapse; background-color: #0d1117; width: 300px; border-radius: 8px;">
-    <tr>
-      <td style="padding: 10px; border-bottom: 1px solid rgba(88, 166, 255, 0.3); font-family: monospace; font-size: 12px; color: #58a6ff;">
-        <span style="color: #3fb950;">➜</span> system_monitor --user=tianyu-bai
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 15px 5px 15px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=tianyu-bai&show_icons=true&theme=algolia&count_private=true&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 5px 15px 15px 15px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tianyu-bai&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
-      </td>
-    </tr>
-    <tr style="background-color: rgba(88, 166, 255, 0.05);">
-      <td style="padding: 5px 10px; font-family: monospace; font-size: 10px; color: #8b949e; text-align: right;">
-        CORE_STATUS: <span style="color: #3fb950;">ACTIVE</span>
-      </td>
-    </tr>
-  </table>
-</div>
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/badge/Google Scholar Citations-46-4285F4?style=flat-square&logo=google-scholar&labelColor=333333" alt="Google Scholar" />
-  </a>
-</p>
-
 ---
