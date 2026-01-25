@@ -1,4 +1,4 @@
-# 📖 Education
+# 📖 Educations
 
 * **2021.07 - 2026.10 (Expected)**, **Dartmouth College**, Hanover, NH
     * *Doctor of Philosophy - PhD, Engineering Science*
@@ -12,3 +12,9 @@
 * **2017.08 - 2019.12**, **University of Missouri-Columbia**, Columbia, MO
     * *Bachelor of Science in Electrical and Electronics Engineering*
     * **Honors**: *Cum Laude*, Dean's list Recipient
+      
+  ---
+  
+<p align="center">
+  <i>"Translating technical innovation into human impact."</i>
+</p>
