@@ -1,22 +1,16 @@
-# main links links
+# main links configuration
 main:
-  - title: "About Me"
+  - title: '<span style="color: #00693e;">About Me</span>'
     url: "/#about-me"
 
-  - title: "News"
+  - title: '<span style="color: #d4a017;">News</span>'
     url: "/#-news"
 
-  - title: "Publications"
+  - title: '<span style="color: #004b8d;">Publications</span>'
     url: "/#-publications"
 
-  - title: "Honors and Awards"
+  - title: '<span style="color: #00693e;">Honors and Awards</span>'
     url: "/#-honors-and-awards"
 
   - title: "Educations"
     url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
