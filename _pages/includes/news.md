@@ -7,4 +7,7 @@
   - Received mentorship on IP protection and customer discovery, pitching a neurotech-focused venture idea.
 
 - *2024.11*: 🥈 Awarded **2nd place** in the **[Visionaries in Technology (VIT)](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** research image contest hosted by Thayer School of Engineering.
-  - Featured Work: "Optogenetic Neuroprobe"** — A state-of-the-art device showcasing high-density integration. The probe features a sophisticated 4-layer stack integrating six $InGaN$-based $\mu LED$ chips to enable simultaneous multi-site stimulation and high-precision neural recording.
+  - Featured Work: "Optogenetic Neuroprobe"— A state-of-the-art device showcasing high-density integration. The probe features a sophisticated 4-layer stack integrating six InGaN-based micro-LEDs to enable simultaneous multi-site stimulation and high-precision neural recording.
+<p align="left">
+    <img src="images/LED1" width="500" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px;">
+  </p>
