@@ -4,6 +4,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
 
+
+
 <p align="center"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /> <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" /></p>
 
 
@@ -53,10 +55,13 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
   <img src="https://img.shields.io/badge/L--Edit-444444?style=for-the-badge" />
 </p>
 
+---
+
 ### 📫 Let's Connect
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **LinkedIn:** [linkedin.com/in/tianyu-bai](https://www.linkedin.com/in/tianyu-bai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
+ ---
 
 ### 📊 GitHub & Research Stats
 <p align="left">
