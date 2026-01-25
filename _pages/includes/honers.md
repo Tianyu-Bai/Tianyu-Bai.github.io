@@ -1,3 +1,4 @@
+
 # 🎖 Honors and Awards
 
 - *2024.11* **2nd Place**, Visionaries in Technology (VIT) Research Image Contest, Dartmouth Engineering
