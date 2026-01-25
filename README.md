@@ -14,7 +14,7 @@ Tianyu Bai's Academic Homepage
 
 <p align="center">
     <br>
-    <img src="docs/TianyuBai.png" width="100%"/>
+    <img src="docs/TianyuBai.jpg" width="100%"/>
     <br>
 </p>
 
