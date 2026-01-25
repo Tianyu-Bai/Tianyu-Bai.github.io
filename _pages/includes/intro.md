@@ -15,7 +15,7 @@ I specialize in the **end-to-end development** of miniaturized hardware—from t
 ### 🛠️ Engineering Core
 * **System Integration**: Designing high-density, solderless interconnects and integrated neural platforms for space-constrained environments.
 * **Hardware Design**: Expert in **Rigid-Flex & HDI PCB** design, featuring MultiLayer stacks with Buried/Blind Vias.
-* **Project Spotlight**: Lead developer of **[PEDAL-256](https://github.com/tianyubai/PEDAL-256)**, an open-source, 256-channel high-density neural connector.
+* **Project Spotlight**: Lead developer of **[PEDAL-256](https://github.com/tianyu-bai/PEDAL-256)**, an open-source, 256-channel high-density neural connector.
 
 ---
 
