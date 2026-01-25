@@ -8,7 +8,7 @@
 
 ---
 
-### 🧠 Research Vision
+### ⚙️ Research Vision
 Engineering the future of high-bandwidth neural interfaces. I bridge the gap between **Microelectronics** and **Neuroscience** through end-to-end hardware development. 
 
 **Design** (Schematic & Layout) ➔ **Fabricate** (Cleanroom & Microfab) ➔ **Validate** (Bench & In-Vivo)
