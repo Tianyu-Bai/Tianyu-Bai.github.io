@@ -30,18 +30,6 @@ This repository hosts the source code for my personal academic portfolio. I am a
 - **Responsive Design**: Built with Jekyll, ensuring a seamless experience across all viewports.
 - **SEO Ready**: Optimized for research visibility in the biomedical engineering community.
 
-## 🛠️ Quick Setup for Maintenance
-
-1. **Google Scholar Sync**:
-    - Ensure `GOOGLE_SCHOLAR_ID` is set to `pX1H0FgAAAAJ` in `Settings -> Secrets -> Actions`.
-2. **Global Settings**:
-    - Modify `_config.yml` for title, description, and social media links.
-    - Confirm `repository` is set to `Tianyu-Bai/tianyu-bai.github.io`.
-3. **Content Editing**:
-    - **Home/Bio**: Edit `_pages/about.md`.
-    - **Portfolio**: Add project markdowns to `_portfolio/`.
-    - **Publications**: Manage academic papers in `_publications/`.
-
 ## 📜 License
 This project is licensed under the **MIT License** - Copyright (c) 2026 Tianyu Bai.
 
