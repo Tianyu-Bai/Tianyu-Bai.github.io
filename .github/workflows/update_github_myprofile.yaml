@@ -1,23 +1,49 @@
 name: Update github myprofile
 
-on: 'page_build'
+on:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Get Citation Data"] # 当前一个抓取数据的脚本跑完后，自动跑这一个
+    types:
+      - completed
+  workflow_dispatch: # 增加手动运行按钮
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./github_myprofile_updater
-        python3 update.py
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        git config --local user.email "rayeren613@gmail.com"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GHRS_GITHUB_API_TOKEN }}@github.com/RayeRen/RayeRen.git"
-        git add README.md
-        git add images
-        git commit -m "update my description automatically"
-        git push "${remote_repo}" HEAD:main --force
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Reqs
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-setuptools
+          # 如果有 requirements.txt 也可以在这里安装
+          if [ -f github_myprofile_updater/requirements.txt ]; then
+            pip3 install -r github_myprofile_updater/requirements.txt
+          fi
+
+      - name: Run Update Script
+        run: |
+          cd ./github_myprofile_updater
+          python3 update.py
+
+      - name: Push to Profile Repo
+        run: |
+          # 这里的逻辑会自动识别你的用户名和仓库
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 使用系统自带的 GITHUB_TOKEN，无需额外配置 GHRS_GITHUB_API_TOKEN
+          export remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          
+          git add README.md
+          # 如果有图片更新也加上
+          git add images || true 
+          
+          git commit -m "update my description automatically"
+          git push "${remote_repo}" HEAD:main --force
