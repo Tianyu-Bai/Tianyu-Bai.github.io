@@ -103,7 +103,7 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 </div>
 <p align="center">
   <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/badge/Scholar_Citations-46-9CF?style=for-the-badge&logo=google-scholar&labelColor=00693E" alt="Google Scholar Citations" />
+    <img src="https://img.shields.io/badge/Google Scholar Citations-46-4285F4?style=flat-square&logo=google-scholar&labelColor=333333" alt="Google Scholar" />
   </a>
 </p>
 
