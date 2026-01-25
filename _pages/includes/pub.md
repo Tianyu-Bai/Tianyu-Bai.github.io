@@ -1,5 +1,5 @@
 
-# 📚 Selected Publications
+# 📚 Publications
 
 - `2025` *ACS Chemical Neuroscience* | [**Thin-Film Reference Electrodes for Fast-Scan Cyclic Voltammetry**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
   - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
