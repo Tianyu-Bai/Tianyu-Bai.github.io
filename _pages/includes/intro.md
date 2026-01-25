@@ -5,16 +5,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693e?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DARTMOUTH%20COLLEGE-00693e?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-0077B5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LOCATION-HANOVER,%20NH-E4405F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" />
+  <img src="https://img.shields.io/badge/DARTMOUTH%20COLLEGE-00693E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </p>
 
 ---
 
 ### 🧠 Research Vision
-Engineering the future of high-bandwidth neural interfaces. I bridge the gap between **Microelectronics** and **Neuroscience** through end-to-end hardware development.
+Engineering the future of high-bandwidth neural interfaces. I bridge the gap between **Microelectronics** and **Neuroscience** through end-to-end hardware development. 
 
 **Design** (Schematic & Layout) ➔ **Fabricate** (Cleanroom & Microfab) ➔ **Validate** (Bench & In-Vivo)
 
@@ -30,16 +29,17 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 ### 🧰 Tech Stack & Tools
 | Category | Tools & Skills |
 | :--- | :--- |
-| **Microelectronics** | HDI PCB, Rigid-Flex, Solderless Interconnects |
-| **Cleanroom** | Photolithography, Etching, Thin-film Deposition |
-| **Validation** | Reliability Testing, Signal Integrity, *In-Vivo* Recording |
+| **EDA** | Altium Designer, KiCAD, KLayout, L-Edit |
+| **Mechanical** | AutoCAD, SolidWorks |
+| **Fabrication** | Microfabrication, Assembly, Reliability Testing |
+| **Computational** | Python, MATLAB |
 
 ---
 
 ### 📊 GitHub & Research Stats
 <p align="left">
   <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftianyubai%2Ftianyubai.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=00693e&color=9cf&style=for-the-badge&label=Scholar%20Citations" />
+    <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ftianyubai%2Ftianyubai.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=00693E&color=9CF&style=for-the-badge&label=Scholar%20Citations" />
   </a>
 </p>
 
