@@ -15,12 +15,15 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 **Design** (Schematic & Layout) ➔ **Fabricate** (Cleanroom & Microfab) ➔ **Validate** (Bench & In-Vivo)
 
 ---
-
 ### 🛠️ Engineering Core & Projects
-* 🚀 **[PEDAL-256](https://github.com/tianyu-bai/PEDAL-256)**: Leading the development of an open-source, 256-channel high-density neural connector.
-* ⚡ **Advanced PCB Design**: Expert in **Rigid-Flex** and **HDI** technology, specializing in high-density integration with blind/buried vias.
-* 🔬 **Microsystems**: Specialized in miniaturized hardware implementations for space-constrained biomedical environments.
 
+* 🚀 **[PEDAL-256](https://github.com/tianyu-bai/PEDAL-256)**: Leading the development of an open-source, 256-channel high-density neural connector.
+
+<p align="left">
+  <img src="Videos/Demo new new.gif" width="600" style="border-radius: 12px; border: 1px solid #eee;">
+</p>
+* ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
+* 🔬 **Microsystems**: Miniaturized hardware implementations.
 ---
 
 ### 🧰 Technical Skills & Tech Stack
