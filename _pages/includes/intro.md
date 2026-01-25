@@ -19,13 +19,13 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: middle; padding: 0;">
-      <h4 style="margin: 0;"><b><a href="https://github.com/tianyu-bai/PEDAL-256">PEDAL-256 (click to check)</a></b>: Leading the development of a 256-channel high-density neural connector.</h4>
-    </td>
+     <h4 style="margin: 0;"><b><a href="https://github.com/tianyu-bai/PEDAL-256">PEDAL-256 <small><small>(click to know more)</small></small></a></b>: Leading the development of a 256-channel high-density connector.</h4>
     <td style="border: none; vertical-align: middle; text-align: right; width: 210px; padding: 0;">
       <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee;">
     </td>
   </tr>
 </table>
+
 
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
