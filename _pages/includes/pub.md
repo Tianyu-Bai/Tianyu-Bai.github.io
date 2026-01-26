@@ -38,14 +38,14 @@
 ## 📜 Patents
 
 - `2017` [**A Device of Preventing Falling from Treadmill**](https://patents.google.com/)
-  - **Tianyu Bai**. | *CN Patent: 106334286A*
+  - **Tianyu Bai**. | *Patent ID: 106334286A*
 
 - `2016` [**Detection of anti-fall electronic control device for running equipment**](https://patents.google.com/)
-  - **Tianyu Bai**. | *CN Patent: ZL 201621157629.8*
+  - **Tianyu Bai**. | *Patent ID: 201621157629.8*
   - **Summary**: An intelligent control system featuring a multi-sensor array (ultrasonic and vibration probes) to accurately judge user motion and adjust treadmill motor speed in real-time.
 
 - `2014` [**Ultra low resistance joint for connecting wires**](https://patents.google.com/)
-  - **Tianyu Bai**. | *CN Patent: ZL 201420557893.5*
+  - **Tianyu Bai**. | *Patent ID: 201420557893.5*
   - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm ($\mu\Omega$) or even nano-ohm ($n\Omega$) level through optimized overlapping area.
 
 ---
