@@ -13,4 +13,4 @@ main:
     url: "/#-honors-and-awards"
 
   - title: '<span style="color: #0891b2;">Educations</span>'     # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
-    url: "/#-others/#educations"
+    url: "/#education"
