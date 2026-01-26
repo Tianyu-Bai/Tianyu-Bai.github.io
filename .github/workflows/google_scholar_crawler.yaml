@@ -1,9 +1,9 @@
 name: Get Citation Data
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
   schedule:
     - cron: '0 8 * * *' # 每天北京时间 16:00 运行
   workflow_dispatch:      # 允许你在 Actions 页面手动点击按钮运行
