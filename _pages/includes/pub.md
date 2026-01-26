@@ -49,11 +49,12 @@
   - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm ($\mu\Omega$) or even nano-ohm ($n\Omega$) level through optimized overlapping area.
 
 ---
-  
-## Others
-- `MRS 2026` [XXXXX](https://XXXXXX), **Tianyu Bai**, Gen Li, Hui Fang.
+## 📢 Upcoming Talks
 
-  ---
+- **MRS Spring 2026** <img src="https://img.shields.io/badge/Honolulu-April_28-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
+  <img src="https://img.shields.io/badge/Status-Stay_Tuned-orange?style=flat-square" align="center" />
+  
+---
 
 ### 📊 GitHub & Research Stats
 
