@@ -72,7 +72,7 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
   <img src="https://img.shields.io/badge/L--Edit-444444?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prusa%203D-FA6831?style=for-the-badge&logo=prusa3d&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prusa%203D-64748B?style=for-the-badge&logo=prusa3d&logoColor=white" />
 </p>
 
 ---
