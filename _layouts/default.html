@@ -7,19 +7,83 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    
+    <style>
+      /* 全局字体优化 */
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background-color: #f8f9fa; /* 极浅的灰白背景，护眼 */
+      }
+
+      /* 2. 动态背景层 (Canvas) */
+      #canvas-nest {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1; /* 置于最底层 */
+        opacity: 0.6; /* 降低透明度，不要抢夺文字注意力 */
+      }
+
+      /* 3. 毛玻璃容器 (Glassmorphism) 
+         这是最显"高级"的地方，让你的内容像浮在神经元网络之上
+      */
+      .page__inner-wrap {
+        background: rgba(255, 255, 255, 0.85); /* 半透明白色 */
+        backdrop-filter: blur(12px); /* 背景模糊 */
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07); /* 柔和的投影 */
+        border-radius: 12px;
+        padding: 40px; /* 增加内边距，呼吸感 */
+        margin-top: 20px;
+        transition: transform 0.3s ease;
+      }
+      
+      /* 鼠标悬停时轻微上浮，增加交互感 */
+      .page__inner-wrap:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.1);
+      }
+
+      /* 4. 内容载入动画 */
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
   </head>
 
   <body>
+
+    <script 
+      color="100,116,139" 
+      opacity="0.5" 
+      zIndex="-1" 
+      count="120" 
+      src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js">
+    </script>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     <div id="main" role="main">
       {% include sidebar.html %}
-    
+      
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
+        
+        <div class="page__inner-wrap fade-in-up">
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
