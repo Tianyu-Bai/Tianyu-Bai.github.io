@@ -9,20 +9,20 @@ Tianyu Bai's Academic Homepage
 [![](https://img.shields.io/github/license/Tianyu-Bai/tianyu-bai.github.io)](https://github.com/Tianyu-Bai/tianyu-bai.github.io/blob/main/LICENSE) 
 </div>
 
-<p align="center"><b>PhD Innovation Fellow @ Dartmouth College | Biomedical Hardware Engineer</b></p>
-<p align="center">Specializing in High-Density Neural Interfaces & PEDAL-256 Open-Source Connector Systems</p>
-
 <p align="center">
-    <br>
-    <img src="docs/TianyuBai.jpg" width="100%"/>
+    <img src="docs/TianyuBai.jpg" width="30%"/>
     <br>
 </p>
+
+<p align="center"><b>PhD Innovation Fellow @ Dartmouth College | Research Assistant</b></p>
+<p align="center">Specializing in High-Density Neural Interfaces & PEDAL-256 Open-Source Connector Systems</p>
 
 ## 🚀 Welcome
 This repository hosts the source code for my personal academic portfolio. I am a Ph.D. Candidate at Dartmouth's Thayer School of Engineering (expected 2026), focusing on architecting advanced electrical systems for medical devices.
 
-- **Personal Homepage**: [https://tianyu-bai.github.io](https://tianyu-bai.github.io)
-- **Key Research**: High-density PCB design (Altium), low-noise analog sensor interfaces, and mixed-signal system integration.
+- **Personal Homepage**: [Tianyu-bai.github.io](https://tianyu-bai.github.io)
+- **Key Research**: [PEDAL-256](https://github.com/Tianyu-Bai/PEDAL-256)
+- **Expertises**: High-density PCB design (Altium) and mixed-signal system integration. 
 
 ## ✨ Key Features
 - **Automatic Google Scholar Updates**: Daily synchronization of citation counts using GitHub Actions (Scholar ID: pX1H0FgAAAAJ).
@@ -30,9 +30,9 @@ This repository hosts the source code for my personal academic portfolio. I am a
 - **Responsive Design**: Built with Jekyll, ensuring a seamless experience across all viewports.
 - **SEO Ready**: Optimized for research visibility in the biomedical engineering community.
 
+## 🙏 Acknowledgments
+- Developed based on the [academicpages].
+- Further modified by Tianyu Bai
+
 ## 📜 License
 This project is licensed under the **MIT License** - Copyright (c) 2026 Tianyu Bai.
-
-## 🙏 Acknowledgments
-- Developed based on the [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) template by RayeRen.
-- Influenced by [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) and [academicpages](https://github.com/academicpages/academicpages.github.io).
