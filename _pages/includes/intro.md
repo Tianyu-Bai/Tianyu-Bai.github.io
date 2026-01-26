@@ -4,30 +4,41 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /> <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" /></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /> 
+  <a href="https://www.linkedin.com/in/tianyubai/">
+    <img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a> 
+  <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
+</p>
 
 ---
 
+
 ### ⚙️ Research Vision
 Engineering the future of high-bandwidth neural interfaces. I bridge the gap between **Microelectronics** and **Neuroscience** through end-to-end hardware development. 
-
+<p align="center">
 **Design** (Schematic & Layout) ➔ **Fabricate** (Cleanroom & Microfab) ➔ **Validate** (Bench & In-Vivo)
+</p>
 
 ---
 
 ### 🛠️ Engineering Core & Projects
-<table style="width: 100%; border: none !important; border-collapse: collapse !important; background: transparent !important; margin-bottom: 20px !important;">
-  <tr style="border: none !important; background: transparent !important;">
-    <td style="border: none !important; padding: 0 !important; vertical-align: middle; background: transparent !important;">
+
+<table style="width: 100%; border: none; border-collapse: collapse; background: transparent; margin-bottom: 20px;">
+  <tr style="border: none; background: transparent;">
+    <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
       <h4 style="margin: 0;">
-        <b><a href="(https://tianyu-bai.github.io/PEDAL-256/)" style="text-decoration: none;">🚀 PEDAL-256 (Click to know more)</a></b>: 
-        Leading the development of a 256-ch high-density connector. </h4>
+        <b><a href="https://tianyu-bai.github.io/PEDAL-256/" style="text-decoration: none;">🚀 PEDAL-256 (Click to know more)</a></b>: 
+        Leading the development of a 256-ch high-density connector. 
+      </h4>
     </td>
-    <td style="border: none !important; padding: 0 !important; text-align: right; width: 210px; vertical-align: middle; background: transparent !important;">
+    <td style="border: none; padding: 0; text-align: right; width: 210px; vertical-align: middle; background: transparent;">
       <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee; display: inline-block; margin: 0;">
     </td>
   </tr>
 </table>
+<br>
 
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
@@ -72,5 +83,4 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
 * 💼 **LinkedIn:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
 
-  ---
-  
+---
