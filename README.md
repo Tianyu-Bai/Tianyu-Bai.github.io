@@ -25,7 +25,7 @@ This repository hosts the source code for my personal academic portfolio. I am a
 - **Expertises**: High-density PCB design (Altium) and mixed-signal system integration. 
 
 ## ✨ Key Features
-- **Automatic Google Scholar Updates**: Daily synchronization of citation counts using GitHub Actions (Scholar ID: pX1H0FgAAAAJ).
+- **Automatic Google Scholar Updates**: Daily synchronization of citation counts using GitHub Actions.
 - **Project Showcase**: Dedicated sections for the **PEDAL-256** project, including 40% increased signal throughput and PCBA reliability testing.
 - **Responsive Design**: Built with Jekyll, ensuring a seamless experience across all viewports.
 - **SEO Ready**: Optimized for research visibility in the biomedical engineering community.
