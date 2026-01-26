@@ -25,7 +25,7 @@
   - J. Ryu, Y. Qiang, L. Chen, G. Li, X. Han, E. Woon, **T. Bai**, Y. Qi, S. Zhang, J. Liou, et al.
   - **Summary**: Presents a novel nanomesh approach to achieve reliable elastic microelectrodes on PDMS silicone with unprecedented cellular resolution for single-unit recording.
 
-- `2024` *Biosensors and Bioelectronics* | [**Array-wide uniform $PEDOT:PSS$ electroplating from potentiostatic deposition**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
+- `2024` *Biosensors and Bioelectronics* | [**Array-wide uniform PEDOT:PSS electroplating from potentiostatic deposition**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
   - Y. Shin, J. Ryu, **T. Bai**, Y. Qiang, Y. Qi, G. Li, Y. Huang, K. J. Seo, H. Fang.
   - **Summary**: Establishes a potentiostatic method to achieve a highly uniform coating of PEDOT:PSS on large-scale microelectrode arrays with high yield and stability.
 
