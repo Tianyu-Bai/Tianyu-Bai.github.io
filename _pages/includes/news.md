@@ -1,8 +1,8 @@
 # 🔥 News
 
-- *2026.01*: 🚀 Released the **[PEDAL-256](https://github.com/tianyu-bai/PEDAL-256)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
-- *2026.01*: 📝 Preparing a manuscript for **IEEE JFLEX** regarding our latest 256-channel headstage project.
-- *2025.12*: 🏛️ Honored to attend a dinner at the **[Dartmouth President's House](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** and engage in discussions with President Sian Leah Beilock.
+- *2026.01*: 🚀 Released the **[PEDAL-256](https://tianyu-bai.github.io/PEDAL-256/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
+<!-- - *2026.01*: 📝 Preparing a manuscript for **IEEE JFLEX** regarding our latest 256-channel headstage project. -->
+<!-- - *2025.12*: 🏛️ Honored to attend a dinner at the **[Dartmouth President's House](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** and engage in discussions with President Sian Leah Beilock. -->
 - *2025.10*: 💡 Participated in the **[Startup Weekend](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** at the Magnuson Center for Entrepreneurship.
   - Received mentorship on IP protection and customer discovery, pitching a neurotech-focused venture idea.
    <p align="Center"> 
