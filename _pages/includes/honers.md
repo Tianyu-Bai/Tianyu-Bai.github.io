@@ -11,5 +11,5 @@
 - *2019.10* **Big Ten+ Graduate Expo Travel Scholarship**, Purdue University
 - *2019.08* **Cum Laude Honor**, University of Missouri
 - *2018 - 2019* **Dean's High List** (5 Consecutive Semesters), College of Engineering, University of Missouri
-- *2019* **Curator's Grant-in-Aid Scholarship** (Multiple Awards), University of Missouri
+- *2019* **Curator's Grant-in-Aid Scholarship**, University of Missouri
 - *2019.07* **Donald B. Atkinson Scholarship**, University of Missouri
