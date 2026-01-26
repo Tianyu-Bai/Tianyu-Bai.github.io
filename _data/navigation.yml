@@ -1,16 +1,16 @@
 # main links configuration
 main:
-  - title: '<span style="color: #00693e;">About Me</span>'
+  - title: '<span style="color: #059669;">About Me</span>'       # 翡翠绿 (Emerald) - 稳重且有生机
     url: "/#about-me"
 
-  - title: '<span style="color: #d4a017;">News</span>'
+  - title: '<span style="color: #d97706;">News</span>'           # 琥珀金 (Amber) - 替代刺眼的黄色，清晰可见
     url: "/#-news"
 
-  - title: '<span style="color: #004b8d;">Publications</span>'
+  - title: '<span style="color: #2563eb;">Publications</span>'   # 皇家蓝 (Royal Blue) - 经典的学术蓝
     url: "/#-publications"
 
-  - title: '<span style="color: #f1c40f;">Honors & Awards</span>'
+  - title: '<span style="color: #9333ea;">Honors & Awards</span>' # 葡萄紫 (Purple) - 修正了太淡的问题，显得高贵
     url: "/#-honors-and-awards"
 
-  - title: '<span style="color: #58a6ff;">Educations</span>'
+  - title: '<span style="color: #0891b2;">Educations</span>'     # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
     url: "/#-others/#educations"
