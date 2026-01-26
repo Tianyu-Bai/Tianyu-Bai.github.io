@@ -12,5 +12,5 @@ main:
   - title: '<span style="color: #9333ea;">Honors & Awards</span>' # 葡萄紫 (Purple) - 修正了太淡的问题，显得高贵
     url: "/#-honors-and-awards"
 
-  - title: '<span style="color: #0891b2;">Educations</span>'     # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
+  - title: '<span style="color: #0891b2;">Education</span>'     # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
     url: "/#education"
