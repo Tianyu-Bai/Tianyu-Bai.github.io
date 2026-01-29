@@ -3,4 +3,4 @@
 - **LinkedIn**: [Tianyu Bai](https://www.linkedin.com/in/tianyubai/)
 - **Google Scholar**: [Tianyu Bai](https://scholar.google.com/citations?user=pX1H0FgAAAAJ)
 - **Research Stats**: **{{citations}}** Citations | **{{h_index}}** H-index 📊
-- **Open Source**: [PEDAL-256 Project](https://github.com/tianyu-bai/PEDAL-256) 🧠
+- **Open Source**: [Elink-256 Project](https://github.com/tianyu-bai/ELINK) 🧠
