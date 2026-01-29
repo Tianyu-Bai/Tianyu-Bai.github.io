@@ -15,7 +15,7 @@ Tianyu Bai's Academic Homepage
 </p>
 
 <p align="center"><b>PhD Innovation Fellow @ Dartmouth College | Research Assistant</b></p>
-<p align="center">Specializing in High-Density Neural Interfaces & PEDAL-256 Open-Source Connector Systems</p>
+<p align="center">Specializing in High-Density Neural Interfaces & Elink-256 Open-Source Connector Systems</p>
 
 ## 👋 Welcome
 This repository hosts the source code for my personal academic portfolio. I am a Ph.D. Candidate at Dartmouth's Thayer School of Engineering (expected 2026), focusing on architecting advanced electrical systems for medical devices.
