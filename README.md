@@ -15,18 +15,18 @@ Tianyu Bai's Academic Homepage
 </p>
 
 <p align="center"><b>PhD Innovation Fellow @ Dartmouth College | Research Assistant</b></p>
-<p align="center">Specializing in High-Density Neural Interfaces & Elink-256 Open-Source Connector Systems</p>
+<p align="center">Specializing in High-Density Neural Interfaces & ELink-256 Open-Source Connector Systems</p>
 
 ## 👋 Welcome
 This repository hosts the source code for my personal academic portfolio. I am a Ph.D. Candidate at Dartmouth's Thayer School of Engineering (expected 2026), focusing on architecting advanced electrical systems for medical devices.
 
 - **Personal Homepage**: [Tianyu-bai.github.io](https://tianyu-bai.github.io)
-- **Key Research**: [Elink-256](https://tianyu-bai.github.io/ELINK/)
+- **Key Research**: [ELink-256](https://tianyu-bai.github.io/ELINK/)
 - **Expertises**: High-density PCB design (Altium) and mixed-signal system integration. 
 
 ## ✨ Key Features
 - **Automatic Google Scholar Updates**: Daily synchronization of citation counts using GitHub Actions.
-- **Project Showcase**: Dedicated sections for the **Elink-256** project, including 40% increased signal throughput and PCBA reliability testing.
+- **Project Showcase**: Dedicated sections for the **ELink-256** project, including 40% increased signal throughput and PCBA reliability testing.
 - **Responsive Design**: Built with Jekyll, ensuring a seamless experience across all viewports.
 - **SEO Ready**: Optimized for research visibility in the biomedical engineering community.
 
