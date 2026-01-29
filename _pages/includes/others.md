@@ -7,7 +7,8 @@
   * **Advisor**: [Prof. Hui Fang](https://sites.dartmouth.edu/fang-group/people/)
 
 * **2020.08 - 2021.06**, **Northeastern University**, Boston, MA
-  * *PhD Student in Microsystems, Materials and Devices* * **Honors**: Dean's Fellowship Recipient
+  * *PhD Student in Microsystems, Materials and Devices*
+  * **Honors**: Dean's Fellowship Recipient
 
 * **2017.08 - 2019.12**, **University of Missouri-Columbia**, Columbia, MO
   * *Bachelor of Science in Electrical and Electronics Engineering*
