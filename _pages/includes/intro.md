@@ -27,7 +27,7 @@ Engineering the future of high-bandwidth neural interfaces. I bridge the gap bet
   <tr style="border: none; background: transparent;">
     <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
       <h4 style="margin: 0;">
-        <b><a href="https://tianyu-bai.github.io/elink/" style="text-decoration: none;">🚀 ELink-256 (Click to know more)</a></b>: 
+        <b><a href="https://tianyu-bai.github.io/ELink/" style="text-decoration: none;">🚀 ELink-256 (Click to know more)</a></b>: 
         Leading the development of a 256-ch high-density connector. 
       </h4>
     </td>
