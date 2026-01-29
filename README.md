@@ -26,7 +26,7 @@ This repository hosts the source code for my personal academic portfolio. I am a
 
 ## ✨ Key Features
 - **Automatic Google Scholar Updates**: Daily synchronization of citation counts using GitHub Actions.
-- **Project Showcase**: Dedicated sections for the **PEDAL-256** project, including 40% increased signal throughput and PCBA reliability testing.
+- **Project Showcase**: Dedicated sections for the **Elink-256** project, including 40% increased signal throughput and PCBA reliability testing.
 - **Responsive Design**: Built with Jekyll, ensuring a seamless experience across all viewports.
 - **SEO Ready**: Optimized for research visibility in the biomedical engineering community.
 
