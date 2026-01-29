@@ -3,8 +3,9 @@
 
 * **2021.07 - 2026.10 (Expected)**, **Dartmouth College**, Hanover, NH
   * *Doctor of Philosophy - PhD, Engineering Science*
-  * **Activities**: PhD Innovation Fellow, Research Assistant at **MINE Lab**
+  * **Activities**: Research Assistant at **MINE Lab**
   * **Advisor**: [Prof. Hui Fang](https://sites.dartmouth.edu/fang-group/people/)
+  * **Honors**: PhD Innovation Fellowship Recipient
 
 * **2020.08 - 2021.06**, **Northeastern University**, Boston, MA
   * *PhD Student in Microsystems, Materials and Devices*
