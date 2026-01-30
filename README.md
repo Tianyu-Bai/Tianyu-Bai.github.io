@@ -21,7 +21,7 @@ Tianyu Bai's Academic Homepage
 This repository hosts the source code for my personal academic portfolio. I am a Ph.D. Candidate at Dartmouth's Thayer School of Engineering (expected 2026), focusing on architecting advanced electrical systems for medical devices.
 
 - **Personal Homepage**: [Tianyu-bai.github.io](https://tianyu-bai.github.io)
-- **Key Research**: [ELink-256](https://tianyu-bai.github.io/ELINK/)
+- **Key Research**: [E-Link](https://tianyu-bai.github.io/E-Link/)
 - **Expertises**: High-density PCB design (Altium) and mixed-signal system integration. 
 
 ## ✨ Key Features
