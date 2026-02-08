@@ -84,7 +84,7 @@
 </div>
 <p align="center">
   <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/badge/Google Scholar Citations-46-4285F4?style=flat-square&logo=google-scholar&labelColor=333333" alt="Google Scholar" />
+    <img src="https://img.shields.io/badge/Google Scholar Citations-49-4285F4?style=flat-square&logo=google-scholar&labelColor=333333" alt="Google Scholar" />
   </a>
 </p>
 
