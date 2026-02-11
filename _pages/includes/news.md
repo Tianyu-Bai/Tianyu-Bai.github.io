@@ -18,5 +18,30 @@
     <img src="/images/LED03.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
   </p>
 
+- *2023.10*: 🛠️ Developed a **customized 16-channel miniaturized connector** optimized for the **Intan RHD16 headstage**. 
+    * **Compact Design**: Featuring a **highly miniaturized, thumb-sized footprint**, this connector is specifically engineered for **chronic implants** where space is at a premium.
+    * **High Reliability**: This low-profile interconnect provides a robust and stable interface for high-density neural probes, facilitating seamless signal acquisition in space-constrained chronic studies.
+  <p align="Center">
+    <img src="/images/Connector_Interface.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
+    <em style="font-size: 0.8em; color: #666;">16-Channel Interface for Flexible Neural Probes (Thumb-sized form factor)</em>
+    
+    <img src="/images/Probe_Assembly.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
+    <em style="font-size: 0.8em; color: #666;">Assembly of 16-Channel Probe and Miniature Connector</em>
+  </p>
+  
+- *2023.06*: 🔬 Micro-fabricated a batch of **Multi-Modal Neural Probes** on glass substrates, featuring a **16-channel electrode array** optimized for simultaneous sensing.
+    * **Key Innovation**: To ensure a high-performance interface, **99.999% (5N) high-purity gold** was utilized for its exceptional biocompatibility and conductivity.
+    * **Bimodal Capabilities**: These probes are engineered to capture **electrophysiological (ephys) signals** alongside **real-time neurochemical dynamics** (e.g., dopamine and serotonin), enabling the study of functional correlations between electrical and chemical signaling.
+  <p align="Center">
+    <img src="/images/Gold_Patterning.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
+    <em style="font-size: 0.8em; color: #666;">Step 1: 99.999% Gold Layer Patterning on Glass Substrate</em>
+
+    <img src="/images/Fabricated_Probes.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
+    <em style="font-size: 0.8em; color: #666;">Step 2: Fully Fabricated 16-Channel Bimodal Neural Probes</em>
+
+    <img src="/images/Probe_Microscopy.jpg" width="400" style="border-radius: 10px; border: 1px solid #eee; margin-top: 10px; display: block;">
+    <em style="font-size: 0.8em; color: #666;">Step 3: Microscopy Detail of the Probe Interface and Electrodes</em>
+  </p>
+  
   ---
   
