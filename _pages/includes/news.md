@@ -15,7 +15,7 @@
   
 - *2025.10*: 💡 Participated in the **[Startup Weekend](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** at the Magnuson Center for Entrepreneurship.
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <div style="max-width: 500px; text-align: center;">
+    <div style="max-width: 360px; text-align: center;">
       <img src="/images/pitch.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
       <p style="font-size: 1.1em; font-weight: 500; color: #444; margin-top: 10px;">Startup Weekend Pitch Session</p>
     </div>
