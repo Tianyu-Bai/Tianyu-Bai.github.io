@@ -4,46 +4,45 @@
 - *2026.01*: 🚀 Released the **[E-Link(256)](https://tianyu-bai.github.io/E-Link/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
 
 - *2025.10*: 💡 Participated in the **[Startup Weekend](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** at the Magnuson Center for Entrepreneurship.
-  - Received mentorship on IP protection and customer discovery, pitching a neurotech-focused venture idea.
-  <div style="display: flex; justify-content: center; margin-top: 10px;">
-    <img src="/images/pitch.jpg" style="width: 100%; max-width: 600px; border-radius: 10px; border: 1px solid #eee;">
+  <div style="display: flex; justify-content: center; margin-top: 15px;">
+    <div style="max-width: 500px; text-align: center;">
+      <img src="/images/pitch.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <p style="font-size: 1.1em; font-weight: 500; color: #444; margin-top: 10px;">Startup Weekend Pitch Session</p>
+    </div>
   </div>
    
-- *2024.11*: 🥈 Awarded **2nd place** in the **[Visionaries in Technology (VIT)](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** research image contest hosted by Thayer School of Engineering.
-  - Featured Work: "Optogenetic Neuroprobe"— A state-of-the-art device showcasing high-density integration.
-  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
-    <img src="/images/LED01.jpg" style="height: 180px; border-radius: 8px; border: 1px solid #eee; object-fit: cover;">
-    <img src="/images/LED02.jpg" style="height: 180px; border-radius: 8px; border: 1px solid #eee; object-fit: cover;">
-    <img src="/images/LED03.jpg" style="height: 180px; border-radius: 8px; border: 1px solid #eee; object-fit: cover;">
+- *2024.11*: 🥈 Awarded **2nd place** in the **[VIT](https://www.linkedin.com/posts/tianyubai_dartmouthcollege-biggreen-studentexperience-activity-7407785550222413824-EmZC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** research image contest.
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+    <img src="/images/LED01.jpg" style="height: 160px; border-radius: 8px; border: 1px solid #eee;">
+    <img src="/images/LED02.jpg" style="height: 160px; border-radius: 8px; border: 1px solid #eee;">
+    <img src="/images/LED03.jpg" style="height: 160px; border-radius: 8px; border: 1px solid #eee;">
   </div>
 
-- *2023.10*: 🛠️ Developed a **customized 16-channel miniaturized connector** optimized for the **Intan RHD16 headstage**. 
-  * **Compact Design**: Featuring a **highly miniaturized, thumb-sized footprint**, specifically engineered for **chronic implants**.
-  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
-    <div style="flex: 1; min-width: 250px; max-width: 400px; text-align: center;">
-      <img src="/images/Connector_Interface.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 0.85em; color: #666; margin-top: 5px;">16-Channel Interface (Thumb-sized)</p>
+- *2023.10*: 🛠️ Developed a **customized 16-channel miniaturized connector** for **Intan RHD16**. 
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
+    <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
+      <img src="/images/Connector_Interface.jpg" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
+      <p style="font-size: 1.05em; font-weight: bold; color: #333; margin-top: 10px;">16-Channel Interface</p>
     </div>
-    <div style="flex: 1; min-width: 250px; max-width: 400px; text-align: center;">
-      <img src="/images/Probe_Assembly.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 0.85em; color: #666; margin-top: 5px;">Full Probe-Connector Assembly</p>
+    <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
+      <img src="/images/Probe_Assembly.jpg" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
+      <p style="font-size: 1.05em; font-weight: bold; color: #333; margin-top: 10px;">Full Assembly</p>
     </div>
   </div>
   
-- *2023.06*: 🔬 Micro-fabricated a batch of **Multi-Modal Neural Probes** on glass substrates, featuring a **16-channel electrode array**.
-  * **Innovation**: Utilized **99.999% (5N) gold** for exceptional biocompatibility and bimodal sensing (ephys & neurochemical).
-  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
-    <div style="flex: 1; min-width: 200px; max-width: 300px; text-align: center;">
+- *2023.06*: 🔬 Micro-fabricated a batch of **Multi-Modal Neural Probes**.
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
       <img src="/images/Gold_Patterning.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 0.8em; color: #666; margin-top: 5px;">Step 1: Gold Patterning</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 1: Patterning</p>
     </div>
-    <div style="flex: 1; min-width: 200px; max-width: 300px; text-align: center;">
+    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
       <img src="/images/Fabricated_Probes.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 0.8em; color: #666; margin-top: 5px;">Step 2: Fully Fabricated</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 2: Fabricated</p>
     </div>
-    <div style="flex: 1; min-width: 200px; max-width: 300px; text-align: center;">
+    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
       <img src="/images/Probe_Microscopy.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 0.8em; color: #666; margin-top: 5px;">Step 3: Microscopy Detail</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 3: Detail</p>
     </div>
   </div>
 
