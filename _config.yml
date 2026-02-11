@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                        : "Tianyu Bai (白天宇)"
+title                        : "Tianyu Bai"
 description                  : "PhD Innovation Fellow<br>@ Dartmouth College<br>Engineering High-Density Neural Interfaces & Scalable Hardware"
 repository                   : "Tianyu-Bai/tianyu-bai.github.io"
 google_scholar_stats_use_cdn : true
