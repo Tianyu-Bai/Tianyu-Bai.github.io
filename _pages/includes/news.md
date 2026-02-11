@@ -42,17 +42,21 @@
   
 - *2023.06*: 🔬 Micro-fabricated a batch of **Multi-Modal Neural Probes**.
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
-    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
+    <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
       <img src="/images/Gold_Patterning.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 1: Patterning</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 1: Patterning</p>
     </div>
-    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
+    <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
       <img src="/images/Fabricated_Probes.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 2: Fabricated</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 2: Fabricated</p>
     </div>
-    <div style="flex: 1; min-width: 180px; max-width: 260px; text-align: center;">
+    <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
+      <img src="/images/Probe_Tip.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 3: Distal Tip</p>
+    </div>
+    <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
       <img src="/images/Probe_Microscopy.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Step 3: Detail</p>
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 4: Detail</p>
     </div>
   </div>
 
