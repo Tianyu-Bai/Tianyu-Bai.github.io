@@ -51,12 +51,12 @@
       <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 2: Fabricated</p>
     </div>
     <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
-      <img src="/images/Probe_Tip.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 3: Distal Tip</p>
+      <img src="/images/Probe_Microscopy.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 3: Gold Patterning</p>
     </div>
     <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
-      <img src="/images/Probe_Microscopy.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
-      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 4: Detail</p>
+      <img src="/images/Probe_Tip.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
+      <p style="font-size: 1em; font-weight: bold; color: #333; margin-top: 10px;">Photo 4: Distal Tip</p>
     </div>
   </div>
 
