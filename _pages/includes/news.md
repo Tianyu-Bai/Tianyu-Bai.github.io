@@ -11,7 +11,7 @@
       <img src="/images/256HD.png" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
       <p style="font-size: 1.05em; font-weight: bold; color: #333; margin-top: 10px;">Intan-based Customized Low-Noise Headstage</p>
     </div>
-  </div>png
+  </div>
   
 - *2025.10*: 💡 Participated in the **[Startup Weekend](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** at the Magnuson Center for Entrepreneurship.
   <div style="display: flex; justify-content: center; margin-top: 15px;">
@@ -60,4 +60,12 @@
     </div>
   </div>
 
+- *2022.12*: 📐 Designed and developed a **Compact 6-layer PCB Connector** for **64/128-channel** neural probes.
+  <div style="display: flex; justify-content: center; margin-top: 15px;">
+    <div style="max-width: 360px; text-align: center;">
+      <img src="/images/6-layer-pcbs.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <p style="font-size: 1.1em; font-weight: 500; color: #444; margin-top: 10px;">6-Layer Compact PCB Design for 64/128Ch Probes</p>
+    </div>
+  </div>
+  
 ---
