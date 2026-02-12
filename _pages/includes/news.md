@@ -17,7 +17,7 @@
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 360px; text-align: center;">
       <img src="/images/pitch.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: 500; color: #444; margin-top: 10px;">Startup Weekend Pitch Session</p>
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">Startup Weekend Pitch Session</p>
     </div>
   </div>
    
@@ -64,7 +64,7 @@
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 360px; text-align: center;">
       <img src="/images/6-layer-pcbs.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: 500; color: #444; margin-top: 10px;">6-Layer Compact Connectors for 64/128Ch Probes</p>
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">6-Layer Compact Connectors for 64/128Ch Probes</p>
     </div>
   </div>
   
