@@ -56,36 +56,154 @@
   
 ---
 
-### 📊 GitHub & Research Stats
+### 🧪 Research Impact · Metrics Dashboard
 
-<div align="center">
-  <table style="border: 2px solid #58a6ff; border-collapse: collapse; background-color: #0d1117; width: 300px; border-radius: 8px;">
-    <tr>
-      <td style="padding: 10px; border-bottom: 1px solid rgba(88, 166, 255, 0.3); font-family: monospace; font-size: 12px; color: #58a6ff;">
-        <span style="color: #3fb950;">➜</span> system_monitor --user=tianyu-bai
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 10px 15px 5px 15px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=tianyu-bai&show_icons=true&theme=algolia&count_private=true&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 5px 15px 15px 15px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tianyu-bai&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117" width="100%" style="display: block;">
-      </td>
-    </tr>
-    <tr style="background-color: rgba(88, 166, 255, 0.05);">
-      <td style="padding: 5px 10px; font-family: monospace; font-size: 10px; color: #8b949e; text-align: right;">
-        CORE_STATUS: <span style="color: #3fb950;">ACTIVE</span>
-      </td>
-    </tr>
-  </table>
+<div class="scholar-metrics-dashboard">
+  
+  <div class="metrics-grid">
+    
+    <div class="metric-card">
+      <div class="chart-wrapper">
+        <svg viewBox="0 0 100 100">
+          <circle class="bg" cx="50" cy="50" r="45"></circle>
+          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 96; --color: #22d3ee;"></circle>
+        </svg>
+        <div class="inner-text">
+          <div class="label">CITATIONS</div>
+          <div class="value">53</div>
+          <div class="sub">96% Recent</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-card">
+      <div class="chart-wrapper">
+        <svg viewBox="0 0 100 100">
+          <circle class="bg" cx="50" cy="50" r="45"></circle>
+          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 100; --color: #2ea44f;"></circle>
+        </svg>
+        <div class="inner-text">
+          <div class="label">H-INDEX</div>
+          <div class="value">5</div>
+          <div class="sub">Since 2021</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-card">
+      <div class="chart-wrapper">
+        <svg viewBox="0 0 100 100">
+          <circle class="bg" cx="50" cy="50" r="45"></circle>
+          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 100; --color: #d2a8ff;"></circle>
+        </svg>
+        <div class="inner-text">
+          <div class="label">PATENTS</div>
+          <div class="value">3</div>
+          <div class="sub">Granted</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=pX1H0FgAAAAJ">
-    <img src="https://img.shields.io/badge/Google Scholar Citations-49-4285F4?style=flat-square&logo=google-scholar&labelColor=333333" alt="Google Scholar" />
-  </a>
-</p>
 
-  ---
+<style>
+/* --- 局部样式作用域 --- */
+.scholar-metrics-dashboard {
+  font-family: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  margin: 2rem auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.scholar-metrics-dashboard .metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+.scholar-metrics-dashboard .metric-card {
+  background: rgba(13, 17, 23, 0.6); /* 半透明深色背景 */
+  border: 1px solid rgba(48, 54, 61, 0.6);
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+  max-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* 磨砂玻璃效果 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.scholar-metrics-dashboard .chart-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.scholar-metrics-dashboard svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.scholar-metrics-dashboard circle {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+
+.scholar-metrics-dashboard .bg {
+  stroke: #21262d; /* 轨道颜色 */
+}
+
+.scholar-metrics-dashboard .fg {
+  stroke: var(--color);
+  stroke-dasharray: 283; /* 2 * PI * 45 */
+  /* 这里使用 CSS 变量直接控制进度，无需 JS 也可显示静态进度 */
+  stroke-dashoffset: calc(283 - (283 * var(--percent) / 100)); 
+  filter: drop-shadow(0 0 4px var(--color));
+  
+  /* 只有在浏览器支持 CSS 动画时才动 */
+  animation: fillAnimation 1.5s ease-out forwards;
+}
+
+/* 纯 CSS 动画定义 */
+@keyframes fillAnimation {
+  from { stroke-dashoffset: 283; }
+  to { stroke-dashoffset: calc(283 - (283 * var(--percent) / 100)); }
+}
+
+.scholar-metrics-dashboard .inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scholar-metrics-dashboard .label {
+  font-size: 9px;
+  color: #8b949e;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.scholar-metrics-dashboard .value {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f0f6fc;
+  line-height: 1.1;
+}
+
+.scholar-metrics-dashboard .sub {
+  font-size: 8px;
+  color: #8b949e;
+  opacity: 0.8;
+}
+</style>
