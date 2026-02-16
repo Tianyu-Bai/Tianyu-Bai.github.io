@@ -58,47 +58,45 @@
 
 ### 🧪 Research Impact · Metrics Dashboard
 
-<div class="scholar-metrics-dashboard">
-  
+<div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
     
-    <div class="metric-card">
-      <div class="chart-wrapper">
+    <div class="metric-card glass-panel" data-percent="96" data-value="53">
+      <div class="chart-box">
         <svg viewBox="0 0 100 100">
-          <circle class="bg" cx="50" cy="50" r="45"></circle>
-          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 96; --color: #22d3ee;"></circle>
+          <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
+          <circle class="fg-ring citation-color" cx="50" cy="50" r="45"></circle>
         </svg>
-        <div class="inner-text">
+        <div class="inner-content">
           <div class="label">CITATIONS</div>
-          <div class="value">53</div>
-          <div class="sub">96% Recent</div>
+          <div class="number count-up">0</div> <div class="sub">High Impact</div>
         </div>
       </div>
     </div>
 
-    <div class="metric-card">
-      <div class="chart-wrapper">
+    <div class="metric-card glass-panel" data-percent="100" data-value="5">
+      <div class="chart-box">
         <svg viewBox="0 0 100 100">
-          <circle class="bg" cx="50" cy="50" r="45"></circle>
-          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 100; --color: #2ea44f;"></circle>
+          <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
+          <circle class="fg-ring hindex-color" cx="50" cy="50" r="45"></circle>
         </svg>
-        <div class="inner-text">
+        <div class="inner-content">
           <div class="label">H-INDEX</div>
-          <div class="value">5</div>
+          <div class="number count-up">0</div>
           <div class="sub">Since 2021</div>
         </div>
       </div>
     </div>
 
-    <div class="metric-card">
-      <div class="chart-wrapper">
+    <div class="metric-card glass-panel" data-percent="100" data-value="3">
+      <div class="chart-box">
         <svg viewBox="0 0 100 100">
-          <circle class="bg" cx="50" cy="50" r="45"></circle>
-          <circle class="fg" cx="50" cy="50" r="45" style="--percent: 100; --color: #d2a8ff;"></circle>
+          <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
+          <circle class="fg-ring patent-color" cx="50" cy="50" r="45"></circle>
         </svg>
-        <div class="inner-text">
+        <div class="inner-content">
           <div class="label">PATENTS</div>
-          <div class="value">3</div>
+          <div class="number count-up">0</div>
           <div class="sub">Granted</div>
         </div>
       </div>
@@ -108,102 +106,178 @@
 </div>
 
 <style>
-/* --- 局部样式作用域 --- */
-.scholar-metrics-dashboard {
-  font-family: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-  margin: 2rem auto;
-  max-width: 600px;
+/* --- 样式定义 --- */
+.scholar-dynamic-dashboard {
+  font-family: 'Inter', -apple-system, sans-serif;
+  margin: 3rem auto;
   width: 100%;
+  max-width: 700px;
 }
 
-.scholar-metrics-dashboard .metrics-grid {
+.metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 24px;
   justify-items: center;
 }
 
-.scholar-metrics-dashboard .metric-card {
-  background: rgba(13, 17, 23, 0.6); /* 半透明深色背景 */
-  border: 1px solid rgba(48, 54, 61, 0.6);
-  border-radius: 12px;
-  padding: 16px;
-  width: 100%;
-  max-width: 140px;
+/* 卡片样式：适配你的白色磨砂玻璃背景 */
+.metric-card {
+  position: relative;
+  width: 160px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4); /* 比背景更通透 */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* 极淡的投影 */
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px); /* 磨砂玻璃效果 */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
 
-.scholar-metrics-dashboard .chart-wrapper {
+.metric-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.chart-box {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
-.scholar-metrics-dashboard svg {
+svg {
   width: 100%;
   height: 100%;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg); /* 让进度条从顶部开始 */
 }
 
-.scholar-metrics-dashboard circle {
+circle {
   fill: none;
-  stroke-width: 8;
-  stroke-linecap: round;
+  stroke-width: 7;
+  stroke-linecap: round; /* 圆头 */
 }
 
-.scholar-metrics-dashboard .bg {
-  stroke: #21262d; /* 轨道颜色 */
+/* 轨道背景：浅灰色 */
+.bg-ring {
+  stroke: #e2e8f0; 
+  opacity: 0.8;
 }
 
-.scholar-metrics-dashboard .fg {
-  stroke: var(--color);
+/* 进度条前景：初始状态隐藏 */
+.fg-ring {
   stroke-dasharray: 283; /* 2 * PI * 45 */
-  /* 这里使用 CSS 变量直接控制进度，无需 JS 也可显示静态进度 */
-  stroke-dashoffset: calc(283 - (283 * var(--percent) / 100)); 
-  filter: drop-shadow(0 0 4px var(--color));
-  
-  /* 只有在浏览器支持 CSS 动画时才动 */
-  animation: fillAnimation 1.5s ease-out forwards;
+  stroke-dashoffset: 283; /* 初始偏移量等于周长（即空） */
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.25, 1, 0.5, 1); /* 缓动动画 */
 }
 
-/* 纯 CSS 动画定义 */
-@keyframes fillAnimation {
-  from { stroke-dashoffset: 283; }
-  to { stroke-dashoffset: calc(283 - (283 * var(--percent) / 100)); }
+/* 颜色配置 & 投影 */
+.citation-color { 
+  stroke: #3b82f6; /* 科研蓝 */
+  filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.5));
+}
+.hindex-color { 
+  stroke: #10b981; /* 生机绿 */
+  filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.5));
+}
+.patent-color { 
+  stroke: #8b5cf6; /* 创新紫 */
+  filter: drop-shadow(0 0 3px rgba(139, 92, 246, 0.5));
 }
 
-.scholar-metrics-dashboard .inner-text {
+/* 内部文字布局 */
+.inner-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
 }
 
-.scholar-metrics-dashboard .label {
+.label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+.number {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px; /* 数字加大 */
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1;
+}
+
+.sub {
   font-size: 9px;
-  color: #8b949e;
-  letter-spacing: 0.5px;
-  margin-bottom: 2px;
-}
-
-.scholar-metrics-dashboard .value {
-  font-size: 24px;
-  font-weight: 800;
-  color: #f0f6fc;
-  line-height: 1.1;
-}
-
-.scholar-metrics-dashboard .sub {
-  font-size: 8px;
-  color: #8b949e;
-  opacity: 0.8;
+  color: #94a3b8;
+  margin-top: 4px;
 }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // 配置项
+  const circleRadius = 45;
+  const circumference = 2 * Math.PI * circleRadius; // ≈ 283
+
+  // 1. 滚动监听器 (Intersection Observer)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // 当元素进入视口时，触发动画
+        animateCard(entry.target);
+        // 触发一次后取消监听（避免反复播放）
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 }); // 至少 50% 可见时触发
+
+  // 2. 获取所有卡片并开始监听
+  const cards = document.querySelectorAll('.metric-card');
+  cards.forEach(card => observer.observe(card));
+
+  // 3. 核心动画函数
+  function animateCard(card) {
+    const percent = card.getAttribute('data-percent');
+    const targetValue = parseInt(card.getAttribute('data-value'));
+    
+    // --- A. 圆环动画 ---
+    const ring = card.querySelector('.fg-ring');
+    // 计算目标偏移量 (100% = 0 offset, 0% = 283 offset)
+    const offset = circumference - (percent / 100) * circumference;
+    // 设置 CSS 变量或直接样式触发 transition
+    ring.style.strokeDashoffset = offset;
+
+    // --- B. 数字滚动动画 ---
+    const numberEl = card.querySelector('.number');
+    const duration = 1500; // 动画总时长 1.5秒
+    const frameDuration = 1000 / 60; // 60fps
+    const totalFrames = Math.round(duration / frameDuration);
+    let frame = 0;
+
+    const counter = setInterval(() => {
+      frame++;
+      // 使用 easeOutExpo 缓动算法，让数字最后变慢停下
+      const progress = frame / totalFrames;
+      // 缓动公式: 1 - Math.pow(2, -10 * progress)
+      const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+      
+      const currentVal = Math.round(targetValue * easeProgress);
+      
+      numberEl.textContent = currentVal;
+
+      if (frame >= totalFrames) {
+        clearInterval(counter);
+        numberEl.textContent = targetValue; // 确保最终值准确
+      }
+    }, frameDuration);
+  }
+});
+</script>
