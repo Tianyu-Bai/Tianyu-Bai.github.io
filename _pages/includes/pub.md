@@ -70,7 +70,7 @@
         <div class="inner-content">
           <div class="label">CITATIONS</div>
           <div class="number count-up">0</div> 
-          <div class="sub">Updated on Feb 2026</div>
+          <div class="sub">Feb 2026</div>
         </div>
       </div>
     </div>
