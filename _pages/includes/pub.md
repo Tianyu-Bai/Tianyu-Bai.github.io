@@ -27,7 +27,7 @@
 
 - `2024` *Biosensors and Bioelectronics* | [**Array-wide uniform PEDOT:PSS electroplating from potentiostatic deposition**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
   - Y. Shin, J. Ryu, **T. Bai**, Y. Qiang, Y. Qi, G. Li, Y. Huang, K. J. Seo, H. Fang.
-  - **Summary**: Establishes a potentiostatic method to achieve a highly uniform coating of PEDOT:PSS on large-scale microelectrode arrays with high yield and stability.
+  - **Summary**: Establishes a potentiostatic method to achieve a ly uniform coating of PEDOT:PSS on large-scale microelectrode arrays with  yield and stability.
 
 - `2017` *The 29th Chinese Control And Decision Conference (CCDC)* | [**A control method to prevent falling from a treadmill based on STM32 microcontroller and ultrasonic transducer**](https://ieeexplore.ieee.org/abstract/document/7979386)
   - **T. Bai**.
@@ -69,7 +69,8 @@
         </svg>
         <div class="inner-content">
           <div class="label">CITATIONS</div>
-          <div class="number count-up">0</div> <div class="sub">High Impact</div>
+          <div class="number count-up">0</div> 
+          <div class="sub">Updated on Feb 2026</div>
         </div>
       </div>
     </div>
