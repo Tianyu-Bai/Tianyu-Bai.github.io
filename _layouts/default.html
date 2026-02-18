@@ -58,9 +58,9 @@ layout: compress
       /* 悬浮切换按钮 - 保持与毛玻璃一致的风格 */
       .lang-toggle-btn {
         position: fixed;
-        bottom: 30px;
-        right: 30px;
-        z-index: 999;
+        top: 20px;     /* 将 bottom 改成了 top，放置在顶部 */
+        right: 20px;   /* 距离右侧的边距 */
+        z-index: 9999; /* 调高层级，防止被顶部的 masthead 导航栏遮挡 */
         background: rgba(255, 255, 255, 0.8);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
@@ -78,6 +78,16 @@ layout: compress
       .lang-toggle-btn:hover {
         transform: translateY(-2px) scale(1.05);
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+      
+      /* 移动端适配：屏幕较小时稍微调整按钮位置，防止挡住内容 */
+      @media (max-width: 768px) {
+        .lang-toggle-btn {
+          top: 15px;
+          right: 15px;
+          padding: 6px 12px;
+          font-size: 12px;
+        }
       }
 
       /* 语言显示/隐藏逻辑 */
