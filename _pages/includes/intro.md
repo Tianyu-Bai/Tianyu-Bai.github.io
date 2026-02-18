@@ -12,7 +12,7 @@
 
 ---
 
-### ⚙️ Research Vision
+#### ⚙️ Research Vision
 
 <table style="width: 100%; border: none; border-collapse: collapse; background: transparent;">
   <tr style="border: none; background: transparent;">
@@ -35,7 +35,7 @@
 
 ---
 
-### 🛠️ Engineering Core & Projects
+#### 🛠️ Engineering Core & Projects
 
 <table style="width: 100%; border: none; border-collapse: collapse; background: transparent; margin-bottom: 20px;">
   <tr style="border: none; background: transparent;">
