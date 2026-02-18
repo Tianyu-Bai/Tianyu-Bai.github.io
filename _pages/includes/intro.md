@@ -1,4 +1,9 @@
+<div class="lang-en" markdown="1">
 # 👋 Hi, I'm Tianyu Bai 
+</div>
+<div class="lang-zh" markdown="1">
+# 👋 你好，我是 Tianyu Bai 
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
@@ -12,35 +17,56 @@
 
 ---
 
+<div class="lang-en" markdown="1">
 #### ⚙️ Research Vision
+</div>
+<div class="lang-zh" markdown="1">
+#### ⚙️ 研究愿景
+</div>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; max-width: 200px;">
     <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <p style="margin: 8px 0 0 0; text-align: center;">
-      <sub style="color: gray; font-size: 0.7em;">Photo credit: Mark Washburn</sub>
+      <sub style="color: gray; font-size: 0.7em;">
+        <span class="lang-en">Photo credit: Mark Washburn</span>
+        <span class="lang-zh">摄影：Mark Washburn</span>
+      </sub>
     </p>
   </div>
   <div style="flex: 1 1 300px; min-width: 280px;">
     <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
-      Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
+      <span class="lang-en">Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.</span>
+      <span class="lang-zh">致力于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。我在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建创新桥梁。</span>
     </p>
     <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
-      Design ➔ Fabricate ➔ Validate
+      <span class="lang-en">Design ➔ Fabricate ➔ Validate</span>
+      <span class="lang-zh">设计 ➔ 制造 ➔ 验证</span>
     </div>
   </div>
 </div>
 
 ---
 
+<div class="lang-en" markdown="1">
 #### 🛠️ Engineering Core & Projects
+</div>
+<div class="lang-zh" markdown="1">
+#### 🛠️ 核心工程能力与项目
+</div>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1 1 350px; min-width: 280px;">
     <h4 style="margin: 0; line-height: 1.6;">
       <b>🚀 E-Link(256)</b> 
-      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">Click to know more ↗</a><br>
-      <span style="font-weight: normal;">Leading the development of a 256-ch high-density connector.</span>
+      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">
+        <span class="lang-en">Click to know more ↗</span>
+        <span class="lang-zh">点击了解更多 ↗</span>
+      </a><br>
+      <span style="font-weight: normal;">
+        <span class="lang-en">Leading the development of a 256-ch high-density connector.</span>
+        <span class="lang-zh">主导研发 256 通道高密度神经接口连接器。</span>
+      </span>
     </h4>
   </div>
   <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
@@ -49,11 +75,19 @@
 </div>
 <br>
 
+<div class="lang-en" markdown="1">
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
+</div>
+
+<div class="lang-zh" markdown="1">
+#### ⚡ **高级 PCB 设计**: 软硬结合板 (Rigid-Flex) 与高密度互连 (HDI) 技术专家。
+#### 🔬 **微系统**: 硬件微型化与系统集成。
+</div>
 
 ---
 
+<div class="lang-en" markdown="1">
 ### 🧰 Technical Skills & Tech Stack
 
 #### ⚡ Hardware & PCB Design
@@ -73,6 +107,29 @@
 - **Reliability**: Mechanical stress testing and Accelerated Aging Tests.
 
 #### 💻 Software & Simulation
+</div>
+
+<div class="lang-zh" markdown="1">
+### 🧰 专业技能与技术栈
+
+#### ⚡ 硬件与 PCB 设计
+- **高密度集成**: 专注于 **多层板**、**软硬结合板 (Rigid-Flex)** 以及 **HDI** PCB 设计。
+- **高级布线**: 精通 **盲/埋孔 (Blind/Buried Vias)** 技术及高速 **SPI/数字接口** 布线。
+- **制造与组装**: 熟练掌握 **SMT 与 THT 贴片组装**，专注于空间受限系统的高可靠性实现。
+
+#### 🔬 微纳制造与原型开发
+- **超净间微加工**: 精通 **光刻 (Photolithography)**、**磁控溅射 (Magnetron Sputtering)** 以及 **热蒸发 (Thermal Evaporation)** 工艺。
+- **微组装**: 熟练掌握用于柔性电子的 **转印技术 (Transfer Printing)**。
+- **快速原型制作**: CNC 数控加工、激光切割以及 3D 打印 (FDM)。
+
+#### 🧪 表征与测试
+- **成像分析**: 3D 显微成像，SEM (扫描电子显微镜)。
+- **形貌测量**: 台阶仪 (Profilometer) 与表面形貌分析。
+- **电化学**: 用于神经接口验证的电化学阻抗谱 (EIS) 测试。
+- **可靠性测试**: 机械应力测试与加速老化实验。
+
+#### 💻 软件与仿真
+</div>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Altium%20Designer-FF6600?style=for-the-badge&logo=altiumdesigner&logoColor=white" />
@@ -88,9 +145,18 @@
 
 ---
 
+<div class="lang-en" markdown="1">
 ### 📫 Let's Connect
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **LinkedIn:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
+</div>
+
+<div class="lang-zh" markdown="1">
+### 📫 联系我
+* 🌐 **个人网站:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
+* 💼 **领英:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
+* 📧 **邮箱:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
+</div>
 
 ---
