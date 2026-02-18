@@ -16,16 +16,17 @@
 
 <table style="width: 100%; border: none; border-collapse: collapse; background: transparent;">
   <tr style="border: none; background: transparent;">
-    <td style="border: none; padding-right: 30px; text-align: center; width: 380px; vertical-align: middle; background: transparent;">
-      <img src="/images/Microscope observing.jpg" width="380" style="border-radius: 16px; border: 1px solid #eee; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
-      <br>
-      <p style="margin-top: 8px;"><sub style="color: gray; font-size: 0.6em;">Photo credit to Mark Washburn</sub></p>
+    <td style="border: none; padding-right: 30px; text-align: center; width: 260px; vertical-align: middle; background: transparent;">
+      <img src="/images/Microscope observing.jpg" width="260" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p style="margin: 8px 0 0 0; text-align: center;">
+        <sub style="color: gray; font-size: 0.7em; display: block;">Photo credit to Mark Washburn</sub>
+      </p>
     </td>
     <td style="border: none; padding: 10px; vertical-align: middle; background: transparent;">
-      <p style="font-size: 1.35em; line-height: 1.5; font-weight: 500; color: #333; margin-bottom: 20px;">
-        Engineering the future of high-bandwidth neural interfaces. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b> through end-to-end hardware development.
+      <p style="font-size: 2.6em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 25px;">
+        Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
       </p>
-      <div align="center" style="background: #f0f4f2; color: #00693E; padding: 15px; border-radius: 10px; font-size: 1.2em; font-weight: bold; border: 1px solid #00693E22;">
+      <div align="center" style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 2.8em; font-weight: bold; border: 1px solid #00693E33;">
         Design ➔ Fabricate ➔ Validate
       </div>
     </td>
