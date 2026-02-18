@@ -23,10 +23,10 @@
       </p>
     </td>
     <td style="border: none; padding: 10px; vertical-align: middle; background: transparent;">
-      <p style="font-size: 2.6em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 25px;">
+      <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 25px;">
         Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
       </p>
-      <div align="center" style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 2.8em; font-weight: bold; border: 1px solid #00693E33;">
+      <div align="center" style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33;">
         Design ➔ Fabricate ➔ Validate
       </div>
     </td>
