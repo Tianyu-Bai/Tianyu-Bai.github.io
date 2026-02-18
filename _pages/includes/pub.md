@@ -56,7 +56,7 @@
   
 ---
 
-### 🧪 Research Impact · Metrics Dashboard
+### 📊 Research Analytics Dashboard (Source:Google Scholar)
 
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
