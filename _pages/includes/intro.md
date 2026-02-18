@@ -40,8 +40,9 @@
 <table style="width: 100%; border: none; border-collapse: collapse; background: transparent; margin-bottom: 20px;">
   <tr style="border: none; background: transparent;">
     <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
-      <h4 style="margin: 0;">
-        <b><a href="https://e-link.pages.dev/" style="text-decoration: none;">🚀 E-Link(256) (Click to know more)</a></b>: 
+      <h4 style="margin: 0; line-height: 1.6;">
+        <b>🚀 E-Link(256)</b> 
+        <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 0 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: baseline; box-shadow: 0 1px 3px rgba(0,0,0,0.12);">Click to know more ↗</a> : 
         Leading the development of a 256-ch high-density connector. 
       </h4>
     </td>
