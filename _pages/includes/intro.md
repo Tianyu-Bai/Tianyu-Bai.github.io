@@ -41,7 +41,7 @@
   <tr style="border: none; background: transparent;">
     <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
       <h4 style="margin: 0;">
-        <b><a href="https://tianyu-bai.github.io/E-Link/" style="text-decoration: none;">🚀 E-Link(256) (Click to know more)</a></b>: 
+        <b><a href="https://e-link.pages.dev/" style="text-decoration: none;">🚀 E-Link(256) (Click to know more)</a></b>: 
         Leading the development of a 256-ch high-density connector. 
       </h4>
     </td>
