@@ -1,7 +1,7 @@
 # 🔥 News
 
 - *2026.01*: 🎉 Abstract accepted for an **Oral Presentation** at the **[2026 MRS Spring Meeting](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**! I will present our work in **Session SB01.05** (Neurointerfacing) this April in Hawaii. 
-- *2026.01*: 🚀 Released the **[E-Link(256)](https://tianyu-bai.github.io/E-Link/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
+- *2026.01*: 🚀 Released the **[E-Link(256)](https://e-link.pages.dev/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
     <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
       <img src="/images/Mini Pedestal.PNG" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
