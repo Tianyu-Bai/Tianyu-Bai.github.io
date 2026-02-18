@@ -19,7 +19,7 @@
     <td style="border: none; padding-right: 30px; text-align: center; width: 260px; vertical-align: middle; background: transparent;">
       <img src="/images/Microscope observing.jpg" width="260" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       <p style="margin: 8px 0 0 0; text-align: center;">
-        <sub style="color: gray; font-size: 0.7em; display: block;">Photo credit to Mark Washburn</sub>
+        <sub style="color: gray; font-size: 0.7em; display: block;">Photo credit: Mark Washburn</sub>
       </p>
     </td>
     <td style="border: none; padding: 10px; vertical-align: middle; background: transparent;">
