@@ -17,7 +17,7 @@
 <table style="width: 100%; border: none; border-collapse: collapse; background: transparent;">
   <tr style="border: none; background: transparent;">
     <td style="border: none; padding-right: 25px; text-align: left; width: 300px; vertical-align: middle; background: transparent;">
-      <img src="Microscope observing.jpg" width="300" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/images/Microscope observing.jpg" width="300" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </td>
     <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
       <p style="font-size: 1.1em; line-height: 1.6;">
