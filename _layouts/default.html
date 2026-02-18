@@ -9,70 +9,92 @@ layout: compress
     {% include head/custom.html %}
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
-      /* 全局字体优化 */
+      /* 全局与字体 */
       body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        background-color: #f8f9fa; /* 极浅的灰白背景，护眼 */
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #334155;
       }
+      code, pre, kbd, samp { font-family: 'JetBrains Mono', monospace; }
 
-      /* 2. 动态背景层 (Canvas) */
-      #canvas-nest {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1; /* 置于最底层 */
-        opacity: 0.6; /* 降低透明度，不要抢夺文字注意力 */
-      }
-
-      /* 3. 毛玻璃容器 (Glassmorphism) 
-         这是最显"高级"的地方，让你的内容像浮在神经元网络之上
-      */
+      /* 毛玻璃容器 */
       .page__inner-wrap {
-        background: rgba(255, 255, 255, 0.85); /* 半透明白色 */
-        backdrop-filter: blur(12px); /* 背景模糊 */
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.9);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07); /* 柔和的投影 */
-        border-radius: 12px;
-        padding: 40px; /* 增加内边距，呼吸感 */
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+        border-radius: 16px;
+        padding: 40px; 
         margin-top: 20px;
-        transition: transform 0.3s ease;
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+        will-change: transform, opacity; 
       }
-      
-      /* 鼠标悬停时轻微上浮，增加交互感 */
       .page__inner-wrap:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.1);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.08);
+      }
+      @media (max-width: 768px) {
+        .page__inner-wrap { padding: 24px; border-radius: 12px; margin-top: 10px; }
       }
 
-      /* 4. 内容载入动画 */
+      /* 载入动画 */
       .fade-in-up {
-        animation: fadeInUp 0.8s ease-out forwards;
+        animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; 
         opacity: 0;
         transform: translateY(20px);
       }
-
       @keyframes fadeInUp {
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
+        to { opacity: 1; transform: translateY(0); }
       }
+
+      /* =========================================
+         新增：语言切换按钮样式与逻辑
+         ========================================= */
+      /* 悬浮切换按钮 - 保持与毛玻璃一致的风格 */
+      .lang-toggle-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        padding: 8px 16px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #334155;
+        transition: all 0.3s ease;
+      }
+      .lang-toggle-btn:hover {
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      /* 语言显示/隐藏逻辑 */
+      /* 默认显示英文，隐藏中文 */
+      .lang-zh { display: none; }
+      .lang-en { display: block; }
+      span.lang-en, span.lang-zh { display: inline; } /* 针对行内文本 */
+
+      /* 当 body 添加了 zh-mode 类时，反转显示逻辑 */
+      body.zh-mode .lang-en { display: none; }
+      body.zh-mode .lang-zh { display: block; }
+      body.zh-mode span.lang-zh { display: inline; }
     </style>
   </head>
 
   <body>
-
-    <script 
-      color="100,116,139" 
-      opacity="0.5" 
-      zIndex="-1" 
-      count="120" 
-      src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js">
-    </script>
+    <script color="100,116,139" opacity="0.6" zIndex="-1" count="90" src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js"></script>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -91,7 +113,41 @@ layout: compress
       </article>
     </div>
 
+    <button class="lang-toggle-btn" id="lang-toggle" aria-label="Toggle Language">
+      EN / 中文
+    </button>
+
     {% include scripts.html %}
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const toggleBtn = document.getElementById("lang-toggle");
+        const body = document.body;
+        
+        // 1. 检查本地存储中是否有语言偏好
+        const savedLang = localStorage.getItem("preferred-language");
+        
+        // 2. 如果之前存过 'zh'，或者是中文浏览器的初次访问，则默认切到中文
+        if (savedLang === "zh" || (!savedLang && navigator.language.includes('zh'))) {
+          body.classList.add("zh-mode");
+          toggleBtn.innerText = "中文 / EN";
+        } else {
+          toggleBtn.innerText = "EN / 中文";
+        }
+
+        // 3. 点击按钮切换逻辑
+        toggleBtn.addEventListener("click", function() {
+          body.classList.toggle("zh-mode");
+          
+          if (body.classList.contains("zh-mode")) {
+            localStorage.setItem("preferred-language", "zh");
+            toggleBtn.innerText = "中文 / EN";
+          } else {
+            localStorage.setItem("preferred-language", "en");
+            toggleBtn.innerText = "EN / 中文";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
