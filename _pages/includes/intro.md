@@ -12,12 +12,23 @@
 
 ---
 
-
 ### ⚙️ Research Vision
-Engineering the future of high-bandwidth neural interfaces. I bridge the gap between **Microelectronics** and **Neuroscience** through end-to-end hardware development. 
-<p align="center">
-**Design** (Schematic & Layout) ➔ **Fabricate** (Cleanroom & Microfab) ➔ **Validate** (Bench & In-Vivo)
-</p>
+
+<table style="width: 100%; border: none; border-collapse: collapse; background: transparent;">
+  <tr style="border: none; background: transparent;">
+    <td style="border: none; padding-right: 25px; text-align: left; width: 300px; vertical-align: middle; background: transparent;">
+      <img src="Microscope observing.jpg" width="300" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+    <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
+      <p style="font-size: 1.1em; line-height: 1.6;">
+        Engineering the future of high-bandwidth neural interfaces. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b> through end-to-end hardware development.
+      </p>
+      <p align="center" style="background: #f6f8fa; padding: 10px; border-radius: 8px; font-weight: bold;">
+        Design ➔ Fabricate ➔ Validate
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
