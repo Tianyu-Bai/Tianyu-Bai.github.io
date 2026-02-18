@@ -14,43 +14,39 @@
 
 #### ⚙️ Research Vision
 
-<table style="width: 100%; border: none; border-collapse: collapse; background: transparent;">
-  <tr style="border: none; background: transparent;">
-    <td style="border: none; padding-right: 30px; text-align: center; width: 260px; vertical-align: middle; background: transparent;">
-      <img src="/images/Microscope observing.jpg" width="260" style="border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p style="margin: 8px 0 0 0; text-align: center;">
-        <sub style="color: gray; font-size: 0.7em; display: block;">Photo credit: Mark Washburn</sub>
-      </p>
-    </td>
-    <td style="border: none; padding: 10px; vertical-align: middle; background: transparent;">
-      <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 25px;">
-        Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
-      </p>
-      <div align="center" style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33;">
-        Design ➔ Fabricate ➔ Validate
-      </div>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; max-width: 200px;">
+    <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="margin: 8px 0 0 0; text-align: center;">
+      <sub style="color: gray; font-size: 0.7em;">Photo credit: Mark Washburn</sub>
+    </p>
+  </div>
+  <div style="flex: 1 1 300px; min-width: 280px;">
+    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px;">
+      Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
+    </p>
+    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px;">
+      Design ➔ Fabricate ➔ Validate
+    </div>
+  </div>
+</div>
 
 ---
 
 #### 🛠️ Engineering Core & Projects
 
-<table style="width: 100%; border: none; border-collapse: collapse; background: transparent; margin-bottom: 20px;">
-  <tr style="border: none; background: transparent;">
-    <td style="border: none; padding: 0; vertical-align: middle; background: transparent;">
-      <h4 style="margin: 0; line-height: 1.6;">
-        <b>🚀 E-Link(256)</b> 
-        <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 0 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: baseline; box-shadow: 0 1px 3px rgba(0,0,0,0.12);">Click to know more ↗</a> : 
-        Leading the development of a 256-ch high-density connector. 
-      </h4>
-    </td>
-    <td style="border: none; padding: 0; text-align: right; width: 210px; vertical-align: middle; background: transparent;">
-      <img src="/images/Demo.gif" width="200" style="border-radius: 12px; border: 1px solid #eee; display: inline-block; margin: 0;">
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1 1 350px; min-width: 280px;">
+    <h4 style="margin: 0; line-height: 1.6;">
+      <b>🚀 E-Link(256)</b> 
+      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">Click to know more ↗</a><br>
+      <span style="font-weight: normal;">Leading the development of a 256-ch high-density connector.</span>
+    </h4>
+  </div>
+  <div style="flex: 0 0 200px; max-width: 200px;">
+    <img src="/images/Demo.gif" style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+  </div>
+</div>
 <br>
 
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
