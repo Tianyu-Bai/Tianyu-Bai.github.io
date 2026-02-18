@@ -22,10 +22,10 @@
     </p>
   </div>
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px;">
+    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
       Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
     </p>
-    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px;">
+    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
       Design ➔ Fabricate ➔ Validate
     </div>
   </div>
@@ -43,7 +43,7 @@
       <span style="font-weight: normal;">Leading the development of a 256-ch high-density connector.</span>
     </h4>
   </div>
-  <div style="flex: 0 0 200px; max-width: 200px;">
+  <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
     <img src="/images/Demo.gif" style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
   </div>
 </div>
