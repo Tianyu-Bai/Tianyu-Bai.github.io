@@ -47,7 +47,7 @@
 <br>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
-  "将技术创新转化为造福人类的切实影响。"
+  "致力于将技术创新转化为造福人类。"
 </p>
 
 </div>
