@@ -90,16 +90,42 @@ layout: compress
         }
       }
 
-      /* 语言显示/隐藏逻辑 */
-      /* 默认显示英文，隐藏中文 */
-      .lang-zh { display: none; }
-      .lang-en { display: block; }
-      span.lang-en, span.lang-zh { display: inline; } /* 针对行内文本 */
+/* =========================================
+         语言显示/隐藏逻辑 (终极防杂糅版)
+         ========================================= */
 
-      /* 当 body 添加了 zh-mode 类时，反转显示逻辑 */
-      body.zh-mode .lang-en { display: none; }
-      body.zh-mode .lang-zh { display: block; }
-      body.zh-mode span.lang-zh { display: inline; }
+      /* 1. 【英文模式/默认】：不留死角地强制隐藏所有中文 */
+      .lang-zh,
+      div.lang-zh,
+      span.lang-zh,
+      p.lang-zh,
+      h1.lang-zh, h2.lang-zh, h3.lang-zh, h4.lang-zh, h5.lang-zh, h6.lang-zh {
+        display: none !important;
+      }
+
+      /* 2. 【中文模式】：不留死角地强制隐藏所有英文 */
+      body.zh-mode .lang-en,
+      body.zh-mode div.lang-en,
+      body.zh-mode span.lang-en,
+      body.zh-mode p.lang-en,
+      body.zh-mode h1.lang-en, body.zh-mode h2.lang-en, body.zh-mode h3.lang-en, body.zh-mode h4.lang-en {
+        display: none !important;
+      }
+
+      /* 3. 【中文模式】：恢复中文的块级元素显示 */
+      body.zh-mode div.lang-zh,
+      body.zh-mode p.lang-zh,
+      body.zh-mode h1.lang-zh, body.zh-mode h2.lang-zh, body.zh-mode h3.lang-zh, body.zh-mode h4.lang-zh {
+        display: block !important;
+      }
+
+      /* 4. 【中文模式】：恢复中文的行内元素显示 */
+      body.zh-mode span.lang-zh,
+      body.zh-mode a.lang-zh,
+      body.zh-mode b.lang-zh,
+      body.zh-mode strong.lang-zh {
+        display: inline !important;
+      }
     </style>
   </head>
 
