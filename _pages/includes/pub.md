@@ -67,31 +67,31 @@
 
 # 📚 学术发表
 
-- `2025` *ACS Chemical Neuroscience* | [**用于快速扫描循环伏安法的薄膜参比电极**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
+- `2025` *ACS化学神经科学* | [**用于快速扫描循环伏安法的薄膜参比电极**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
   - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
   - **摘要**: 评估了 Pt-Ir 薄膜电极作为传统 Ag/AgCl 的稳定微型化替代方案，用于临床前应用中可靠的神经递质检测。
 
-- `2025` *Nature Communications* | [**用于可扩展和可互操作神经递质传感的微电极稳定碳涂层**](https://www.nature.com/articles/s41467-025-58388-z)
+- `2025` *自然 通讯* | [**用于可扩展和可互操作神经递质传感的微电极稳定碳涂层**](https://www.nature.com/articles/s41467-025-58388-z)
   - Y. Qi, D. Jang, J. Ryu, **T. Bai**, Y. Shin, W. Gu, A. Iyer, G. Li, H. Ma, J. Liou, et al.
   - **摘要**: 采用独特的碳涂层方法实现高性能伏安法，能够在体内实现亚秒级多巴胺检测，并具有极佳的可扩展性。
 
-- `2025` *Nature Electronics* | [**基于柔性电子确定性卷曲的单片三维神经探针**](https://www.nature.com/articles/s41928-025-01431-0)
+- `2025` *自然 电子* | [**基于柔性电子确定性卷曲的单片三维神经探针**](https://www.nature.com/articles/s41928-025-01431-0)
   - Y. Qiang, W. Gu, D. Jang, Y. Shin, D. Shi, K. J. Seo, G. Li, S. Vinnikova, S. Wu, **T. Bai**, et al.
-  - **摘要**: 引入了“柔性电子卷曲 (rolling-of-soft-electronics)”方法，将平面器件转化为 3D 探针，实现了动作电位活动的高密度 3D 时空标测。
+  - **摘要**: 引入了“柔性电子卷曲”法，将平面器件转化为 3D 探针，实现了动作电位活动的高密度 3D 时空标测。
 
-- `2025` *Annual Review of Biomedical Engineering* | [**植入式微型传感器与致动器转化过程中的经验教训与未来挑战**](https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-110122-121128)
+- `2025` *生物医学工程年度评论* | [**植入式微型传感器与致动器转化过程中的经验教训与未来挑战**](https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-110122-121128)
   - J. Y. Park, N. Barrera, **T. Bai**, E. Meng, H. Fang, H. Lee.
   - **摘要**: 一项全面的综述，深入分析了学术研究原型与面向市场的临床产品之间的监管先决条件与设计差异。
 
-- `2024` *npj Flexible Electronics* | [**基于超薄聚合物小芯片的柔性电子-光子 3D 集成**](https://www.nature.com/articles/s41528-024-00344-w)
+- `2024` *npj柔性电子* | [**基于超薄聚合物小芯片的柔性电子-光子 3D 集成**](https://www.nature.com/articles/s41528-024-00344-w)
   - Y. Huang, G. Li, **T. Bai**, Y. Shin, X. Wang, A. More, P. Boucher, et al.
   - **摘要**: 详细介绍了用于聚合物基电路稳健 3D 集成的 CHIP 工艺，将高密度微电极与光遗传学刺激用的微型 LED 完美结合。
 
-- `2024` *Advanced Materials* | [**多功能纳米网格实现细胞级分辨率的弹性神经电子器件**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202403141)
+- `2024` *先进材料* | [**多功能纳米网格实现细胞级分辨率的弹性神经电子器件**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202403141)
   - J. Ryu, Y. Qiang, L. Chen, G. Li, X. Han, E. Woon, **T. Bai**, Y. Qi, S. Zhang, J. Liou, et al.
-  - **摘要**: 提出了一种新型纳米网格（Nanomesh）方法，在 PDMS 硅胶上实现了可靠的弹性微电极，为单细胞记录提供了前所未有的超高分辨率。
+  - **摘要**: 提出了一种新型纳米网格方法，在 PDMS 硅胶上实现了可靠的弹性微电极，为单细胞记录提供了前所未有的超高分辨率。
 
-- `2024` *Biosensors and Bioelectronics* | [**基于恒电位沉积的阵列级均匀 PEDOT:PSS 电镀**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
+- `2024` *生物传感器与生物电子学* | [**基于恒电位沉积的阵列级均匀 PEDOT:PSS 电镀**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
   - Y. Shin, J. Ryu, **T. Bai**, Y. Qiang, Y. Qi, G. Li, Y. Huang, K. J. Seo, H. Fang.
   - **摘要**: 建立了一种恒电位沉积方法，在大型微电极阵列上实现了 PEDOT:PSS 的高度均匀涂层，具备极高的良率和稳定性。
 
@@ -110,7 +110,7 @@
   - **Tianyu Bai**. | *专利号: 201621157629.8*
   - **摘要**: 一种智能控制系统，采用多传感器阵列（超声波和振动探头），准确判断用户运动状态并实时调整跑步机电机速度。
 
-- `2014` [**连接导线的超低电阻接头**](https://patents.google.com/)
+- `2014` [**一种用于连接导线的超低电阻接头**](https://patents.google.com/)
   - **Tianyu Bai**. | *专利号: 201420557893.5*
   - **摘要**: 开发了一种超导线槽设计，通过优化重叠面积，实现微欧姆 (μΩ) 甚至纳欧姆 (nΩ) 级别的超低接头电阻。
 
@@ -118,12 +118,12 @@
 
 ## 📢 近期报告
 
-- **MRS Spring 2026** <img src="https://img.shields.io/badge/夏威夷-4月28日-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
+- **2026材料研究学会** <img src="https://img.shields.io/badge/美国夏威夷-4月28日-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
   <img src="https://img.shields.io/badge/状态-敬请期待-orange?style=flat-square" align="center" />
   
 ---
 
-### 📊 科研数据面板 (数据来源: 谷歌学术)
+### 📊 科研数据可视化面板 (数据来源: 谷歌学术)
 
 </div>
 
@@ -138,7 +138,7 @@
           <circle class="fg-ring citation-color" cx="50" cy="50" r="45"></circle>
         </svg>
         <div class="inner-content">
-          <div class="label"><span class="lang-en">CITATIONS</span><span class="lang-zh">总引用量</span></div>
+          <div class="label"><span class="lang-en">CITATIONS</span><span class="lang-zh">文章引用量</span></div>
           <div class="number count-up">0</div> 
           <div class="sub"><span class="lang-en">Feb 2026</span><span class="lang-zh">2026年2月</span></div>
         </div>
@@ -168,7 +168,7 @@
         <div class="inner-content">
           <div class="label"><span class="lang-en">PATENTS</span><span class="lang-zh">专利成果</span></div>
           <div class="number count-up">0</div>
-          <div class="sub"><span class="lang-en">Granted</span><span class="lang-zh">已获授权</span></div>
+          <div class="sub"><span class="lang-en">Granted</span><span class="lang-zh">已授权</span></div>
         </div>
       </div>
     </div>
