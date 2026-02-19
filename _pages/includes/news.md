@@ -1,3 +1,5 @@
+<div id="-news">
+
 <div class="lang-en" markdown="1">
 
 # 🔥 News
@@ -147,5 +149,7 @@
   </div>
   
 ---
+
+</div>
 
 </div>
