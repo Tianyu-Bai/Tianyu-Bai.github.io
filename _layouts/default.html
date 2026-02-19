@@ -53,44 +53,91 @@ layout: compress
       }
 
       /* =========================================
-         新增：语言切换按钮样式与逻辑
+         新增：E-Link 风格全屏遮罩语言弹窗
          ========================================= */
-      /* 悬浮切换按钮 - 保持与毛玻璃一致的风格 */
-      .lang-toggle-btn {
+      
+      /* 1. 右下角悬浮触发按钮 */
+      .lang-trigger-btn {
         position: fixed;
-        top: 20px;     /* 将 bottom 改成了 top，放置在顶部 */
-        right: 20px;   /* 距离右侧的边距 */
-        z-index: 9999; /* 调高层级，防止被顶部的 masthead 导航栏遮挡 */
-        background: rgba(255, 255, 255, 0.8);
+        bottom: 30px;
+        right: 30px;
+        z-index: 9999;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: rgba(30, 41, 59, 0.85); /* 科技深色 */
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.9);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-        padding: 8px 16px;
-        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
         cursor: pointer;
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-        color: #334155;
-        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
-      .lang-toggle-btn:hover {
+      .lang-trigger-btn:hover {
         transform: translateY(-2px) scale(1.05);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4); /* 蓝色呼吸光晕 */
+        border-color: rgba(59, 130, 246, 0.6);
       }
-      
-      /* 移动端适配：屏幕较小时稍微调整按钮位置，防止挡住内容 */
       @media (max-width: 768px) {
-        .lang-toggle-btn {
-          top: 15px;
-          right: 15px;
-          padding: 6px 12px;
-          font-size: 12px;
-        }
+        .lang-trigger-btn { bottom: 20px; right: 20px; width: 45px; height: 45px; font-size: 18px; }
       }
 
-/* =========================================
+      /* 2. 防穿透全屏遮罩 */
+      .welcome-modal {
+        position: fixed; inset: 0; 
+        background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        z-index: 100001; display: flex; justify-content: center; align-items: center;
+        opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s;
+        padding: 20px;
+      }
+      .welcome-modal.show { opacity: 1; visibility: visible; }
+      body.modal-active { overflow: hidden !important; } /* 锁死背景滚动 */
+
+      /* 3. 弹窗主体卡片 */
+      .modal-content {
+        background: rgba(30, 41, 59, 0.85); border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        padding: 40px 30px; border-radius: 20px; width: 90%; max-width: 380px; text-align: center;
+        margin: auto; transform: scale(0.95); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      .welcome-modal.show .modal-content { transform: scale(1); }
+
+      /* 4. 排版与滑动开关 (Slider) */
+      .modal-title { font-size: 1.4rem; margin-bottom: 30px; color: #fff; font-weight: 600; font-family: 'Inter', sans-serif;}
+      
+      .lang-row { display: flex; align-items: center; gap: 15px; justify-content: center; font-size: 1rem; color: #cbd5e1; font-family: 'JetBrains Mono', monospace; margin-bottom: 35px; }
+      .lang-row span { transition: color 0.3s; }
+      
+      .switch { position: relative; display: inline-block; width: 50px; height: 26px; }
+      .switch input { opacity: 0; width: 0; height: 0; }
+      .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #475569; transition: .4s; border-radius: 30px; }
+      .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+      
+      input:checked + .slider { background-color: #3b82f6; } /* E-Link 主题蓝 */
+      input:focus + .slider { box-shadow: 0 0 8px rgba(59, 130, 246, 0.8); }
+      input:checked + .slider:before { transform: translateX(24px); }
+
+      /* 开关两侧文字的高亮状态 */
+      body:not(.zh-mode) .text-en { color: #fff; font-weight: bold; }
+      body:not(.zh-mode) .text-zh { color: #94a3b8; }
+      body.zh-mode .text-zh { color: #fff; font-weight: bold; }
+      body.zh-mode .text-en { color: #94a3b8; }
+
+      /* 5. 底部按钮 */
+      .btn-primary { 
+        padding: 12px 30px; border-radius: 10px; font-weight: 600; transition: all 0.2s; 
+        border: none; font-family: inherit; background: #3b82f6; color: white; 
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); cursor: pointer; font-size: 1rem;
+      }
+      .btn-primary:hover { background: #2563eb; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6); }
+
+      /* =========================================
          语言显示/隐藏逻辑 (终极防杂糅版)
          ========================================= */
 
@@ -149,38 +196,72 @@ layout: compress
       </article>
     </div>
 
-    <button class="lang-toggle-btn" id="lang-toggle" aria-label="Toggle Language">
-      EN / 中文
-    </button>
+    <button class="lang-trigger-btn" id="lang-trigger" aria-label="Settings">🌐</button>
+
+    <div id="welcome-modal" class="welcome-modal">
+      <div class="modal-content">
+        <div class="modal-title">
+          <span class="lang-en">⚙️ Preferences</span>
+          <span class="lang-zh">⚙️ 偏好设置</span>
+        </div>
+        <div class="lang-row">
+          <span class="text-en">English</span>
+          <label class="switch">
+            <input type="checkbox" id="modal-lang-toggle-checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span class="text-zh">简体中文</span>
+        </div>
+        <button id="modal-close-btn" class="btn-primary">
+          <span class="lang-en">Done</span>
+          <span class="lang-zh">完成</span>
+        </button>
+      </div>
+    </div>
 
     {% include scripts.html %}
 
     <script>
       document.addEventListener("DOMContentLoaded", function() {
-        const toggleBtn = document.getElementById("lang-toggle");
         const body = document.body;
-        
-        // 1. 检查本地存储中是否有语言偏好
+        const trigger = document.getElementById("lang-trigger");
+        const modal = document.getElementById("welcome-modal");
+        const closeBtn = document.getElementById("modal-close-btn");
+        const langCheckbox = document.getElementById("modal-lang-toggle-checkbox");
+
+        // 1. 初始化：读取本地语言偏好 (含浏览器中文自动识别)
         const savedLang = localStorage.getItem("preferred-language");
-        
-        // 2. 如果之前存过 'zh'，或者是中文浏览器的初次访问，则默认切到中文
         if (savedLang === "zh" || (!savedLang && navigator.language.includes('zh'))) {
           body.classList.add("zh-mode");
-          toggleBtn.innerText = "中文 / EN";
+          langCheckbox.checked = true; // 滑块拨到中文
         } else {
-          toggleBtn.innerText = "EN / 中文";
+          langCheckbox.checked = false; // 滑块留在英文
         }
 
-        // 3. 点击按钮切换逻辑
-        toggleBtn.addEventListener("click", function() {
-          body.classList.toggle("zh-mode");
-          
-          if (body.classList.contains("zh-mode")) {
+        // 2. 打开弹窗：并锁定背景滚动
+        trigger.addEventListener("click", function() {
+          modal.classList.add("show");
+          body.classList.add("modal-active"); 
+        });
+
+        // 3. 关闭弹窗：点击“完成”或点击遮罩外部
+        function closeModal() {
+          modal.classList.remove("show");
+          body.classList.remove("modal-active");
+        }
+        closeBtn.addEventListener("click", closeModal);
+        modal.addEventListener("click", function(e) {
+          if (e.target === modal) { closeModal(); }
+        });
+
+        // 4. 滑块切换逻辑：实时改变全站语言
+        langCheckbox.addEventListener("change", function() {
+          if (this.checked) {
+            body.classList.add("zh-mode");
             localStorage.setItem("preferred-language", "zh");
-            toggleBtn.innerText = "中文 / EN";
           } else {
+            body.classList.remove("zh-mode");
             localStorage.setItem("preferred-language", "en");
-            toggleBtn.innerText = "EN / 中文";
           }
         });
       });
