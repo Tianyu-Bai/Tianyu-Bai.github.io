@@ -177,30 +177,33 @@
 </div>
 
 <style>
-/* --- 样式定义 --- */
+/* --- 样式定义 (已优化手机端并排显示) --- */
 .scholar-dynamic-dashboard {
   font-family: 'Inter', -apple-system, sans-serif;
   margin: 3rem auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 24px;
+  /* 强制在任何屏幕下都平分为 3 列 */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   justify-items: center;
+  align-items: stretch;
 }
 
-/* 卡片样式：适配你的白色磨砂玻璃背景 */
 .metric-card {
   position: relative;
-  width: 160px;
-  padding: 20px 10px;
+  /* 取消固定宽度，改为自适应百分比 */
+  width: 100%;
+  max-width: 200px;
+  padding: 24px 10px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.4); /* 比背景更通透 */
+  background: rgba(255, 255, 255, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* 极淡的投影 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,50 +218,69 @@
 
 .chart-box {
   position: relative;
+  /* 使用 vw 配合像素，让圆环大小随屏幕缩放 */
   width: 110px;
   height: 110px;
+  max-width: 100%;
+}
+
+/* 🌟 手机端专项微调：防止卡片太挤 */
+@media (max-width: 600px) {
+  .metrics-grid {
+    gap: 8px; /* 缩小间距 */
+  }
+  .metric-card {
+    padding: 15px 5px; /* 减小内边距 */
+  }
+  .chart-box {
+    width: 80px; /* 缩小圆环尺寸 */
+    height: 80px;
+  }
+  .number {
+    font-size: 22px !important; /* 缩小数字 */
+  }
+  .label {
+    font-size: 8px !important; /* 缩小标签 */
+    letter-spacing: 0.5px;
+  }
 }
 
 svg {
   width: 100%;
   height: 100%;
-  transform: rotate(-90deg); /* 让进度条从顶部开始 */
+  transform: rotate(-90deg);
 }
 
 circle {
   fill: none;
   stroke-width: 7;
-  stroke-linecap: round; /* 圆头 */
+  stroke-linecap: round;
 }
 
-/* 轨道背景：浅灰色 */
 .bg-ring {
   stroke: #e2e8f0; 
   opacity: 0.8;
 }
 
-/* 进度条前景：初始状态隐藏 */
 .fg-ring {
-  stroke-dasharray: 283; /* 2 * PI * 45 */
-  stroke-dashoffset: 283; /* 初始偏移量等于周长（即空） */
-  transition: stroke-dashoffset 1.5s cubic-bezier(0.25, 1, 0.5, 1); /* 缓动动画 */
+  stroke-dasharray: 283;
+  stroke-dashoffset: 283;
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-/* 颜色配置 & 投影 */
 .citation-color { 
-  stroke: #3b82f6; /* 科研蓝 */
+  stroke: #3b82f6; 
   filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.5));
 }
 .hindex-color { 
-  stroke: #10b981; /* 生机绿 */
+  stroke: #10b981; 
   filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.5));
 }
 .patent-color { 
-  stroke: #8b5cf6; /* 创新紫 */
+  stroke: #8b5cf6; 
   filter: drop-shadow(0 0 3px rgba(139, 92, 246, 0.5));
 }
 
-/* 内部文字布局 */
 .inner-content {
   position: absolute;
   top: 50%;
@@ -279,7 +301,7 @@ circle {
 
 .number {
   font-family: 'Inter', sans-serif;
-  font-size: 32px; /* 数字加大 */
+  font-size: 32px;
   font-weight: 700;
   color: #1e293b;
   line-height: 1;
