@@ -1,3 +1,5 @@
+<div id="about-me">
+
 <div class="lang-en" markdown="1">
 # 👋 Hi, I'm Tianyu Bai 
 </div>
@@ -204,11 +206,11 @@
 
 <div class="lang-zh" markdown="1">
 
-### 📫 联系我
+### 📫 与我联系
 * 🌐 **个人网站:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **领英:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **邮箱:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
 
 </div>
 
----
+</div>
