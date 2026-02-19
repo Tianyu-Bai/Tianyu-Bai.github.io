@@ -105,7 +105,7 @@
   </div>
   <div style="flex: 1 1 300px; min-width: 280px;">
     <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
-      专注于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建桥梁。
+      专注于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。在微电子学与神经科学之间搭建桥梁。
     </p>
     <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
       设计 ➔ 制造 ➔ 验证
