@@ -69,19 +69,19 @@
 
 - `2025` *ACS化学神经科学* | [**用于快速扫描循环伏安法的薄膜参比电极**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
   - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
-  - **摘要**: 评估了 Pt-Ir 薄膜电极作为传统 Ag/AgCl 的稳定微型化替代方案，用于临床前应用中可靠的神经递质检测。
+  - **摘要**: 评估了铂铱薄膜电极作为传统银/氯化银的稳定微型化替代方案，用于临床前应用中可靠的神经递质检测。
 
-- `2025` *自然 通讯* | [**用于可扩展和可互操作神经递质传感的微电极稳定碳涂层**](https://www.nature.com/articles/s41467-025-58388-z)
+- `2025` *自然-通讯* | [**用于可扩展和可互操作神经递质传感的微电极稳定碳涂层**](https://www.nature.com/articles/s41467-025-58388-z)
   - Y. Qi, D. Jang, J. Ryu, **T. Bai**, Y. Shin, W. Gu, A. Iyer, G. Li, H. Ma, J. Liou, et al.
   - **摘要**: 采用独特的碳涂层方法实现高性能伏安法，能够在体内实现亚秒级多巴胺检测，并具有极佳的可扩展性。
 
-- `2025` *自然 电子* | [**基于柔性电子确定性卷曲的单片三维神经探针**](https://www.nature.com/articles/s41928-025-01431-0)
+- `2025` *自然-电子* | [**基于柔性电子确定性卷曲的单片三维神经探针**](https://www.nature.com/articles/s41928-025-01431-0)
   - Y. Qiang, W. Gu, D. Jang, Y. Shin, D. Shi, K. J. Seo, G. Li, S. Vinnikova, S. Wu, **T. Bai**, et al.
-  - **摘要**: 引入了“柔性电子卷曲”法，将平面器件转化为 3D 探针，实现了动作电位活动的高密度 3D 时空标测。
+  - **摘要**: 提出了“柔性电子卷曲”法，将平面器件转化为 3D 探针，实现了动作电位活动的高密度三维时空标测。
 
 - `2025` *生物医学工程年度评论* | [**植入式微型传感器与致动器转化过程中的经验教训与未来挑战**](https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-110122-121128)
   - J. Y. Park, N. Barrera, **T. Bai**, E. Meng, H. Fang, H. Lee.
-  - **摘要**: 一项全面的综述，深入分析了学术研究原型与面向市场的临床产品之间的监管先决条件与设计差异。
+  - **摘要**: 深入分析了学术研究原型与面向市场的临床产品之间的监管先决条件与设计差异的综述。
 
 - `2024` *npj柔性电子* | [**基于超薄聚合物小芯片的柔性电子-光子 3D 集成**](https://www.nature.com/articles/s41528-024-00344-w)
   - Y. Huang, G. Li, **T. Bai**, Y. Shin, X. Wang, A. More, P. Boucher, et al.
