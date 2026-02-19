@@ -79,7 +79,7 @@
 # 🔥 最新动态
 
 - *2026.01*: 🎉 摘要被 **[2026 MRS 春季会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** 接收为 **口头报告 (Oral Presentation)**！我将于今年 4 月前往夏威夷，在 **SB01.05 分会场** (神经接口) 展示我们的研究成果。 
-- *2026.01*: 🚀 发布 **[E-Link(256)](https://e-link.pages.dev/)** 开源项目：一款超紧凑、免焊接的 256 通道高密度神经接口连接器。
+- *2026.01*: 🚀 发布 **[E-Link(256)](https://e-link.pages.dev/)** 开源项目：一款 256 通道高密度神经接口小型连接器。
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
     <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
       <img src="/images/Mini Pedestal.PNG" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
@@ -91,7 +91,7 @@
     </div>
   </div>
   
-- *2025.10*: 💡 参加达特茅斯 Magnuson 创业中心的 **[创业周末 (Startup Weekend)](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** 活动。
+- *2025.10*: 💡 参加达特茅斯 Magnuson 创业中心的 **[创业周 (Startup Weekend)](https://www.linkedin.com/posts/tianyubai_startupweekend-magnusoncenter-pitch-activity-7386096029953212416-3upX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWlM5ABI4NY3hLlgpHJZdqC1NVpRn7U9aA)** 活动。
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 360px; text-align: center;">
       <img src="/images/pitch.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
@@ -118,7 +118,7 @@
     </div>
   </div>
   
-- *2023.06*: 🔬 成功微纳加工了一批 **多模态神经探针**。
+- *2023.06*: 🔬 成功微纳加工了一批 **可同时检测电信号与神经递质信号的多模态神经探针**。
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
     <div style="flex: 1; min-width: 160px; max-width: 220px; text-align: center;">
       <img src="/images/Gold_Patterning.jpg" style="width: 100%; border-radius: 8px; border: 1px solid #eee;">
