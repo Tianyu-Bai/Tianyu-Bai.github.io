@@ -5,15 +5,33 @@
 # 👋 你好，我是白天宇 
 </div>
 
+<div class="lang-en" markdown="1">
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
+</div>
 
+<div class="lang-zh" markdown="1">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+构建高密度神经接口;+精通软硬结合电路板设计;+深耕脑机探针创新" />
+</p>
+</div>
+
+<div class="lang-en" markdown="1">
 <p align="center">
   <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
   <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
 </p>
+</div>
+
+<div class="lang-zh" markdown="1">
+<p align="center">
+  <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/达特茅斯-博士创新研究员-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/领英-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+  <img src="https://img.shields.io/badge/求职中-硬件研发实习-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
+</p>
+</div>
 
 ---
 
@@ -53,7 +71,7 @@
   </div>
   <div style="flex: 1 1 300px; min-width: 280px;">
     <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
-      致力于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。我在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建创新桥梁。
+      专注于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建桥梁。
     </p>
     <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
       设计 ➔ 制造 ➔ 验证
