@@ -1,16 +1,16 @@
 # main links configuration
 main:
-  - title: '<span style="color: #059669;">About Me</span>'       # 翡翠绿 (Emerald) - 稳重且有生机
+  - title: '<span style="color: #059669;"><span class="lang-en">About Me</span><span class="lang-zh">关于我</span></span>'       # 翡翠绿 (Emerald) - 稳重且有生机
     url: "/#about-me"
 
-  - title: '<span style="color: #d97706;">News</span>'           # 琥珀金 (Amber) - 替代刺眼的黄色，清晰可见
+  - title: '<span style="color: #d97706;"><span class="lang-en">News</span><span class="lang-zh">最新动态</span></span>'           # 琥珀金 (Amber) - 替代刺眼的黄色，清晰可见
     url: "/#-news"
 
-  - title: '<span style="color: #2563eb;">Publications</span>'   # 皇家蓝 (Royal Blue) - 经典的学术蓝
+  - title: '<span style="color: #2563eb;"><span class="lang-en">Publications</span><span class="lang-zh">学术发表</span></span>'     # 皇家蓝 (Royal Blue) - 经典的学术蓝
     url: "/#-publications"
 
-  - title: '<span style="color: #9333ea;">Honors & Awards</span>' # 葡萄紫 (Purple) - 修正了太淡的问题，显得高贵
+  - title: '<span style="color: #9333ea;"><span class="lang-en">Honors & Awards</span><span class="lang-zh">荣誉奖项</span></span>'  # 葡萄紫 (Purple) - 修正了太淡的问题，显得高贵
     url: "/#-honors-and-awards"
 
-  - title: '<span style="color: #0891b2;">Education</span>'     # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
+  - title: '<span style="color: #0891b2;"><span class="lang-en">Education</span><span class="lang-zh">教育背景</span></span>'        # 青蓝色 (Cyan) - 清爽，与 Publications 的深蓝形成层次
     url: "/#education"
