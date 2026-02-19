@@ -1,3 +1,4 @@
+<div class="lang-en" markdown="1">
 
 # 📚 Publications
 
@@ -27,7 +28,7 @@
 
 - `2024` *Biosensors and Bioelectronics* | [**Array-wide uniform PEDOT:PSS electroplating from potentiostatic deposition**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
   - Y. Shin, J. Ryu, **T. Bai**, Y. Qiang, Y. Qi, G. Li, Y. Huang, K. J. Seo, H. Fang.
-  - **Summary**: Establishes a potentiostatic method to achieve a ly uniform coating of PEDOT:PSS on large-scale microelectrode arrays with  yield and stability.
+  - **Summary**: Establishes a potentiostatic method to achieve a highly uniform coating of PEDOT:PSS on large-scale microelectrode arrays with high yield and stability.
 
 - `2017` *The 29th Chinese Control And Decision Conference (CCDC)* | [**A control method to prevent falling from a treadmill based on STM32 microcontroller and ultrasonic transducer**](https://ieeexplore.ieee.org/abstract/document/7979386)
   - **T. Bai**.
@@ -46,9 +47,10 @@
 
 - `2014` [**Ultra low resistance joint for connecting wires**](https://patents.google.com/)
   - **Tianyu Bai**. | *Patent ID: 201420557893.5*
-  - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm ($\mu\Omega$) or even nano-ohm ($n\Omega$) level through optimized overlapping area.
+  - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm (μΩ) or even nano-ohm (nΩ) level through optimized overlapping area.
 
 ---
+
 ## 📢 Upcoming Talks
 
 - **MRS Spring 2026** <img src="https://img.shields.io/badge/Honolulu-April_28-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
@@ -56,7 +58,75 @@
   
 ---
 
-### 📊 Research Analytics Dashboard (Source:Google Scholar)
+### 📊 Research Analytics Dashboard (Source: Google Scholar)
+
+</div>
+
+
+<div class="lang-zh" markdown="1">
+
+# 📚 学术发表
+
+- `2025` *ACS Chemical Neuroscience* | [**用于快速扫描循环伏安法的薄膜参比电极**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
+  - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
+  - **摘要**: 评估了 Pt-Ir 薄膜电极作为传统 Ag/AgCl 的稳定微型化替代方案，用于临床前应用中可靠的神经递质检测。
+
+- `2025` *Nature Communications* | [**用于可扩展和可互操作神经递质传感的微电极稳定碳涂层**](https://www.nature.com/articles/s41467-025-58388-z)
+  - Y. Qi, D. Jang, J. Ryu, **T. Bai**, Y. Shin, W. Gu, A. Iyer, G. Li, H. Ma, J. Liou, et al.
+  - **摘要**: 采用独特的碳涂层方法实现高性能伏安法，能够在体内实现亚秒级多巴胺检测，并具有极佳的可扩展性。
+
+- `2025` *Nature Electronics* | [**基于柔性电子确定性卷曲的单片三维神经探针**](https://www.nature.com/articles/s41928-025-01431-0)
+  - Y. Qiang, W. Gu, D. Jang, Y. Shin, D. Shi, K. J. Seo, G. Li, S. Vinnikova, S. Wu, **T. Bai**, et al.
+  - **摘要**: 引入了“柔性电子卷曲 (rolling-of-soft-electronics)”方法，将平面器件转化为 3D 探针，实现了动作电位活动的高密度 3D 时空标测。
+
+- `2025` *Annual Review of Biomedical Engineering* | [**植入式微型传感器与致动器转化过程中的经验教训与未来挑战**](https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-110122-121128)
+  - J. Y. Park, N. Barrera, **T. Bai**, E. Meng, H. Fang, H. Lee.
+  - **摘要**: 一项全面的综述，深入分析了学术研究原型与面向市场的临床产品之间的监管先决条件与设计差异。
+
+- `2024` *npj Flexible Electronics* | [**基于超薄聚合物小芯片的柔性电子-光子 3D 集成**](https://www.nature.com/articles/s41528-024-00344-w)
+  - Y. Huang, G. Li, **T. Bai**, Y. Shin, X. Wang, A. More, P. Boucher, et al.
+  - **摘要**: 详细介绍了用于聚合物基电路稳健 3D 集成的 CHIP 工艺，将高密度微电极与光遗传学刺激用的微型 LED 完美结合。
+
+- `2024` *Advanced Materials* | [**多功能纳米网格实现细胞级分辨率的弹性神经电子器件**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202403141)
+  - J. Ryu, Y. Qiang, L. Chen, G. Li, X. Han, E. Woon, **T. Bai**, Y. Qi, S. Zhang, J. Liou, et al.
+  - **摘要**: 提出了一种新型纳米网格（Nanomesh）方法，在 PDMS 硅胶上实现了可靠的弹性微电极，为单细胞记录提供了前所未有的超高分辨率。
+
+- `2024` *Biosensors and Bioelectronics* | [**基于恒电位沉积的阵列级均匀 PEDOT:PSS 电镀**](https://www.sciencedirect.com/science/article/pii/S0956566324004238)
+  - Y. Shin, J. Ryu, **T. Bai**, Y. Qiang, Y. Qi, G. Li, Y. Huang, K. J. Seo, H. Fang.
+  - **摘要**: 建立了一种恒电位沉积方法，在大型微电极阵列上实现了 PEDOT:PSS 的高度均匀涂层，具备极高的良率和稳定性。
+
+- `2017` *第29届中国控制与决策会议 (CCDC)* | [**基于 STM32 微控制器和超声波传感器的跑步机防跌落控制方法**](https://ieeexplore.ieee.org/abstract/document/7979386)
+  - **T. Bai**.
+  - **摘要**: 实现了一种基于 STM32 微控制器和超声波传感器的智能电子控制方法，通过步态检测实时调整电机速度以防止人员跌落。
+
+---
+
+## 📜 专利
+
+- `2017` [**跑步机防跌落装置**](https://patents.google.com/)
+  - **Tianyu Bai**. | *专利号: 106334286A*
+
+- `2016` [**检测跑步设备防跌落的电子控制装置**](https://patents.google.com/)
+  - **Tianyu Bai**. | *专利号: 201621157629.8*
+  - **摘要**: 一种智能控制系统，采用多传感器阵列（超声波和振动探头），准确判断用户运动状态并实时调整跑步机电机速度。
+
+- `2014` [**连接导线的超低电阻接头**](https://patents.google.com/)
+  - **Tianyu Bai**. | *专利号: 201420557893.5*
+  - **摘要**: 开发了一种超导线槽设计，通过优化重叠面积，实现微欧姆 (μΩ) 甚至纳欧姆 (nΩ) 级别的超低接头电阻。
+
+---
+
+## 📢 近期报告
+
+- **MRS Spring 2026** <img src="https://img.shields.io/badge/夏威夷-4月28日-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
+  <img src="https://img.shields.io/badge/状态-敬请期待-orange?style=flat-square" align="center" />
+  
+---
+
+### 📊 科研数据面板 (数据来源: 谷歌学术)
+
+</div>
+
 
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
@@ -68,9 +138,9 @@
           <circle class="fg-ring citation-color" cx="50" cy="50" r="45"></circle>
         </svg>
         <div class="inner-content">
-          <div class="label">CITATIONS</div>
+          <div class="label"><span class="lang-en">CITATIONS</span><span class="lang-zh">总引用量</span></div>
           <div class="number count-up">0</div> 
-          <div class="sub">Feb 2026</div>
+          <div class="sub"><span class="lang-en">Feb 2026</span><span class="lang-zh">2026年2月</span></div>
         </div>
       </div>
     </div>
@@ -82,9 +152,9 @@
           <circle class="fg-ring hindex-color" cx="50" cy="50" r="45"></circle>
         </svg>
         <div class="inner-content">
-          <div class="label">H-INDEX</div>
+          <div class="label"><span class="lang-en">H-INDEX</span><span class="lang-zh">H 指数</span></div>
           <div class="number count-up">0</div>
-          <div class="sub">Since 2021</div>
+          <div class="sub"><span class="lang-en">Since 2021</span><span class="lang-zh">2021年至今</span></div>
         </div>
       </div>
     </div>
@@ -96,9 +166,9 @@
           <circle class="fg-ring patent-color" cx="50" cy="50" r="45"></circle>
         </svg>
         <div class="inner-content">
-          <div class="label">PATENTS</div>
+          <div class="label"><span class="lang-en">PATENTS</span><span class="lang-zh">专利成果</span></div>
           <div class="number count-up">0</div>
-          <div class="sub">Granted</div>
+          <div class="sub"><span class="lang-en">Granted</span><span class="lang-zh">已获授权</span></div>
         </div>
       </div>
     </div>
