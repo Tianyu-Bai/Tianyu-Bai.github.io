@@ -1,3 +1,5 @@
+<div class="lang-en" markdown="1">
+
 # 📖 Education
 {: #education .anchor-target}
 
@@ -20,3 +22,32 @@
 <p align="center" style="opacity: 0.8; font-style: italic;">
   "Translating technical innovation into human impact."
 </p>
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+# 📖 教育背景
+{: #education-zh .anchor-target}
+
+* **2021.07 - 2026.10 (预计)**, **达特茅斯学院 (Dartmouth College)**, 汉诺威, 新罕布什尔州
+  * *博士 (PhD) - 工程科学*
+  * **科研经历**: **MINE 实验室** 研究助理
+  * **导师**: [Hui Fang 教授](https://sites.dartmouth.edu/fang-group/people/)
+  * **荣誉**: 博士创新奖学金 (PhD Innovation Fellowship) 获得者
+
+* **2020.08 - 2021.06**, **东北大学 (Northeastern University)**, 波士顿, 马萨诸塞州
+  * *博士生 - 微系统、材料与器件方向*
+  * **荣誉**: 院长奖学金 (Dean's Fellowship) 获得者
+
+* **2017.08 - 2019.12**, **密苏里大学 (University of Missouri-Columbia)**, 哥伦比亚, 密苏里州
+  * *理学学士 - 电气与电子工程*
+  * **荣誉**: 优等生荣誉 (*Cum Laude*), 连续入选院长优秀学生名单 (Dean's list)
+
+<br>
+
+<p align="center" style="opacity: 0.8; font-style: italic;">
+  "将技术创新转化为造福人类的切实影响。"
+</p>
+
+</div>
