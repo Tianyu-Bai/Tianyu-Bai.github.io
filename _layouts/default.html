@@ -13,7 +13,9 @@ layout: compress
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
-      /* 全局与字体 */
+      /* =========================================
+         基础全局样式
+         ========================================= */
       body {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         background-color: #f8f9fa;
@@ -21,7 +23,7 @@ layout: compress
       }
       code, pre, kbd, samp { font-family: 'JetBrains Mono', monospace; }
 
-      /* 毛玻璃容器 */
+      /* 毛玻璃主容器 */
       .page__inner-wrap {
         background: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(16px);
@@ -42,84 +44,72 @@ layout: compress
         .page__inner-wrap { padding: 24px; border-radius: 12px; margin-top: 10px; }
       }
 
-      /* 载入动画 */
       .fade-in-up {
         animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; 
-        opacity: 0;
-        transform: translateY(20px);
+        opacity: 0; transform: translateY(20px);
       }
-      @keyframes fadeInUp {
-        to { opacity: 1; transform: translateY(0); }
-      }
+      @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
 
       /* =========================================
-         新增：E-Link 风格全屏遮罩语言弹窗
+         E-Link 风格：一加载就弹出的遮罩与开关
          ========================================= */
       
-      /* 1. 右下角悬浮触发按钮 */
+      /* 1. 右下角悬浮触发按钮 (供以后随时呼出) */
       .lang-trigger-btn {
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        z-index: 9999;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: rgba(30, 41, 59, 0.85); /* 科技深色 */
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 22px;
-        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        position: fixed; bottom: 30px; right: 30px; z-index: 9999;
+        width: 50px; height: 50px; border-radius: 50%;
+        background: rgba(30, 41, 59, 0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        cursor: pointer; display: flex; align-items: center; justify-content: center;
+        font-size: 22px; transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
       .lang-trigger-btn:hover {
         transform: translateY(-2px) scale(1.05);
-        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4); /* 蓝色呼吸光晕 */
-        border-color: rgba(59, 130, 246, 0.6);
+        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4); border-color: rgba(59, 130, 246, 0.6);
       }
       @media (max-width: 768px) {
         .lang-trigger-btn { bottom: 20px; right: 20px; width: 45px; height: 45px; font-size: 18px; }
       }
 
-      /* 2. 防穿透全屏遮罩 */
+      /* 2. 防穿透全屏遮罩 (弹窗背景) */
       .welcome-modal {
         position: fixed; inset: 0; 
-        background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);
         z-index: 100001; display: flex; justify-content: center; align-items: center;
         opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s;
         padding: 20px;
       }
       .welcome-modal.show { opacity: 1; visibility: visible; }
-      body.modal-active { overflow: hidden !important; } /* 锁死背景滚动 */
+      body.modal-active { overflow: hidden !important; } 
 
       /* 3. 弹窗主体卡片 */
       .modal-content {
-        background: rgba(30, 41, 59, 0.85); border: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        padding: 40px 30px; border-radius: 20px; width: 90%; max-width: 380px; text-align: center;
+        position: relative; /* 为底部水印提供定位锚点 */
+        background: rgba(30, 41, 59, 0.95); border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+        padding: 40px 30px 60px 30px; /* 底部加高，给水印留出空间 */
+        border-radius: 20px; width: 90%; max-width: 400px; text-align: center;
         margin: auto; transform: scale(0.95); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       }
       .welcome-modal.show .modal-content { transform: scale(1); }
 
-      /* 4. 排版与滑动开关 (Slider) */
-      .modal-title { font-size: 1.4rem; margin-bottom: 30px; color: #fff; font-weight: 600; font-family: 'Inter', sans-serif;}
+      /* 4. 标题、提示文字与版权水印 */
+      .modal-title { font-size: 1.4rem; margin-bottom: 15px; color: #fff; font-weight: 600; font-family: 'Inter', sans-serif;}
+      .modal-hint { font-size: 0.95rem; color: #cbd5e1; margin-bottom: 30px; line-height: 1.6; }
+      .modal-watermark {
+        position: absolute; bottom: 15px; left: 0; width: 100%; text-align: center;
+        font-size: 0.75rem; color: #64748b; font-family: 'JetBrains Mono', monospace; 
+        pointer-events: none; opacity: 0.8; letter-spacing: 0.5px;
+      }
       
+      /* 5. 语言滑动开关 (Slider) */
       .lang-row { display: flex; align-items: center; gap: 15px; justify-content: center; font-size: 1rem; color: #cbd5e1; font-family: 'JetBrains Mono', monospace; margin-bottom: 35px; }
-      .lang-row span { transition: color 0.3s; }
-      
       .switch { position: relative; display: inline-block; width: 50px; height: 26px; }
       .switch input { opacity: 0; width: 0; height: 0; }
       .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #475569; transition: .4s; border-radius: 30px; }
       .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
       
-      input:checked + .slider { background-color: #3b82f6; } /* E-Link 主题蓝 */
+      input:checked + .slider { background-color: #3b82f6; } 
       input:focus + .slider { box-shadow: 0 0 8px rgba(59, 130, 246, 0.8); }
       input:checked + .slider:before { transform: translateX(24px); }
 
@@ -129,50 +119,21 @@ layout: compress
       body.zh-mode .text-zh { color: #fff; font-weight: bold; }
       body.zh-mode .text-en { color: #94a3b8; }
 
-      /* 5. 底部按钮 */
+      /* 6. 底部进入主页按钮 */
       .btn-primary { 
         padding: 12px 30px; border-radius: 10px; font-weight: 600; transition: all 0.2s; 
         border: none; font-family: inherit; background: #3b82f6; color: white; 
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); cursor: pointer; font-size: 1rem;
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); cursor: pointer; font-size: 1rem; width: 100%;
       }
       .btn-primary:hover { background: #2563eb; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6); }
 
       /* =========================================
          语言显示/隐藏逻辑 (终极防杂糅版)
          ========================================= */
-
-      /* 1. 【英文模式/默认】：不留死角地强制隐藏所有中文 */
-      .lang-zh,
-      div.lang-zh,
-      span.lang-zh,
-      p.lang-zh,
-      h1.lang-zh, h2.lang-zh, h3.lang-zh, h4.lang-zh, h5.lang-zh, h6.lang-zh {
-        display: none !important;
-      }
-
-      /* 2. 【中文模式】：不留死角地强制隐藏所有英文 */
-      body.zh-mode .lang-en,
-      body.zh-mode div.lang-en,
-      body.zh-mode span.lang-en,
-      body.zh-mode p.lang-en,
-      body.zh-mode h1.lang-en, body.zh-mode h2.lang-en, body.zh-mode h3.lang-en, body.zh-mode h4.lang-en {
-        display: none !important;
-      }
-
-      /* 3. 【中文模式】：恢复中文的块级元素显示 */
-      body.zh-mode div.lang-zh,
-      body.zh-mode p.lang-zh,
-      body.zh-mode h1.lang-zh, body.zh-mode h2.lang-zh, body.zh-mode h3.lang-zh, body.zh-mode h4.lang-zh {
-        display: block !important;
-      }
-
-      /* 4. 【中文模式】：恢复中文的行内元素显示 */
-      body.zh-mode span.lang-zh,
-      body.zh-mode a.lang-zh,
-      body.zh-mode b.lang-zh,
-      body.zh-mode strong.lang-zh {
-        display: inline !important;
-      }
+      .lang-zh, div.lang-zh, span.lang-zh, p.lang-zh, h1.lang-zh, h2.lang-zh, h3.lang-zh, h4.lang-zh, h5.lang-zh, h6.lang-zh { display: none !important; }
+      body.zh-mode .lang-en, body.zh-mode div.lang-en, body.zh-mode span.lang-en, body.zh-mode p.lang-en, body.zh-mode h1.lang-en, body.zh-mode h2.lang-en, body.zh-mode h3.lang-en, body.zh-mode h4.lang-en { display: none !important; }
+      body.zh-mode div.lang-zh, body.zh-mode p.lang-zh, body.zh-mode h1.lang-zh, body.zh-mode h2.lang-zh, body.zh-mode h3.lang-zh, body.zh-mode h4.lang-zh { display: block !important; }
+      body.zh-mode span.lang-zh, body.zh-mode a.lang-zh, body.zh-mode b.lang-zh, body.zh-mode strong.lang-zh { display: inline !important; }
     </style>
   </head>
 
@@ -200,10 +161,17 @@ layout: compress
 
     <div id="welcome-modal" class="welcome-modal">
       <div class="modal-content">
+        
         <div class="modal-title">
-          <span class="lang-en">⚙️ Preferences</span>
-          <span class="lang-zh">⚙️ 偏好设置</span>
+          <span class="lang-en">✨ Welcome to Tianyu's Homepage!</span>
+          <span class="lang-zh">✨ 欢迎来到我的主页！</span>
         </div>
+        
+        <div class="modal-hint">
+          <span class="lang-en">Please select your preferred language.<br><span style="font-size: 0.8rem; color: #94a3b8;">(You can always change it later via the 🌐 icon)</span></span>
+          <span class="lang-zh">请选择您偏好的浏览语言。<br><span style="font-size: 0.8rem; color: #94a3b8;">(您可以随时通过右下角 🌐 图标更改)</span></span>
+        </div>
+        
         <div class="lang-row">
           <span class="text-en">English</span>
           <label class="switch">
@@ -212,10 +180,16 @@ layout: compress
           </label>
           <span class="text-zh">简体中文</span>
         </div>
+        
         <button id="modal-close-btn" class="btn-primary">
-          <span class="lang-en">Done</span>
-          <span class="lang-zh">完成</span>
+          <span class="lang-en">Enter Site</span>
+          <span class="lang-zh">进入主页</span>
         </button>
+
+        <div class="modal-watermark">
+          © 2026 Tianyu Bai
+        </div>
+
       </div>
     </div>
 
@@ -229,32 +203,47 @@ layout: compress
         const closeBtn = document.getElementById("modal-close-btn");
         const langCheckbox = document.getElementById("modal-lang-toggle-checkbox");
 
-        // 1. 初始化：读取本地语言偏好 (含浏览器中文自动识别)
+        // 1. 读取是否已经访问过并选过语言
         const savedLang = localStorage.getItem("preferred-language");
-        if (savedLang === "zh" || (!savedLang && navigator.language.includes('zh'))) {
-          body.classList.add("zh-mode");
-          langCheckbox.checked = true; // 滑块拨到中文
+
+        // 2. 如果从来没选过 (首次访问)，一加载立马弹窗！
+        if (!savedLang) {
+          // 稍微延迟 100ms 让动画更平滑
+          setTimeout(() => {
+            modal.classList.add("show");
+            body.classList.add("modal-active"); // 锁死底层滚动
+          }, 100);
+
+          // 自动检测浏览器语言
+          if (navigator.language.includes('zh')) {
+            body.classList.add("zh-mode");
+            langCheckbox.checked = true;
+          }
         } else {
-          langCheckbox.checked = false; // 滑块留在英文
+          // 如果以前来过，直接应用语言，不强制弹窗
+          if (savedLang === "zh") {
+            body.classList.add("zh-mode");
+            langCheckbox.checked = true;
+          }
         }
 
-        // 2. 打开弹窗：并锁定背景滚动
+        // 3. 点击地球按钮随时手动呼出弹窗
         trigger.addEventListener("click", function() {
           modal.classList.add("show");
           body.classList.add("modal-active"); 
         });
 
-        // 3. 关闭弹窗：点击“完成”或点击遮罩外部
+        // 4. 关闭弹窗的动作
         function closeModal() {
           modal.classList.remove("show");
-          body.classList.remove("modal-active");
+          body.classList.remove("modal-active"); // 解锁底层网页
         }
         closeBtn.addEventListener("click", closeModal);
         modal.addEventListener("click", function(e) {
           if (e.target === modal) { closeModal(); }
         });
 
-        // 4. 滑块切换逻辑：实时改变全站语言
+        // 5. 滑块拨动的瞬间，网页文字立马随之改变！
         langCheckbox.addEventListener("change", function() {
           if (this.checked) {
             body.classList.add("zh-mode");
