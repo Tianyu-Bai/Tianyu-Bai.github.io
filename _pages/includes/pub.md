@@ -1,3 +1,5 @@
+<div id="-publications">
+
 <div class="lang-en" markdown="1">
 
 # 📚 Publications
@@ -61,7 +63,6 @@
 ### 📊 Research Analytics Dashboard (Source: Google Scholar)
 
 </div>
-
 
 <div class="lang-zh" markdown="1">
 
@@ -127,10 +128,8 @@
 
 </div>
 
-
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
-    
     <div class="metric-card glass-panel" data-percent="88" data-value="54">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
@@ -144,7 +143,6 @@
         </div>
       </div>
     </div>
-
     <div class="metric-card glass-panel" data-percent="100" data-value="5">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
@@ -158,7 +156,6 @@
         </div>
       </div>
     </div>
-
     <div class="metric-card glass-panel" data-percent="100" data-value="3">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
@@ -172,205 +169,64 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
-<style>
-/* --- 样式定义 (已优化手机端并排显示) --- */
-.scholar-dynamic-dashboard {
-  font-family: 'Inter', -apple-system, sans-serif;
-  margin: 3rem auto;
-  width: 100%;
-  max-width: 800px;
-}
-
-.metrics-grid {
-  display: grid;
-  /* 强制在任何屏幕下都平分为 3 列 */
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  justify-items: center;
-  align-items: stretch;
-}
-
-.metric-card {
-  position: relative;
-  /* 取消固定宽度，改为自适应百分比 */
-  width: 100%;
-  max-width: 200px;
-  padding: 24px 10px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease;
-}
-
-.metric-card:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
-
-.chart-box {
-  position: relative;
-  /* 使用 vw 配合像素，让圆环大小随屏幕缩放 */
-  width: 110px;
-  height: 110px;
-  max-width: 100%;
-}
-
-/* 🌟 手机端专项微调：防止卡片太挤 */
+</div> <style>
+/* 保持你现在的 CSS 不变 */
+.scholar-dynamic-dashboard { font-family: 'Inter', sans-serif; margin: 3rem auto; width: 100%; max-width: 800px; }
+.metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; justify-items: center; align-items: stretch; }
+.metric-card { position: relative; width: 100%; max-width: 200px; padding: 24px 10px; border-radius: 20px; background: rgba(255, 255, 255, 0.4); border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); display: flex; justify-content: center; align-items: center; transition: transform 0.3s ease; }
+.chart-box { position: relative; width: 110px; height: 110px; max-width: 100%; }
 @media (max-width: 600px) {
-  .metrics-grid {
-    gap: 8px; /* 缩小间距 */
-  }
-  .metric-card {
-    padding: 15px 5px; /* 减小内边距 */
-  }
-  .chart-box {
-    width: 80px; /* 缩小圆环尺寸 */
-    height: 80px;
-  }
-  .number {
-    font-size: 22px !important; /* 缩小数字 */
-  }
-  .label {
-    font-size: 8px !important; /* 缩小标签 */
-    letter-spacing: 0.5px;
-  }
+  .metrics-grid { gap: 8px; }
+  .metric-card { padding: 15px 5px; }
+  .chart-box { width: 80px; height: 80px; }
+  .number { font-size: 22px !important; }
+  .label { font-size: 8px !important; letter-spacing: 0.5px; }
 }
-
-svg {
-  width: 100%;
-  height: 100%;
-  transform: rotate(-90deg);
-}
-
-circle {
-  fill: none;
-  stroke-width: 7;
-  stroke-linecap: round;
-}
-
-.bg-ring {
-  stroke: #e2e8f0; 
-  opacity: 0.8;
-}
-
-.fg-ring {
-  stroke-dasharray: 283;
-  stroke-dashoffset: 283;
-  transition: stroke-dashoffset 1.5s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-.citation-color { 
-  stroke: #3b82f6; 
-  filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.5));
-}
-.hindex-color { 
-  stroke: #10b981; 
-  filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.5));
-}
-.patent-color { 
-  stroke: #8b5cf6; 
-  filter: drop-shadow(0 0 3px rgba(139, 92, 246, 0.5));
-}
-
-.inner-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-}
-
-.label {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
-  font-weight: 600;
-  color: #64748b;
-  margin-bottom: 4px;
-  letter-spacing: 1px;
-}
-
-.number {
-  font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  color: #1e293b;
-  line-height: 1;
-}
-
-.sub {
-  font-size: 9px;
-  color: #94a3b8;
-  margin-top: 4px;
-}
+svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+circle { fill: none; stroke-width: 7; stroke-linecap: round; }
+.bg-ring { stroke: #e2e8f0; opacity: 0.8; }
+.fg-ring { stroke-dasharray: 283; stroke-dashoffset: 283; transition: stroke-dashoffset 1.5s cubic-bezier(0.25, 1, 0.5, 1); }
+.citation-color { stroke: #3b82f6; filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.5)); }
+.hindex-color { stroke: #10b981; filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.5)); }
+.patent-color { stroke: #8b5cf6; filter: drop-shadow(0 0 3px rgba(139, 92, 246, 0.5)); }
+.inner-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%; }
+.label { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #64748b; margin-bottom: 4px; letter-spacing: 1px; }
+.number { font-family: 'Inter', sans-serif; font-size: 32px; font-weight: 700; color: #1e293b; line-height: 1; }
+.sub { font-size: 9px; color: #94a3b8; margin-top: 4px; }
 </style>
 
 <script>
+/* 保持你现在的 JS 不变 */
 document.addEventListener("DOMContentLoaded", function() {
-  // 配置项
-  const circleRadius = 45;
-  const circumference = 2 * Math.PI * circleRadius; // ≈ 283
-
-  // 1. 滚动监听器 (Intersection Observer)
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        // 当元素进入视口时，触发动画
         animateCard(entry.target);
-        // 触发一次后取消监听（避免反复播放）
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.5 }); // 至少 50% 可见时触发
-
-  // 2. 获取所有卡片并开始监听
+  }, { threshold: 0.5 });
   const cards = document.querySelectorAll('.metric-card');
   cards.forEach(card => observer.observe(card));
-
-  // 3. 核心动画函数
   function animateCard(card) {
     const percent = card.getAttribute('data-percent');
     const targetValue = parseInt(card.getAttribute('data-value'));
-    
-    // --- A. 圆环动画 ---
     const ring = card.querySelector('.fg-ring');
-    // 计算目标偏移量 (100% = 0 offset, 0% = 283 offset)
-    const offset = circumference - (percent / 100) * circumference;
-    // 设置 CSS 变量或直接样式触发 transition
-    ring.style.strokeDashoffset = offset;
-
-    // --- B. 数字滚动动画 ---
+    const circumference = 2 * Math.PI * 45;
+    ring.style.strokeDashoffset = circumference - (percent / 100) * circumference;
     const numberEl = card.querySelector('.number');
-    const duration = 1500; // 动画总时长 1.5秒
-    const frameDuration = 1000 / 60; // 60fps
-    const totalFrames = Math.round(duration / frameDuration);
     let frame = 0;
-
+    const totalFrames = 90;
     const counter = setInterval(() => {
       frame++;
-      // 使用 easeOutExpo 缓动算法，让数字最后变慢停下
       const progress = frame / totalFrames;
-      // 缓动公式: 1 - Math.pow(2, -10 * progress)
-      const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-      
-      const currentVal = Math.round(targetValue * easeProgress);
-      
-      numberEl.textContent = currentVal;
-
-      if (frame >= totalFrames) {
-        clearInterval(counter);
-        numberEl.textContent = targetValue; // 确保最终值准确
-      }
-    }, frameDuration);
+      const easeProgress = 1 - Math.pow(2, -10 * progress);
+      numberEl.textContent = Math.round(targetValue * easeProgress);
+      if (frame >= totalFrames) { clearInterval(counter); numberEl.textContent = targetValue; }
+    }, 16);
   }
 });
 </script>
