@@ -1,8 +1,9 @@
+<div class="lang-en" markdown="1">
 # 👋 Hi, I'm Tianyu Bai 
-{: .lang-en }
-
+</div>
+<div class="lang-zh" markdown="1">
 # 👋 你好，我是 Tianyu Bai 
-{: .lang-zh }
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
@@ -16,54 +17,64 @@
 
 ---
 
-#### ⚙️ Research Vision
-{: .lang-en }
+<div class="lang-en" markdown="1">
 
-#### ⚙️ 研究愿景
-{: .lang-zh }
+#### ⚙️ Research Vision
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; max-width: 200px;">
     <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <p style="margin: 8px 0 0 0; text-align: center;">
-      <sub style="color: gray; font-size: 0.7em;">
-        <span class="lang-en">Photo credit: Mark Washburn</span>
-        <span class="lang-zh">摄影：Mark Washburn</span>
-      </sub>
+      <sub style="color: gray; font-size: 0.7em;">Photo credit: Mark Washburn</sub>
     </p>
   </div>
   <div style="flex: 1 1 300px; min-width: 280px;">
     <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
-      <span class="lang-en">Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.</span>
-      <span class="lang-zh">致力于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。我在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建创新桥梁。</span>
+      Engineering the future of <span style="color: #00693E;">high-bandwidth neural interfaces</span>. I bridge the gap between <b>Microelectronics</b> and <b>Neuroscience</b>.
     </p>
     <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
-      <span class="lang-en">Design ➔ Fabricate ➔ Validate</span>
-      <span class="lang-zh">设计 ➔ 制造 ➔ 验证</span>
+      Design ➔ Fabricate ➔ Validate
     </div>
   </div>
 </div>
 
+</div>
+
+<div class="lang-zh" markdown="1">
+
+#### ⚙️ 研究愿景
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; max-width: 200px;">
+    <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="margin: 8px 0 0 0; text-align: center;">
+      <sub style="color: gray; font-size: 0.7em;">摄影：Mark Washburn</sub>
+    </p>
+  </div>
+  <div style="flex: 1 1 300px; min-width: 280px;">
+    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
+      致力于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。我在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建创新桥梁。
+    </p>
+    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
+      设计 ➔ 制造 ➔ 验证
+    </div>
+  </div>
+</div>
+
+</div>
+
 ---
 
-#### 🛠️ Engineering Core & Projects
-{: .lang-en }
+<div class="lang-en" markdown="1">
 
-#### 🛠️ 核心工程能力与项目
-{: .lang-zh }
+#### 🛠️ Engineering Core & Projects
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1 1 350px; min-width: 280px;">
     <h4 style="margin: 0; line-height: 1.6;">
       <b>🚀 E-Link(256)</b> 
-      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">
-        <span class="lang-en">Click to know more ↗</span>
-        <span class="lang-zh">点击了解更多 ↗</span>
-      </a><br>
-      <span style="font-weight: normal;">
-        <span class="lang-en">Leading the development of a 256-ch high-density connector.</span>
-        <span class="lang-zh">主导研发 256 通道高密度神经接口连接器。</span>
-      </span>
+      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">Click to know more ↗</a><br>
+      <span style="font-weight: normal;">Leading the development of a 256-ch high-density connector.</span>
     </h4>
   </div>
   <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
@@ -73,16 +84,32 @@
 <br>
 
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
-{: .lang-en }
-
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
-{: .lang-en }
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+#### 🛠️ 核心工程能力与项目
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1 1 350px; min-width: 280px;">
+    <h4 style="margin: 0; line-height: 1.6;">
+      <b>🚀 E-Link(256)</b> 
+      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">点击了解更多 ↗</a><br>
+      <span style="font-weight: normal;">主导研发 256 通道高密度神经接口连接器。</span>
+    </h4>
+  </div>
+  <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
+    <img src="/images/Demo.gif" style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+  </div>
+</div>
+<br>
 
 #### ⚡ **高级 PCB 设计**: 软硬结合板 (Rigid-Flex) 与高密度互连 (HDI) 技术专家。
-{: .lang-zh }
-
 #### 🔬 **微系统**: 硬件微型化与系统集成。
-{: .lang-zh }
+
+</div>
 
 ---
 
