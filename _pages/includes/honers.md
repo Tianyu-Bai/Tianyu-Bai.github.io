@@ -1,3 +1,4 @@
+<div class="lang-en" markdown="1">
 
 # 🎖 Honors and Awards
 
@@ -13,3 +14,24 @@
 - *2018 - 2019* **Dean's High List** (5 Consecutive Semesters), College of Engineering, University of Missouri
 - *2019* **Curator's Grant-in-Aid Scholarship**, University of Missouri
 - *2019.07* **Donald B. Atkinson Scholarship**, University of Missouri
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+# 🎖 荣誉与奖项
+
+- *2024.11* **二等奖**, 科技远见者 (VIT) 科研图像大赛, 达特茅斯工程学院
+  *(获奖作品："光遗传神经探针" — 突出神经接口中的精密工程)*
+- *2024.07* **I-Trep 旅行奖学金**, 生物医学创新创业暑期课程, 佛蒙特大学
+- *2022.04* **博士创新奖学金 (PhD Innovation Fellowship)**, 塞耶工程学院, 达特茅斯学院
+- *2020.07* **院长奖学金 (Dean's Fellowship Award)**, 东北大学
+- *2019.12* **工程领域多元与包容卓越追求荣誉**, 密苏里大学
+- *2019.12* **铜质奖章获得者 (Bronze Medallion Cast)**, 本科荣誉典礼, 密苏里大学
+- *2019.10* **Big Ten+ 毕业生博览会旅行奖学金**, 普渡大学
+- *2019.08* **优等生荣誉 (Cum Laude)**, 密苏里大学
+- *2018 - 2019* **院长优秀学生名单 (Dean's High List)** (连续5个学期), 工程学院, 密苏里大学
+- *2019* **策展人助学金 (Curator's Grant-in-Aid Scholarship)**, 密苏里大学
+- *2019.07* **Donald B. Atkinson 奖学金**, 密苏里大学
+
+</div>
