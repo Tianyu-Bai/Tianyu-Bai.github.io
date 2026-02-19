@@ -1,7 +1,8 @@
+<div id="education">
+
 <div class="lang-en" markdown="1">
 
 # 📖 Education
-{: #education .anchor-target}
 
 * **2021.07 - 2026.10 (Expected)**, **Dartmouth College**, Hanover, NH
   * *Doctor of Philosophy - PhD, Engineering Science*
@@ -28,7 +29,6 @@
 <div class="lang-zh" markdown="1">
 
 # 📖 教育背景
-{: #education-zh .anchor-target}
 
 * **2021.07 - 2026.10 (预计)**, **达特茅斯学院 (Dartmouth College)**, 汉诺威, 新罕布什尔州
   * *博士 (PhD) - 工程科学*
@@ -49,5 +49,7 @@
 <p align="center" style="opacity: 0.8; font-style: italic;">
   "致力于将技术创新转化为造福人类。"
 </p>
+
+</div>
 
 </div>
