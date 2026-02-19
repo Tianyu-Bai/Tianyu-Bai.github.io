@@ -2,7 +2,7 @@
 # 👋 Hi, I'm Tianyu Bai 
 </div>
 <div class="lang-zh" markdown="1">
-# 👋 你好，我是 Tianyu Bai 
+# 👋 你好，我是白天宇 
 </div>
 
 <p align="center">
@@ -90,14 +90,14 @@
 
 <div class="lang-zh" markdown="1">
 
-#### 🛠️ 核心工程能力与项目
+#### 🛠️ 核心工程项目
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1 1 350px; min-width: 280px;">
     <h4 style="margin: 0; line-height: 1.6;">
-      <b>🚀 E-Link(256)</b> 
+      <b>🚀 E-Link易链(256)</b> 
       <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">点击了解更多 ↗</a><br>
-      <span style="font-weight: normal;">主导研发 256 通道高密度神经接口连接器。</span>
+      <span style="font-weight: normal;">主导设计研发 256 通道高密度神经接口连接器。</span>
     </h4>
   </div>
   <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
@@ -106,7 +106,7 @@
 </div>
 <br>
 
-#### ⚡ **高级 PCB 设计**: 软硬结合板 (Rigid-Flex) 与高密度互连 (HDI) 技术专家。
+#### ⚡ **高级 PCB 设计**: 软硬结合电路板与高密度多层互连 (HDI) 技术专家。
 #### 🔬 **微系统**: 硬件微型化与系统集成。
 
 </div>
@@ -141,20 +141,20 @@
 
 ### 🧰 专业技能与技术栈
 
-#### ⚡ 硬件与 PCB 设计
-- **高密度集成**: 专注于 **多层板**、**软硬结合板 (Rigid-Flex)** 以及 **HDI** PCB 设计。
-- **高级布线**: 精通 **盲/埋孔 (Blind/Buried Vias)** 技术及高速 **SPI/数字接口** 布线。
+#### ⚡ 硬件与电路板设计
+- **高密度集成**: 专注于 **多层板**、**软硬结合板 (Rigid-Flex)** 以及 **高密度互连电路板** 设计。
+- **高级布线**: 精通 **盲/埋孔** 技术及高速 **SPI/数字接口** 布线。
 - **制造与组装**: 熟练掌握 **SMT 与 THT 贴片组装**，专注于空间受限系统的高可靠性实现。
 
 #### 🔬 微纳制造与原型开发
-- **超净间微加工**: 精通 **光刻 (Photolithography)**、**磁控溅射 (Magnetron Sputtering)** 以及 **热蒸发 (Thermal Evaporation)** 工艺。
-- **微组装**: 熟练掌握用于柔性电子的 **转印技术 (Transfer Printing)**。
-- **快速原型制作**: CNC 数控加工、激光切割以及 3D 打印 (FDM)。
+- **超净间微加工**: 精通 **光刻**、**磁控溅射** 以及 **热蒸镀** 等微纳加工工艺。
+- **微组装**: 熟练掌握用于柔性电子的 **转印技术**。
+- **快速原型制作**: 数控加工、激光切割以及 3D 打印。
 
 #### 🧪 表征与测试
 - **成像分析**: 3D 显微成像，SEM (扫描电子显微镜)。
 - **形貌测量**: 台阶仪 (Profilometer) 与表面形貌分析。
-- **电化学**: 用于神经接口验证的电化学阻抗谱 (EIS) 测试。
+- **电化学**: 用于神经接口验证的电化学阻抗谱测试。
 - **可靠性测试**: 机械应力测试与加速老化实验。
 
 #### 💻 软件与仿真
