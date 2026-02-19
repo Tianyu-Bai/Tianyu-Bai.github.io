@@ -1,9 +1,8 @@
-<div class="lang-en" markdown="1">
 # 👋 Hi, I'm Tianyu Bai 
-</div>
-<div class="lang-zh" markdown="1">
+{: .lang-en }
+
 # 👋 你好，我是 Tianyu Bai 
-</div>
+{: .lang-zh }
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
@@ -17,12 +16,11 @@
 
 ---
 
-<div class="lang-en" markdown="1">
 #### ⚙️ Research Vision
-</div>
-<div class="lang-zh" markdown="1">
+{: .lang-en }
+
 #### ⚙️ 研究愿景
-</div>
+{: .lang-zh }
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; max-width: 200px;">
@@ -48,12 +46,11 @@
 
 ---
 
-<div class="lang-en" markdown="1">
 #### 🛠️ Engineering Core & Projects
-</div>
-<div class="lang-zh" markdown="1">
+{: .lang-en }
+
 #### 🛠️ 核心工程能力与项目
-</div>
+{: .lang-zh }
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
   <div style="flex: 1 1 350px; min-width: 280px;">
@@ -75,19 +72,22 @@
 </div>
 <br>
 
-<div class="lang-en" markdown="1">
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
-#### 🔬 **Microsystems**: Miniaturized hardware implementations.
-</div>
+{: .lang-en }
 
-<div class="lang-zh" markdown="1">
+#### 🔬 **Microsystems**: Miniaturized hardware implementations.
+{: .lang-en }
+
 #### ⚡ **高级 PCB 设计**: 软硬结合板 (Rigid-Flex) 与高密度互连 (HDI) 技术专家。
+{: .lang-zh }
+
 #### 🔬 **微系统**: 硬件微型化与系统集成。
-</div>
+{: .lang-zh }
 
 ---
 
 <div class="lang-en" markdown="1">
+
 ### 🧰 Technical Skills & Tech Stack
 
 #### ⚡ Hardware & PCB Design
@@ -107,9 +107,11 @@
 - **Reliability**: Mechanical stress testing and Accelerated Aging Tests.
 
 #### 💻 Software & Simulation
+
 </div>
 
 <div class="lang-zh" markdown="1">
+
 ### 🧰 专业技能与技术栈
 
 #### ⚡ 硬件与 PCB 设计
@@ -129,6 +131,7 @@
 - **可靠性测试**: 机械应力测试与加速老化实验。
 
 #### 💻 软件与仿真
+
 </div>
 
 <p align="left">
@@ -146,17 +149,21 @@
 ---
 
 <div class="lang-en" markdown="1">
+
 ### 📫 Let's Connect
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **LinkedIn:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **Email:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
+
 </div>
 
 <div class="lang-zh" markdown="1">
+
 ### 📫 联系我
 * 🌐 **个人网站:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
 * 💼 **领英:** [linkedin.com/in/tianyubai](https://www.linkedin.com/in/tianyubai)
 * 📧 **邮箱:** [tianyu.bai.th@dartmouth.edu](mailto:tianyu.bai.th@dartmouth.edu)
+
 </div>
 
 ---
