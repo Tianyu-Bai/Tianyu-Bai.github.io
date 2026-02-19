@@ -2,42 +2,18 @@
 
 <div class="lang-en" markdown="1">
 # 👋 Hi, I'm Tianyu Bai 
-</div>
-<div class="lang-zh" markdown="1">
-# 👋 你好，我是白天宇 
-</div>
 
-<div class="lang-en" markdown="1">
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+Building+High-Density+Neural+Interfaces;+Mastering+Rigid-Flex+PCB+Design;+Innovating+at+the+Neural+Implants" />
 </p>
-</div>
 
-<div class="lang-zh" markdown="1">
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+构建高密度神经接口;+精通软硬结合电路板设计;+深耕脑机探针创新" />
-</p>
-</div>
-
-<div class="lang-en" markdown="1">
 <p align="center">
   <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
   <img src="https://img.shields.io/badge/SEEKING-HARDWARE%20INTERNSHIP-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
 </p>
-</div>
-
-<div class="lang-zh" markdown="1">
-<p align="center">
-  <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/达特茅斯-博士创新研究员-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/领英-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-  <img src="https://img.shields.io/badge/求职中-硬件研发实习-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
-</p>
-</div>
 
 ---
-
-<div class="lang-en" markdown="1">
 
 #### ⚙️ Research Vision
 
@@ -58,34 +34,7 @@
   </div>
 </div>
 
-</div>
-
-<div class="lang-zh" markdown="1">
-
-#### ⚙️ 研究愿景
-
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
-  <div style="flex: 0 0 200px; max-width: 200px;">
-    <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <p style="margin: 8px 0 0 0; text-align: center;">
-      <sub style="color: gray; font-size: 0.7em;">摄影：Mark Washburn</sub>
-    </p>
-  </div>
-  <div style="flex: 1 1 300px; min-width: 280px;">
-    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
-      专注于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建桥梁。
-    </p>
-    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
-      设计 ➔ 制造 ➔ 验证
-    </div>
-  </div>
-</div>
-
-</div>
-
 ---
-
-<div class="lang-en" markdown="1">
 
 #### 🛠️ Engineering Core & Projects
 
@@ -106,34 +55,7 @@
 #### ⚡ **Advanced PCB Design**: Rigid-Flex and HDI technology expert.
 #### 🔬 **Microsystems**: Miniaturized hardware implementations.
 
-</div>
-
-<div class="lang-zh" markdown="1">
-
-#### 🛠️ 核心工程项目
-
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
-  <div style="flex: 1 1 350px; min-width: 280px;">
-    <h4 style="margin: 0; line-height: 1.6;">
-      <b>🚀 E-Link易链(256)</b> 
-      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">点击了解更多 ↗</a><br>
-      <span style="font-weight: normal;">主导设计研发 256 通道高密度神经接口连接器。</span>
-    </h4>
-  </div>
-  <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
-    <img src="/images/Demo.gif" style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-  </div>
-</div>
-<br>
-
-#### ⚡ **高级 PCB 设计**: 软硬结合电路板与高密度多层互连 (HDI) 技术专家。
-#### 🔬 **微系统**: 硬件微型化与系统集成。
-
-</div>
-
 ---
-
-<div class="lang-en" markdown="1">
 
 ### 🧰 Technical Skills & Tech Stack
 
@@ -158,6 +80,61 @@
 </div>
 
 <div class="lang-zh" markdown="1">
+# 👋 你好，我是白天宇 
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00693E&center=true&vCenter=true&width=600&lines=+构建高密度神经接口;+精通软硬结合电路板设计;+深耕脑机探针创新" />
+</p>
+
+<p align="center">
+  <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/达特茅斯-博士创新研究员-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/领英-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+  <img src="https://img.shields.io/badge/求职中-硬件研发实习-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
+</p>
+
+---
+
+#### ⚙️ 研究愿景
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; max-width: 200px;">
+    <img src="/images/Microscope observing.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="margin: 8px 0 0 0; text-align: center;">
+      <sub style="color: gray; font-size: 0.7em;">摄影：Mark Washburn</sub>
+    </p>
+  </div>
+  <div style="flex: 1 1 300px; min-width: 280px;">
+    <p style="font-size: 1.5em; line-height: 1.4; font-weight: 600; color: #222; margin-bottom: 20px; text-align: left;">
+      专注于构建未来的 <span style="color: #00693E;">高带宽神经接口</span>。在 <b>微电子学</b> 与 <b>神经科学</b> 之间搭建桥梁。
+    </p>
+    <div style="background: #f0f4f2; color: #00693E; padding: 18px; border-radius: 12px; font-size: 1.6em; font-weight: bold; border: 1px solid #00693E33; text-align: center; max-width: 350px; margin: 0 auto;">
+      设计 ➔ 制造 ➔ 验证
+    </div>
+  </div>
+</div>
+
+---
+
+#### 🛠️ 核心工程项目
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1 1 350px; min-width: 280px;">
+    <h4 style="margin: 0; line-height: 1.6;">
+      <b>🚀 E-Link易链(256)</b> 
+      <a href="https://e-link.pages.dev/" target="_blank" style="display: inline-block; padding: 2px 10px; margin: 4px 6px; background-color: #0366d6; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 14px; font-weight: normal; vertical-align: middle; box-shadow: 0 1px 3px rgba(0,0,0,0.12); white-space: nowrap;">点击了解更多 ↗</a><br>
+      <span style="font-weight: normal;">主导设计研发 256 通道高密度神经接口连接器。</span>
+    </h4>
+  </div>
+  <div style="flex: 0 0 200px; max-width: 200px; margin: 0 auto;">
+    <img src="/images/Demo.gif" style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+  </div>
+</div>
+<br>
+
+#### ⚡ **高级 PCB 设计**: 软硬结合电路板与高密度多层互连 (HDI) 技术专家。
+#### 🔬 **微系统**: 硬件微型化与系统集成。
+
+---
 
 ### 🧰 专业技能与技术栈
 
@@ -193,9 +170,8 @@
   <img src="https://img.shields.io/badge/Prusa%203D-64748B?style=for-the-badge&logo=prusa3d&logoColor=white" />
 </p>
 
----
-
 <div class="lang-en" markdown="1">
+---
 
 ### 📫 Let's Connect
 * 🌐 **Personal Website:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
@@ -205,6 +181,7 @@
 </div>
 
 <div class="lang-zh" markdown="1">
+---
 
 ### 📫 与我联系
 * 🌐 **个人网站:** [tianyu-bai.github.io](https://tianyu-bai.github.io/)
