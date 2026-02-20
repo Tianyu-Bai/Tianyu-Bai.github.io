@@ -130,7 +130,7 @@
 
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
-    <div class="metric-card glass-panel" data-percent="88" data-value="54">
+    <div class="metric-card glass-panel" data-percent="88" data-value="55">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
           <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
@@ -143,7 +143,7 @@
         </div>
       </div>
     </div>
-    <div class="metric-card glass-panel" data-percent="100" data-value="5">
+    <div class="metric-card glass-panel" data-percent="100" data-value="6">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
           <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
