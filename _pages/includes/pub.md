@@ -139,7 +139,7 @@
         <div class="inner-content">
           <div class="label"><span class="lang-en">CITATIONS</span><span class="lang-zh">文章引用量</span></div>
           <div class="number count-up">0</div> 
-          <div class="sub"><span class="lang-en">Feb 2026</span><span class="lang-zh">2026年2月</span></div>
+          <div class="sub"><span class="lang-en">Mar 2026</span><span class="lang-zh">2026年2月</span></div>
         </div>
       </div>
     </div>
