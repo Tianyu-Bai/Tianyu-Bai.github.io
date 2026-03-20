@@ -40,15 +40,15 @@
 
 ## 📜 Patents
 
-- `2017` [**A Device of Preventing Falling from Treadmill**](https://patents.google.com/)
-  - **Tianyu Bai**. | *Patent ID: 106334286A*
+- `2017` [**A Device of Preventing Falling from Treadmill**](https://patents.google.com/patent/CN106334286A/)
+  - **Tianyu Bai**. | *Patent ID: CN106334286A*
 
-- `2016` [**Detection of anti-fall electronic control device for running equipment**](https://patents.google.com/)
-  - **Tianyu Bai**. | *Patent ID: 201621157629.8*
+- `2016` [**Detection-identification and falling-prevention electronic control device for running apparatus and method**](https://patents.google.com/patent/CN206152181U/)
+  - **Tianyu Bai**. | *Patent ID: CN206152181U*
   - **Summary**: An intelligent control system featuring a multi-sensor array (ultrasonic and vibration probes) to accurately judge user motion and adjust treadmill motor speed in real-time.
 
-- `2014` [**Ultra low resistance joint for connecting wires**](https://patents.google.com/)
-  - **Tianyu Bai**. | *Patent ID: 201420557893.5*
+- `2014` [**A kind of super-low resistance joint for connecting wire**](https://patents.google.com/patent/CN204348933U/en?oq=CN204348933U)
+  - **Tianyu Bai**. | *Patent ID: CN204348933U*
   - **Summary**: Developed a superconducting conductor groove design to achieve ultra-low joint resistance at the micro-ohm (μΩ) or even nano-ohm (nΩ) level through optimized overlapping area.
 
 ---
@@ -104,15 +104,15 @@
 
 ## 📜 专利
 
-- `2017` [**跑步机防跌落装置**](https://patents.google.com/)
-  - **Tianyu Bai**. | *专利号: 106334286A*
+- `2017` [**一种跑步器械的探测识别与防摔电子控制装置及方法**](https://patents.google.com/patent/CN106334286A/zh)
+  - **Tianyu Bai**. | *专利号: CN106334286A*
 
-- `2016` [**检测跑步设备防跌落的电子控制装置**](https://patents.google.com/)
-  - **Tianyu Bai**. | *专利号: 201621157629.8*
+- `2016` [**检测跑步设备防跌落的电子控制装置**](https://patents.google.com/patent/CN206152181U/zh)
+  - **Tianyu Bai**. | *专利号: CN206152181U*
   - **摘要**: 一种智能控制系统，采用多传感器阵列（超声波和振动探头），准确判断用户运动状态并实时调整跑步机电机速度。
 
-- `2014` [**一种用于连接导线的超低电阻接头**](https://patents.google.com/)
-  - **Tianyu Bai**. | *专利号: 201420557893.5*
+- `2014` [**一种用于连接导线的超低电阻接头**](https://patents.google.com/patent/CN204348933U/zh)
+  - **Tianyu Bai**. | *专利号: CN204348933U*
   - **摘要**: 开发了一种超导线槽设计，通过优化重叠面积，实现微欧姆 (μΩ) 甚至纳欧姆 (nΩ) 级别的超低接头电阻。
 
 ---
