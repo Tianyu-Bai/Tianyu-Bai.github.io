@@ -4,7 +4,7 @@
 
 # 📖 Education
 
-* **2021.07 - 2026.10 (Expected)**, **Dartmouth College**, Hanover, NH
+* **2021.07 - 2026.11 (Expected)**, **Dartmouth College**, Hanover, NH
   * *Doctor of Philosophy - PhD, Engineering Science*
   * **Activities**: Research Assistant at **MINE Lab**
   * **Advisor**: [Prof. Hui Fang](https://sites.dartmouth.edu/fang-group/people/)
@@ -30,7 +30,7 @@
 
 # 📖 教育背景
 
-* **2021.07 - 2026.10 (预计)**, **美国达特茅斯学院 (Dartmouth College)**, 汉诺威, 新罕布什尔州
+* **2021.07 - 2026.11 (预计)**, **美国达特茅斯学院 (Dartmouth College)**, 汉诺威, 新罕布什尔州
   * *博士 (PhD) - 工程科学*
   * **科研经历**: **多功能集成神经电子 (MINE) 实验室** 研究助理
   * **导师**: [方辉教授](https://sites.dartmouth.edu/fang-group/people/)
