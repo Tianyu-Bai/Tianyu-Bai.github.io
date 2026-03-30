@@ -23,9 +23,9 @@
 <div style="margin: 30px 0; text-align: center; font-family: 'JetBrains Mono', monospace; color: #64748b;">
   <div style="margin-bottom: 10px; font-size: 0.85rem; opacity: 0.8;">
     Visitors since Mar 30th 2026:
-    <script src="https://mapmyvisitors.com/counter.js?d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
+    <script src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
   </div>
-  <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&ct=64748b&co=cbd5e1"></script>
+  <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg""></script>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
@@ -57,9 +57,9 @@
 <div style="margin: 30px 0; text-align: center; font-family: 'JetBrains Mono', monospace; color: #64748b;">
   <div style="margin-bottom: 10px; font-size: 0.85rem; opacity: 0.8;">
     自 2026年3月30日 访问人数:
-    <script src="https://mapmyvisitors.com/counter.js?d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
+    <script src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
   </div>
-  <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&ct=64748b&co=cbd5e1"></script>
+<script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
