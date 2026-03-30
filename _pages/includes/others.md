@@ -24,9 +24,9 @@
   <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
     Visitors since Mar 30th 2026:
   </div>
-  <div style="background: #f1f5f9; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
-    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=cbd5e1&ct=64748b'></script>
-  </div>
+  <div style="background: #0f172a; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=1e293b&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=0f172a&ct=ffffff'></script>
+</div>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
@@ -59,9 +59,9 @@
   <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
     自 2026年3月30日 访问人数:
   </div>
-  <div style="background: #f1f5f9; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
-    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=cbd5e1&ct=64748b'></script>
-  </div>
+   <div style="background: #0f172a; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=1e293b&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=0f172a&ct=ffffff'></script>
+</div>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
