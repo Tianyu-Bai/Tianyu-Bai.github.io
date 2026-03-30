@@ -20,10 +20,14 @@
 
 <br>
 
-<div markdown="0" style="margin: 40px auto 20px; text-align: center; font-family: 'JetBrains Mono', monospace;">
-  <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">Visitors in Color (Real-time):</div>
-  <div style="background: #f1f5f9; padding: 15px; border-radius: 20px; display: inline-block; width: 100%; max-width: 450px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
-    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=2d3436&ct=64748b'></script>
+<div style="margin: 30px auto; text-align: center;">
+  <p style="margin-bottom: 12px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
+    Visitors since Mar 30th 2026:
+  </p>
+  <div style="background: #f1f5f9; padding: 12px; border-radius: 16px; display: inline-block; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05); max-width: 95%;">
+    <a href='https://mapmyvisitors.com/web/1c3jl' title='Visit tracker'>
+      <img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=2d3436&ct=64748b' style="display: block; border-radius: 8px; max-width: 100%; height: auto;"/>
+    </a>
   </div>
 </div>
 
@@ -53,10 +57,14 @@
 
 <br>
 
-<div markdown="0" style="margin: 40px auto 20px; text-align: center; font-family: 'JetBrains Mono', monospace;">
-  <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">访客实时分布 (彩色模式):</div>
-  <div style="background: #f1f5f9; padding: 15px; border-radius: 20px; display: inline-block; width: 100%; max-width: 450px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
-    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=2d3436&ct=64748b'></script>
+<div style="margin: 30px auto; text-align: center;">
+  <p style="margin-bottom: 12px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
+    自 2026年3月30日 访问人数:
+  </p>
+  <div style="background: #f1f5f9; padding: 12px; border-radius: 16px; display: inline-block; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05); max-width: 95%;">
+    <a href='https://mapmyvisitors.com/web/1c3jl' title='Visit tracker'>
+      <img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=m&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=2d3436&ct=64748b' style="display: block; border-radius: 8px; max-width: 100%; height: auto;"/>
+    </a>
   </div>
 </div>
 
