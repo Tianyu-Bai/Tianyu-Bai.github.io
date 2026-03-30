@@ -20,12 +20,13 @@
 
 <br>
 
-<div style="margin: 30px 0; text-align: center; font-family: 'JetBrains Mono', monospace; color: #64748b;">
-  <div style="margin-bottom: 10px; font-size: 0.85rem; opacity: 0.8;">
+<div style="margin: 40px auto 20px; text-align: center; font-family: 'JetBrains Mono', monospace;">
+  <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
     Visitors since Mar 30th 2026:
-    <script src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
   </div>
-  <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg""></script>
+  <div style="background: #f1f5f9; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=cbd5e1&ct=64748b'></script>
+  </div>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
@@ -54,12 +55,13 @@
 
 <br>
 
-<div style="margin: 30px 0; text-align: center; font-family: 'JetBrains Mono', monospace; color: #64748b;">
-  <div style="margin-bottom: 10px; font-size: 0.85rem; opacity: 0.8;">
+<div style="margin: 40px auto 20px; text-align: center; font-family: 'JetBrains Mono', monospace;">
+  <div style="margin-bottom: 12px; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
     自 2026年3月30日 访问人数:
-    <script src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
   </div>
-<script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg"></script>
+  <div style="background: #f1f5f9; padding: 15px; border-radius: 16px; display: inline-block; width: 95%; max-width: 400px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+    <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg&co=cbd5e1&ct=64748b'></script>
+  </div>
 </div>
 
 <p align="center" style="opacity: 0.8; font-style: italic;">
