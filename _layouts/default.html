@@ -135,6 +135,56 @@ layout: compress
       body.zh-mode .lang-en, body.zh-mode div.lang-en, body.zh-mode span.lang-en, body.zh-mode p.lang-en, body.zh-mode h1.lang-en, body.zh-mode h2.lang-en, body.zh-mode h3.lang-en, body.zh-mode h4.lang-en { display: none !important; }
       body.zh-mode div.lang-zh, body.zh-mode p.lang-zh, body.zh-mode h1.lang-zh, body.zh-mode h2.lang-zh, body.zh-mode h3.lang-zh, body.zh-mode h4.lang-zh { display: block !important; }
       body.zh-mode span.lang-zh, body.zh-mode a.lang-zh, body.zh-mode b.lang-zh, body.zh-mode strong.lang-zh { display: inline !important; }
+   
+    /* =========================================
+   图片点击放大 Lightbox
+   ========================================= */
+.zoomable-image {
+  cursor: zoom-in;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.zoomable-image:hover {
+  filter: brightness(1.1);
+  transform: scale(1.03);
+}
+
+#lightbox-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 200000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  cursor: zoom-out;
+}
+
+#lightbox-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+#lightbox-img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+  transform: scale(0.9);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#lightbox-overlay.active #lightbox-img {
+  transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  #lightbox-img { max-width: 95%; max-height: 80vh; }
+}
     </style>
   </head>
 
@@ -194,6 +244,10 @@ layout: compress
       </div>
     </div>
 
+    <div id="lightbox-overlay">
+     <img id="lightbox-img" src="" alt="Zoomed Image">
+    </div>
+    
     {% include scripts.html %}
 
     <script>
@@ -204,6 +258,35 @@ layout: compress
         const closeBtn = document.getElementById("modal-close-btn");
         const langCheckbox = document.getElementById("modal-lang-toggle-checkbox");
 
+        // 0.图片点击放大
+document.querySelectorAll('.page__content img').forEach(img => {
+  img.classList.add('zoomable-image');
+});
+const zoomableImages = document.querySelectorAll('.zoomable-image');
+const lightboxOverlay = document.getElementById('lightbox-overlay');
+const lightboxImg = document.getElementById('lightbox-img');
+
+zoomableImages.forEach(img => {
+  img.addEventListener('click', (e) => {
+    e.preventDefault();
+    lightboxImg.src = img.src;
+    lightboxOverlay.classList.add('active');
+    document.body.classList.add('modal-active');
+  });
+});
+
+lightboxOverlay.addEventListener('click', () => {
+  lightboxOverlay.classList.remove('active');
+  document.body.classList.remove('modal-active');
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && lightboxOverlay.classList.contains('active')) {
+    lightboxOverlay.classList.remove('active');
+    document.body.classList.remove('modal-active');
+  }
+});
+        
         // 1. 读取是否已经访问过并选过语言
         const savedLang = localStorage.getItem("preferred-language");
 
@@ -256,6 +339,5 @@ layout: compress
         });
       });
     </script>
-    
   </body>
 </html>
