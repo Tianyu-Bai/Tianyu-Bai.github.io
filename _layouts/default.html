@@ -141,11 +141,15 @@ layout: compress
    ========================================= */
 .zoomable-image {
   cursor: zoom-in;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+  border-radius: 8px;
 }
 .zoomable-image:hover {
-  filter: brightness(1.1);
-  transform: scale(1.03);
+  transform: scale(1.5);
+  z-index: 9999;
+  position: relative;
+  filter: brightness(1.05);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
 
 #lightbox-overlay {
