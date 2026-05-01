@@ -53,10 +53,9 @@
 
 ---
 
-## 📢 Upcoming Talks
+## 📢 Talks
 
 - **MRS Spring 2026** <img src="https://img.shields.io/badge/Honolulu-April_28-00693E?style=flat-square&logo=google-maps&logoColor=white" align="center" /> 
-  <img src="https://img.shields.io/badge/Status-Stay_Tuned-orange?style=flat-square" align="center" />
   
 ---
 
