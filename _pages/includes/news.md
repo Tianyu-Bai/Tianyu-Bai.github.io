@@ -4,7 +4,8 @@
 
 # 🔥 News
 
-- *2026.01*: 🎉 Abstract accepted for an **Oral Presentation** at the **[2026 MRS Spring Meeting](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**! I will present our work in **Session SB01.05** (Neurointerfacing) this April in Hawaii. 
+- *2026.05*: 🎉 Excited to be interning at **[Neuralink](https://neuralink.com)** this summer.
+- *2026.04*: 🌺 Presented my work on high-density flexible neural connectors at the **[2026 MRS Spring Meeting](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** in Honolulu (Session SB01.05, Neurointerfacing).
 - *2026.01*: 🚀 Released the **[E-Link(256)](https://e-link.pages.dev/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
     <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
@@ -80,8 +81,9 @@
 
 # 🔥 最新动态
 
-- *2026.01*: 🎉 摘要被 **[2026 MRS 春季会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** 接收为 **口头报告 (Oral Presentation)**！我将于今年 4 月前往夏威夷，在 **SB01.05 分会场** (神经接口) 展示我们的研究成果。 
-- *2026.01*: 🚀 发布 **[E-Link(256)](https://e-link.pages.dev/)** 开源项目：一款 256 通道高密度神经接口小型连接器。
+- *2026.05*: 🎉 即将于今年夏天加入 **[Neuralink](https://neuralink.com)** 实习。
+- *2026.04*: 🌺 在夏威夷檀香山举办的 **[2026 MRS 春季会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** 上,在 **SB01.05 分会场** (神经接口) 展示了高密度柔性神经连接器的相关研究工作。
+- *2026.01*: 🚀 发布 **[E-Link(256)](https://e-link.pages.dev/)** 开源项目:一款 256 通道高密度神经接口小型连接器。
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
     <div style="flex: 1; min-width: 200px; max-width: 320px; text-align: center;">
       <img src="/images/Mini Pedestal.PNG" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
