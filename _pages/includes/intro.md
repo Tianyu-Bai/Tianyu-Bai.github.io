@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/PHD%20INNOVATION%20FELLOW-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-  <img src="https://img.shields.io/badge/INTERN@Neuralink-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
+  <img src="https://img.shields.io/badge/Upcoming Intern@Neuralink-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
 </p>
 
 ---
