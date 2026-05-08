@@ -4,7 +4,7 @@
 
 # 📚 Publications
 
-`2026` *IEEE Journal on Flexible Electronics* | [**E-Link: A 256-Channel Elastomer-Based Flexible Neural Connector for High-Density Chronic Recording**](https://doi.org/10.1109/JFLEX.2026.3692102)
+- `2026` *IEEE Journal on Flexible Electronics* | [**E-Link: A 256-Channel Elastomer-Based Flexible Neural Connector for High-Density Chronic Recording**](https://doi.org/10.1109/JFLEX.2026.3692102)
   - **T. Bai**, G. Li, Y. Qi, H. Fang
   - **Summary**: Introduces E-Link, a 256-channel elastomer-based flexible connector enabling scalable, high-density integration for chronic neural interfaces, achieving 97.6% yield across stringent mechanical and electrical validation.
  
