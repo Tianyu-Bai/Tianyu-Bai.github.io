@@ -81,7 +81,7 @@
 
 # 🔥 最新动态
 
-- *2026.05*: 📄 E-Link 论文已在 *IEEE Journal on Flexible Electronics* 正式发表！[点击查看](https://doi.org/10.1109/JFLEX.2026.3692102)
+- *2026.05*: 📄 E-Link 论文已在 *IEEE Journal on Flexible Electronics* 发表！[点击查看](https://doi.org/10.1109/JFLEX.2026.3692102)
 - *2026.05*: 🎉 即将于今年夏天加入 **[Neuralink](https://neuralink.com)** 实习
 - *2026.04*: 🌺 在 **[2026 MRS 春季会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**（Honolulu，Session SB01.05 神经接口分会场）报告了高密度柔性神经连接器相关工作
 - *2026.01*: 🚀 发布开源项目 **[E-Link(256)](https://e-link.pages.dev/)**——一款超紧凑的 256 通道高密度神经接口连接器
