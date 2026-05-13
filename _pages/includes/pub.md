@@ -4,10 +4,10 @@
 
 # 📚 Publications
 
-- `2026` *IEEE Journal on Flexible Electronics* | [**E-Link: A 256-Channel Elastomer-Based Flexible Neural Connector for High-Density Chronic Recording**](https://doi.org/10.1109/JFLEX.2026.3692102)
+- `2026` · *IEEE Journal on Flexible Electronics* · [**E-Link: A 256-ch Mini-Pedestal Connector for High-Density Soft Neural Interfaces**](https://doi.org/10.1109/JFLEX.2026.3692102)
   - **T. Bai**, G. Li, Y. Qi, H. Fang
-  - **Summary**: Introduces E-Link, a 256-channel elastomer-based flexible connector enabling scalable, high-density integration for chronic neural interfaces, achieving 97.6% yield across stringent mechanical and electrical validation.
- 
+  - **Summary**: A 256-channel elastomer-based flexible connector enabling scalable, high-density integration for chronic neural interfaces, validated at 97.6% yield over 100+ mating cycles with 0.3–0.4 kΩ contact impedance.
+
 - `2025` *ACS Chemical Neuroscience* | [**Thin-Film Reference Electrodes for Fast-Scan Cyclic Voltammetry**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
   - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
   - **Summary**: Evaluates Pt-Ir thin-film electrodes as stable, miniaturized alternatives to Ag/AgCl for reliable neurotransmitter detection in preclinical applications.
@@ -71,9 +71,9 @@
 
 # 📚 学术发表
 
-- `2026` *IEEE柔性电子学报* | [**易链：用于高密度慢性记录的256通道弹性体柔性神经连接器**](https://doi.org/10.1109/JFLEX.2026.3692102)
+- `2026` · *IEEE柔性电子学报* | [**易链：用于高密度慢性记录的256通道弹性体柔性神经连接器**](https://doi.org/10.1109/JFLEX.2026.3692102)
   - **T. Bai**, G. Li, Y. Qi, H. Fang
-  - **摘要**: 提出E-Link——一种256通道弹性体柔性神经连接器，实现了慢性神经接口的可扩展高密度集成，并通过严格的机械与电学验证达到了约98%的长期良率
+  - **摘要**：提出 E-Link 易链——一种 256 通道弹性体柔性神经连接器，实现慢性神经接口的可扩展高密度集成。在数百次重复插拔后实现约98%的长期良率
 
 - `2025` *ACS化学神经科学* | [**用于快速扫描循环伏安法的薄膜参比电极**](https://pubs.acs.org/doi/full/10.1021/acschemneuro.5c00397)
   - Y. Qi, J. Ryu, D. Jang, B. Schaub, Y. Shin, **T. Bai**, G. Li, J. P. Aronson, J. C. Leiter, et al.
