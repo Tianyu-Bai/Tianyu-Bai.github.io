@@ -3,7 +3,7 @@
 <div class="lang-en" markdown="1">
 
 # 🔥 News
-- *2026.05*: 📄 My paper on **E-Link** has been published in *IEEE Journal on Flexible Electronics*! Read it [here](https://doi.org/10.1109/JFLEX.2026.3692102).
+- *2026.05*: 📄 My paper introducing **E-Link** is now published in *IEEE Journal on Flexible Electronics*! [[Paper]](https://doi.org/10.1109/JFLEX.2026.3692102)
 - *2026.05*: 🎉 Excited to be interning at **[Neuralink](https://neuralink.com)** this summer.
 - *2026.04*: 🌺 Presented my work on high-density flexible neural connectors at the **[2026 MRS Spring Meeting](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** in Honolulu (Session SB01.05, Neurointerfacing).
 - *2026.01*: 🚀 Released the **[E-Link(256)](https://e-link.pages.dev/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
