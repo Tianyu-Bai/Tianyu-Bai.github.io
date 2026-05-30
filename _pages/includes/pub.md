@@ -137,7 +137,7 @@
 
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
-    <div class="metric-card glass-panel" data-percent="88" data-value="83">
+    <div class="metric-card glass-panel" data-percent="88" data-value="84">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
           <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
@@ -146,7 +146,7 @@
         <div class="inner-content">
           <div class="label"><span class="lang-en">CITATIONS</span><span class="lang-zh">文章引用量</span></div>
           <div class="number count-up">0</div> 
-          <div class="sub"><span class="lang-en">May 2026</span><span class="lang-zh">2026年5月</span></div>
+          <div class="sub"><span class="lang-en">June 2026</span><span class="lang-zh">2026年6月</span></div>
         </div>
       </div>
     </div>
