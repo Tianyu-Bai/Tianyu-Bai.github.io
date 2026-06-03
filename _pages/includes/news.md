@@ -7,7 +7,7 @@
 - *2026.05*: 📄 My paper introducing **E-Link** is now published in *IEEE Journal on Flexible Electronics*! [[Paper]](https://doi.org/10.1109/JFLEX.2026.3692102)
 - *2026.04*: 🌺 Presented my work on high-density flexible neural connectors at the **[2026 MRS Spring Meeting](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)** in Honolulu (Session SB01.05, Neurointerfacing).
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <div style="max-width: 480px; text-align: center;">
+    <div style="max-width: 360px; text-align: center;">
       <img src="/images/Presenter%20Certificate_2026MRS.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
       <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">2026 MRS Meeting </p>
     </div>
@@ -91,7 +91,7 @@
 - *2026.05*: 📄 E-Link 论文已在 *IEEE Journal on Flexible Electronics* 发表！[点击查看](https://doi.org/10.1109/JFLEX.2026.3692102)
 - *2026.04*: 🌺 在 **[2026 MRS 会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**（Honolulu，Session SB01.05 神经接口分会场）报告了高密度柔性神经连接器相关工作
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <div style="max-width: 480px; text-align: center;">
+    <div style="max-width: 360px; text-align: center;">
       <img src="/images/Presenter%20Certificate_2026MRS.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
       <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;"> 2026 口头报告 </p>
     </div>
