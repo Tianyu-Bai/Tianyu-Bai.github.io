@@ -9,7 +9,7 @@
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 480px; text-align: center;">
       <img src="/images/Presenter%20Certificate_2026MRS.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">MRS 2026 Presenter Certificate</p>
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">2026 MRS Meeting </p>
     </div>
   </div>
 - *2026.01*: 🚀 Released the **[E-Link(256)](https://e-link.pages.dev/)** open-source project, an ultra-compact, solderless 256-channel neural interface connector.
@@ -89,11 +89,11 @@
 
 - *2026.06*: 🎉 加入 **[Neuralink](https://neuralink.com)** 实习
 - *2026.05*: 📄 E-Link 论文已在 *IEEE Journal on Flexible Electronics* 发表！[点击查看](https://doi.org/10.1109/JFLEX.2026.3692102)
-- *2026.04*: 🌺 在 **[2026 MRS 春季会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**（Honolulu，Session SB01.05 神经接口分会场）报告了高密度柔性神经连接器相关工作
+- *2026.04*: 🌺 在 **[2026 MRS 会议](https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit)**（Honolulu，Session SB01.05 神经接口分会场）报告了高密度柔性神经连接器相关工作
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 480px; text-align: center;">
       <img src="/images/Presenter%20Certificate_2026MRS.png" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">MRS 2026 报告人证书</p>
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;"> 2026 口头报告 </p>
     </div>
   </div>
 - *2026.01*: 🚀 发布开源项目 **[E-Link(256)](https://e-link.pages.dev/)**——一款超紧凑的 256 通道高密度神经接口连接器
