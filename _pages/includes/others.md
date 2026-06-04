@@ -4,7 +4,7 @@
 
 # 📖 Education
 
-* **2021.07 - 2026.11 (Expected)**, **Dartmouth College**, Hanover, NH
+* **2021.07 - 2027.3 (Expected)**, **Dartmouth College**, Hanover, NH
   * *Doctor of Philosophy - PhD, Engineering Science*
   * **Activities**: Research Assistant at **MINE Lab**
   * **Advisor**: [Prof. Hui Fang](https://sites.dartmouth.edu/fang-group/people/)
