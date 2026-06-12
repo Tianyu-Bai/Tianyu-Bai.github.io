@@ -24,8 +24,8 @@
   <div style="margin-bottom: 12px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #64748b; opacity: 0.8;">
     Visitors since Mar 30th 2026:
   </div>
-  <div style="background: #f1f5f9; padding: 15px; border-radius: 20px; display: inline-block; width: 100%; max-width: 480px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg'></script>
+<div style="background: #f1f5f9; padding: 15px; border-radius: 20px; display: inline-block; width: 100%; max-width: 480px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+    <div class="mmv-slot" style="min-height: 200px;"></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@
     自 2026年3月30日 访问人数:
   </div>
   <div style="background: #f1f5f9; padding: 15px; border-radius: 20px; display: inline-block; width: 100%; max-width: 480px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg'></script>
+    <div class="mmv-slot" style="min-height: 200px;"></div>
   </div>
 </div>
 
@@ -68,6 +68,25 @@
   "致力于将技术创新转化为造福人类。"
 </p>
 
+
 </div>
+
+<script>
+(function () {
+  var SRC = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg';
+  function load(slot) {
+    // 已加载过、或页面上已存在一个地图，就不再注入（防止重复 id）
+    if (slot.dataset.loaded || document.getElementById('mapmyvisitors')) return;
+    slot.dataset.loaded = '1';
+    var s = document.createElement('script');
+    s.async = true; s.id = 'mapmyvisitors'; s.src = SRC;
+    slot.appendChild(s);
+  }
+  var io = new IntersectionObserver(function (es, o) {
+    es.forEach(function (e) { if (e.isIntersecting) { load(e.target); o.unobserve(e.target); } });
+  }, { rootMargin: '200px' });
+  document.querySelectorAll('.mmv-slot').forEach(function (s) { io.observe(s); });
+})();
+</script>
 
 </div>
