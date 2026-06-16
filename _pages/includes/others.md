@@ -74,18 +74,24 @@
 <script>
 (function () {
   var SRC = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=pWcTY880BOLBJ9ECFJoJONBrAf0eMU5f2Ugd5vjz3lg';
-  function load(slot) {
-    // 已加载过、或页面上已存在一个地图，就不再注入（防止重复 id）
-    if (slot.dataset.loaded || document.getElementById('mapmyvisitors')) return;
-    slot.dataset.loaded = '1';
+  function pickSlot() {
+    var slots = document.querySelectorAll('.mmv-slot');
+    // 优先选当前可见(英文/中文切换后那个显示中的)
+    for (var i = 0; i < slots.length; i++) {
+      if (slots[i].offsetParent !== null) return slots[i];
+    }
+    return slots[0] || null;
+  }
+  function load() {
+    if (document.getElementById('mapmyvisitors')) return;
+    var slot = pickSlot();
+    if (!slot) return;
     var s = document.createElement('script');
     s.async = true; s.id = 'mapmyvisitors'; s.src = SRC;
     slot.appendChild(s);
   }
-  var io = new IntersectionObserver(function (es, o) {
-    es.forEach(function (e) { if (e.isIntersecting) { load(e.target); o.unobserve(e.target); } });
-  }, { rootMargin: '200px' });
-  document.querySelectorAll('.mmv-slot').forEach(function (s) { io.observe(s); });
+  if (document.readyState === 'complete') load();
+  else window.addEventListener('load', load);
 })();
 </script>
 
