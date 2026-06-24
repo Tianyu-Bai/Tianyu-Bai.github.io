@@ -6,8 +6,8 @@
 - *2026.06*: 🎉 Excited to join **[Neuralink](https://neuralink.com)** this summer.
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 360px; text-align: center;">
-      <img src="/images/neuralink_intern.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">Neuralink · Next Gen Applications</p>
+      <img src="/images/neuralink_intern.jpeg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">Joined Next Gen Team @ Neuralink  </p>
     </div>
   </div>
 - *2026.05*: 📄 My paper introducing **E-Link** is now published in *IEEE Journal on Flexible Electronics*! [[Paper]](https://doi.org/10.1109/JFLEX.2026.3692102)
@@ -96,8 +96,8 @@
 - *2026.06*: 🎉 加入 **[Neuralink](https://neuralink.com)** 实习
   <div style="display: flex; justify-content: center; margin-top: 15px;">
     <div style="max-width: 360px; text-align: center;">
-      <img src="/images/neuralink_intern.jpg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">Neuralink · Next Gen 实习</p>
+      <img src="/images/neuralink_intern.jpeg" style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <p style="font-size: 1.1em; font-weight: bold; color: #333; margin-top: 10px;">加入Neuralink Next Gen 团队</p>
     </div>
   </div>
 - *2026.05*: 📄 E-Link 论文已在 *IEEE Journal on Flexible Electronics* 发表！[点击查看](https://doi.org/10.1109/JFLEX.2026.3692102)
