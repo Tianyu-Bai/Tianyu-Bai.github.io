@@ -95,7 +95,7 @@
 <p align="center">
   <a href="https://engineering.dartmouth.edu/graduate/phdi"><img src="https://img.shields.io/badge/达特茅斯-博士创新研究员-00693E?style=for-the-badge&logo=dartmouth&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/tianyubai/"><img src="https://img.shields.io/badge/领英-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-  <img src="https://img.shields.io/badge/求职中-硬件研发实习-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
+  <img src="https://img.shields.io/badge/Neuralink硬件研发实习-B0C4DE?style=for-the-badge&logo=linkedin&logoColor=0077B5" />
 </p>
 
 ---
