@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Tianyu%20Bai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://neuralink.com">
-    <img src="https://img.shields.io/badge/Incoming%20Intern%20@%20Neuralink-000000?style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/Engineering%20Intern%20@%20Neuralink-000000?style=for-the-badge&logoColor=white" />
   </a>
 </p>
 
