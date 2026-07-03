@@ -137,7 +137,7 @@
 
 <div class="scholar-dynamic-dashboard">
   <div class="metrics-grid">
-    <div class="metric-card glass-panel" data-percent="88" data-value="98">
+    <div class="metric-card glass-panel" data-percent="88" data-value="101">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
           <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
@@ -157,7 +157,7 @@
           <circle class="fg-ring hindex-color" cx="50" cy="50" r="45"></circle>
         </svg>
         <div class="inner-content">
-          <div class="label"><span class="lang-en">H-INDEX</span><span class="lang-zh">H 指数</span></div>
+          <div class="label"><span class="lang-en">i10-INDEX</span><span class="lang-zh">i10 指数</span></div>
           <div class="number count-up">0</div>
           <div class="sub"><span class="lang-en">Since 2021</span><span class="lang-zh">2021年至今</span></div>
         </div>
