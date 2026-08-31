@@ -163,7 +163,7 @@
         </div>
       </div>
     </div>
-    <div class="metric-card glass-panel" data-percent="100" data-value="3">
+    <div class="metric-card glass-panel" data-percent="100" data-value="6">
       <div class="chart-box">
         <svg viewBox="0 0 100 100">
           <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
